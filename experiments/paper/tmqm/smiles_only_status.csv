@@ -1,0 +1,2001 @@
+refcode,metal,cn,geom,status,reason,row,valid
+ABEYIQ,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+ARUWAN,Nb,9.0,square_antiprism,no valid isomer,predicted CN differs from crystal,4d,False
+BEMLIS,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+BUWKEM,Pd,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+CIDMOT,Hg,4.0,square_planar,valid,,5d,True
+CUWLIQ,Au,2.0,linear,valid,,5d,True
+DILTIE,Zn,6.0,octahedral,valid,,3d,True
+EGAZAQ,Mo,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+EYIFUQ,V,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+FIVLAY,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+GEKCAC,Rh,6.0,octahedral,valid,,4d,True
+GUHQUY,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+HIHRID,Cr,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+IDIHIP,Zn,3.0,trigonal_planar,valid,,3d,True
+IVOHOQ,W,5.0,square_pyramidal,valid,,5d,True
+JIYTUH,Os,6.0,octahedral,valid,,5d,True
+KAXWAK,Zn,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+KOLCOE,Hg,3.0,trigonal_planar,not built,no donor predicted for a ligand,5d,False
+LEMRUQ,Fe,8.0,square_antiprism,valid,,3d,True
+LUXWIL,Pd,6.0,octahedral,valid,,4d,True
+MITSIR,Ti,4.0,tetrahedral,valid,,3d,True
+NAWGEB,Co,6.0,octahedral,valid,,3d,True
+NURLAQ,Sc,4.0,tetrahedral,valid,,3d,True
+ORUDOV,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+PEPCMO,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+PUSZUY,Mn,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+QEZMAN,Ru,5.0,square_planar,no valid isomer,predicted CN differs from crystal,4d,False
+RALMEA,Tc,6.0,octahedral,valid,,4d,True
+RINSUD,Ru,4.0,square_planar,valid,,4d,True
+SAVTAO,Fe,6.0,octahedral,valid,,3d,True
+SOWJUK,Zr,4.0,square_planar,valid,,4d,True
+TEQPAG,Ti,8.0,dodecahedral,no valid isomer,other connectivity change,3d,False
+TUKVUS,Ir,8.0,pentagonal_bipyramidal,valid,,5d,True
+UMAKUR,Mo,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+VAYLAJ,W,5.0,square_pyramidal,valid,,5d,True
+WACDAF,Mn,5.0,square_pyramidal,valid,,3d,True
+WIJSOY,Pt,6.0,octahedral,valid,,5d,True
+XAJGUL,Ag,4.0,tetrahedral,valid,,4d,True
+XIQJEM,Sc,4.0,tetrahedral,valid,,3d,True
+YAXGUA,Au,2.0,linear,valid,,5d,True
+YOSPAA,Ta,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+ZEWGUF,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+ADIYET,Ru,6.0,tetrahedral,valid,,4d,True
+AXESOM,Au,3.0,trigonal_planar,valid,,5d,True
+BIHSUH,Rh,5.0,square_planar,valid,,4d,True
+CALTER,Ru,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+CIQJER,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+DANRIV,W,6.0,octahedral,valid,,5d,True
+DOHQOI,Cd,5.0,square_pyramidal,valid,,4d,True
+EJUBUH,Y,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+FANWEZ,Pt,4.0,trigonal_planar,valid,,5d,True
+FONRAC,Y,5.0,trigonal_bipyramidal,valid,,4d,True
+GIDYOK,Ir,4.0,square_planar,valid,,5d,True
+HABMIK,Hg,5.0,trigonal_bipyramidal,valid,,5d,True
+HISRIN,Cr,4.0,tetrahedral,valid,,3d,True
+IHEKOW,Pd,4.0,square_planar,valid,,4d,True
+IYUTUU,Pt,4.0,square_planar,valid,,5d,True
+JOJRIM,Mo,6.0,octahedral,valid,,4d,True
+KEGPAN,Fe,8.0,square_antiprism,valid,,3d,True
+KUDXEP,Ru,5.0,square_planar,no valid isomer,predicted CN differs from crystal,4d,False
+LEXJEE,Ta,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,5d,False
+MAJYUS,Co,4.0,square_planar,valid,,3d,True
+MOLPAG,Pt,4.0,square_planar,valid,,5d,True
+NEGTOI,Re,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+OBOSAZ,W,4.0,tetrahedral,valid,,5d,True
+OXACOH,Pt,4.0,trigonal_planar,valid,,5d,True
+PIKKON,Pt,4.0,square_planar,no valid isomer,donor left the metal,5d,False
+QADNOA,Os,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,5d,False
+QIWJUC,Pd,2.0,linear,valid,,4d,True
+RATTEN,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+RODFEY,Ru,8.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+SEKRAB,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+SUPWAC,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+TIFBUG,V,5.0,square_pyramidal,valid,,3d,True
+TUXGAU,Pt,4.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+UPIKEK,Pt,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+VENQOX,Mn,5.0,square_pyramidal,valid,,3d,True
+WALZUE,Tc,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+WIWNIC,Os,6.0,square_pyramidal,valid,,5d,True
+XATVEU,Cu,5.0,square_pyramidal,valid,,3d,True
+XOBZUN,Nb,6.0,octahedral,valid,,4d,True
+YERWIB,Mn,5.0,trigonal_bipyramidal,valid,,3d,True
+YUGRUN,Nb,6.0,octahedral,valid,,4d,True
+ZIWSAZ,Mo,10.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,4d,False
+ADUREY,Os,6.0,octahedral,valid,,5d,True
+AXOWIV,Cu,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+BIMGUB,W,6.0,octahedral,valid,,5d,True
+CAMDUQ,W,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+CIRPAU,Re,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+DAPHEJ,Au,4.0,square_planar,valid,,5d,True
+DOJGEO,Mo,8.0,dodecahedral,valid,,4d,True
+EKAYOG,Mo,5.0,trigonal_bipyramidal,valid,,4d,True
+FANYUR,Ni,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+FORZAN,Ta,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,5d,False
+GIFGAD,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+HACQUX,Ta,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+HISWAH,Pd,5.0,square_pyramidal,valid,,4d,True
+IJALEN,Zn,4.0,tetrahedral,valid,,3d,True
+IZUQUR,Hg,5.0,trigonal_bipyramidal,valid,,5d,True
+JOWJIR,Hf,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+KEGQIW,W,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+KUJTAN,Mo,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+LEXSAI,Ti,6.0,octahedral,valid,,3d,True
+MAKJOY,Mn,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+MOLVOA,Pt,5.0,square_pyramidal,valid,,5d,True
+NEHVON,Ni,4.0,square_planar,valid,,3d,True
+OBUGEX,Zn,6.0,octahedral,valid,,3d,True
+OXAFOJ,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+PIMVOZ,Fe,5.0,square_pyramidal,valid,,3d,True
+QAFDAD,Ag,5.0,trigonal_bipyramidal,valid,,4d,True
+QIYYON,Hg,4.0,tetrahedral,valid,,5d,True
+RATWAK,Ir,6.0,octahedral,valid,,5d,True
+RODZIW,Ir,6.0,octahedral,valid,,5d,True
+SENWUF,Co,5.0,square_pyramidal,valid,,3d,True
+SUWHAU,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+TIFZOY,Ag,3.0,trigonal_planar,valid,,4d,True
+TUXJAY,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+UPOQAU,Cu,3.0,trigonal_planar,valid,,3d,True
+VERXUL,Nb,7.0,pentagonal_bipyramidal,valid,,4d,True
+WAMJAZ,Zn,4.0,tetrahedral,valid,,3d,True
+WIWQEA,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+XATXOH,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+XOCMIL,Nb,5.0,trigonal_bipyramidal,valid,,4d,True
+YESBAZ,Cr,6.0,octahedral,valid,,3d,True
+YUKBAH,W,4.0,tetrahedral,valid,,5d,True
+ZIXNEB,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+AFESIQ,Mo,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+AXUDAA,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+BINHIQ,Zr,8.0,square_antiprism,valid,,4d,True
+CAPGIJ,Cu,2.0,linear,valid,,3d,True
+CIVKEY,Mo,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+DAPMUC,Cr,5.0,trigonal_bipyramidal,valid,,3d,True
+DOLNEX,Mo,6.0,octahedral,valid,,4d,True
+EKEJEK,Hg,6.0,octahedral,valid,,5d,True
+FAPBIL,Mn,6.0,octahedral,valid,,3d,True
+FOTBAR,Pd,4.0,trigonal_planar,valid,,4d,True
+GIJBIL,Ti,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+HACSIN,Ta,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+HIVXOZ,Re,5.0,tetrahedral,valid,,5d,True
+IJOBOA,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+JACSEL,Os,6.0,octahedral,valid,,5d,True
+JOWMAJ,Cd,6.0,octahedral,valid,,4d,True
+KEHFAI,Co,6.0,tetrahedral,valid,,3d,True
+KULQOZ,Mn,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+LEYMUA,Co,4.0,square_planar,no valid isomer,other connectivity change,3d,False
+MAKNIV,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+MORMAJ,Y,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+NEJCEL,Pd,4.0,square_planar,valid,,4d,True
+OBUVUD,Fe,8.0,dodecahedral,no valid isomer,donor left the metal,3d,False
+OXEFED,Ni,4.0,square_planar,no valid isomer,other connectivity change,3d,False
+PIPDID,V,4.0,tetrahedral,valid,,3d,True
+QAGBEG,Os,6.0,octahedral,valid,,5d,True
+QOCNOL,Ni,4.0,square_planar,valid,,3d,True
+RAVWAP,Os,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,5d,False
+ROGGEC,Zn,4.0,tetrahedral,no valid isomer,donor left the metal,3d,False
+SEPKAB,Ir,5.0,square_planar,valid,,5d,True
+SUXHOL,Pd,5.0,square_pyramidal,valid,,4d,True
+TILBAU,Ir,8.0,dodecahedral,valid,,5d,True
+TUYZUL,Ni,6.0,octahedral,valid,,3d,True
+UQAKII,Ni,5.0,trigonal_bipyramidal,valid,,3d,True
+VESFAA,Ta,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,5d,False
+WAPYUH,Y,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+WIYHUJ,Co,5.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+XATYUN,Zr,7.0,pentagonal_bipyramidal,valid,,4d,True
+XOCMOR,Nb,5.0,square_pyramidal,valid,,4d,True
+YESTUM,V,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+YUKSUV,Ir,6.0,octahedral,valid,,5d,True
+ZIZZIR,Rh,6.0,octahedral,valid,,4d,True
+AFIHOQ,Cu,4.0,tetrahedral,valid,,3d,True
+AYALUJ,Re,5.0,square_planar,valid,,5d,True
+BIPHOZ,Cr,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+CAPQOZ,Nb,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+CIVMEA,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+DAQWEB,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+DOMDUG,Fe,4.0,tetrahedral,valid,,3d,True
+EKEVOG,Ru,6.0,square_pyramidal,valid,,4d,True
+FAPVIE,Pt,5.0,square_pyramidal,valid,,5d,True
+FOVJUW,Ru,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+GIJXOM,Pd,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+HACVUC,W,8.0,dodecahedral,valid,,5d,True
+HIWPIM,Fe,8.0,dodecahedral,valid,,3d,True
+IJUDAV,Ni,3.0,trigonal_planar,valid,,3d,True
+JADHOP,Co,4.0,tetrahedral,valid,,3d,True
+JOXDIL,Ta,6.0,octahedral,valid,,5d,True
+KEHHEK,Os,4.0,square_planar,no valid isomer,donor left the metal,5d,False
+KUNNOX,Zn,3.0,trigonal_planar,valid,,3d,True
+LIBPEV,Rh,3.0,trigonal_planar,valid,,4d,True
+MALXED,Pt,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+MOSMAI,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+NEJJUI,W,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,5d,False
+OCEKUF,Y,8.0,dodecahedral,valid,,4d,True
+OXIVEY,Co,6.0,octahedral,valid,,3d,True
+PITCAY,Pt,4.0,square_planar,valid,,5d,True
+QAGROG,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+QODDEU,Hg,2.0,linear,valid,,5d,True
+RAWCEY,Fe,4.0,square_planar,no valid isomer,other connectivity change,3d,False
+ROMFIK,Hg,4.0,tetrahedral,valid,,5d,True
+SEQFEA,Ni,6.0,octahedral,valid,,3d,True
+SUXLON,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+TILDOH,Fe,6.0,octahedral,valid,,3d,True
+UBOFOG,Mn,5.0,square_pyramidal,valid,,3d,True
+UQIBOM,Ir,6.0,octahedral,valid,,5d,True
+VEXSIA,Co,8.0,dodecahedral,valid,,3d,True
+WAPZEV,Hf,5.0,square_pyramidal,valid,,5d,True
+WODNOS,Ta,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+XAVMAM,Zr,8.0,dodecahedral,valid,,4d,True
+XOCREM,Ir,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+YEVBEH,Hf,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+YULBOY,Pt,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+ZOCBEY,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+AFIVUH,Co,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+AYEDAK,Ni,6.0,octahedral,valid,,3d,True
+BIQCEL,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+CAQBOM,W,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,5d,False
+CIXKUP,Os,6.0,octahedral,valid,,5d,True
+DARVOI,Ag,5.0,trigonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+DOMNID,Fe,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+EKODEO,V,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+FAPWAW,Ir,5.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+FUBQID,Pt,2.0,linear,valid,,5d,True
+GILGEO,Zn,6.0,octahedral,not built,no donor predicted for a ligand,3d,False
+HAFFOK,Au,4.0,square_planar,valid,,5d,True
+HIZYOF,Co,3.0,trigonal_planar,no valid isomer,other connectivity change,3d,False
+IKAHIN,Hg,6.0,octahedral,valid,,5d,True
+JAHWUL,Pt,5.0,square_pyramidal,valid,,5d,True
+JOYBAD,Co,4.0,square_planar,valid,,3d,True
+KEHWUS,Y,6.0,octahedral,valid,,4d,True
+KUPTEV,Mo,6.0,octahedral,valid,,4d,True
+LIBROE,Ir,8.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+MAMNOE,Ir,6.0,tetrahedral,valid,,5d,True
+MOSQOA,Ru,8.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+NELWEI,Rh,5.0,tetrahedral,valid,,4d,True
+OCEYUQ,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+OXONEV,Ir,6.0,octahedral,valid,,5d,True
+PITHIL,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+QAGRUL,Ti,8.0,dodecahedral,valid,,3d,True
+QODMAY,Ru,5.0,square_pyramidal,valid,,4d,True
+RAWXES,Pt,4.0,trigonal_planar,valid,,5d,True
+ROMQAL,Co,6.0,octahedral,valid,,3d,True
+SEQVUF,Ta,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+SUZKIH,Re,5.0,square_pyramidal,valid,,5d,True
+TILKOS,Pt,6.0,octahedral,valid,,5d,True
+UBOMUW,Zn,3.0,trigonal_planar,valid,,3d,True
+UREQEP,V,5.0,square_pyramidal,valid,,3d,True
+VEZJEQ,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+WAQYEW,Cu,3.0,trigonal_planar,valid,,3d,True
+WODNUY,Ta,6.0,octahedral,valid,,5d,True
+XAVNAN,Mn,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+XOGQOZ,Fe,8.0,square_antiprism,valid,,3d,True
+YEXYOR,Co,4.0,tetrahedral,no valid isomer,donor left the metal,3d,False
+YUMBEP,Hg,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+ZOCCEZ,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+AFOCEE,Cu,2.0,linear,valid,,3d,True
+AYEJAS,Fe,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+BIQQUN,Pt,4.0,square_planar,valid,,5d,True
+CAQCUS,Mn,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+CIXLUT,Nb,5.0,square_pyramidal,valid,,4d,True
+DAXHOZ,Re,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+DOMZUA,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+ELAJOT,Re,8.0,dodecahedral,no valid isomer,donor left the metal,5d,False
+FATPIZ,Co,6.0,octahedral,valid,,3d,True
+FUDKEV,Rh,4.0,square_planar,valid,,4d,True
+GILWEF,Fe,8.0,dodecahedral,valid,,3d,True
+HAGBEX,Ni,4.0,tetrahedral,valid,,3d,True
+HIZZIZ,Cu,3.0,trigonal_planar,no valid isomer,other connectivity change,3d,False
+IKOLAW,Os,5.0,square_pyramidal,valid,,5d,True
+JAJDEE,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+JUDQUW,Ir,8.0,dodecahedral,valid,,5d,True
+KEJYON,W,6.0,octahedral,valid,,5d,True
+KUPXIE,Co,8.0,dodecahedral,no valid isomer,donor left the metal,3d,False
+LICMIU,Pt,4.0,square_planar,valid,,5d,True
+MAPVII,Mo,4.0,tetrahedral,valid,,4d,True
+MOSWIC,Mn,6.0,octahedral,valid,,3d,True
+NEMFOB,Mo,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+OCOPUR,Cu,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+OXONEX,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+PIWXIE,Re,6.0,octahedral,valid,,5d,True
+QAHCEH,Ir,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+QODVIP,Ag,6.0,octahedral,no valid isomer,predicted CN differs from crystal,4d,False
+RAWXIW,Pt,4.0,square_planar,valid,,5d,True
+ROQYOL,V,6.0,octahedral,valid,,3d,True
+SERSEN,Zr,6.0,octahedral,valid,,4d,True
+SUZLOQ,Re,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+TIMJEE,Mo,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,4d,False
+UBOTOU,Mn,8.0,dodecahedral,valid,,3d,True
+URSCNI,Sc,8.0,dodecahedral,not built,no donor predicted for a ligand,3d,False
+VEZXAA,Rh,6.0,trigonal_bipyramidal,valid,,4d,True
+WARBIC,Cu,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+WOHFIL,Sc,6.0,octahedral,not built,no donor predicted for a ligand,3d,False
+XAWCED,Pt,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+XOJJUE,Ag,4.0,tetrahedral,valid,,4d,True
+YEXZEG,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+YUNQAA,W,6.0,octahedral,valid,,5d,True
+ZODBUP,Ta,4.0,tetrahedral,valid,,5d,True
+AFOKUF,Mo,5.0,trigonal_bipyramidal,valid,,4d,True
+AYUKAG,Ru,6.0,octahedral,valid,,4d,True
+BIQRAU,Pt,4.0,square_planar,valid,,5d,True
+CAQRIW,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+COCCEE,Nb,5.0,square_pyramidal,valid,,4d,True
+DEDFIC,Zr,6.0,octahedral,valid,,4d,True
+DOQGEY,Mo,6.0,octahedral,valid,,4d,True
+ELUTAI,Ni,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+FAXJIX,Au,3.0,trigonal_planar,valid,,5d,True
+FUFGUK,Pd,4.0,square_planar,valid,,4d,True
+GIQPII,Zn,4.0,tetrahedral,valid,,3d,True
+HAGXAQ,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+HOBNUK,Re,6.0,octahedral,valid,,5d,True
+IKOLUQ,Os,5.0,trigonal_bipyramidal,valid,,5d,True
+JALYOK,Fe,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+JUHFAV,Mn,6.0,octahedral,valid,,3d,True
+KEKBUX,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+KUTFOW,W,4.0,tetrahedral,valid,,5d,True
+LICQAQ,Ni,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+MAPVOQ,Tc,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+MOVDEG,Rh,6.0,trigonal_bipyramidal,valid,,4d,True
+NEMHAR,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+ODEWID,Zr,9.0,tricapped_trigonal_prism,valid,,4d,True
+OYINOA,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+PIXRIA,Ir,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+QAHKIV,Cr,5.0,square_pyramidal,valid,,3d,True
+QOHXOC,V,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+RAXWAP,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+ROTXIK,Ru,4.0,tetrahedral,valid,,4d,True
+SESZOF,Tc,5.0,square_pyramidal,valid,,4d,True
+TACDIO,Cr,5.0,trigonal_bipyramidal,valid,,3d,True
+TINFUS,Ru,6.0,tetrahedral,valid,,4d,True
+UBOYAL,Mn,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,3d,False
+UTAPEN,Cu,3.0,trigonal_planar,valid,,3d,True
+VEZXUV,Hg,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+WARBUP,Os,5.0,square_pyramidal,valid,,5d,True
+WOJBUV,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+XAWFIN,V,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+XOJLEN,Ir,7.0,pentagonal_bipyramidal,valid,,5d,True
+YEYRUP,Os,6.0,octahedral,valid,,5d,True
+YUVZOE,W,6.0,octahedral,valid,,5d,True
+ZODKOU,Ru,6.0,octahedral,valid,,4d,True
+AGUZIM,Hf,5.0,trigonal_bipyramidal,valid,,5d,True
+AZEPAZ,Au,2.0,linear,valid,,5d,True
+BIQRUQ,Pd,4.0,square_planar,valid,,4d,True
+CARQIX,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+CODWAU,Ni,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+DEJPUE,Ag,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+DOSJIH,Ni,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+EMEXEB,Au,2.0,linear,valid,,5d,True
+FAYZOY,Zn,3.0,trigonal_planar,no valid isomer,donor left the metal,3d,False
+FUFHIZ,Pd,4.0,square_planar,valid,,4d,True
+GIQSEH,Ir,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+HAJKEL,Cd,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+HOJDAL,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+IKOYAJ,Fe,9.0,tricapped_trigonal_prism,valid,,3d,True
+JANPAP,Ru,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+JUMGEG,Tc,6.0,octahedral,valid,,4d,True
+KEKQIB,Os,4.0,square_planar,valid,,5d,True
+KUWSAW,Tc,6.0,octahedral,valid,,4d,True
+LIDQOE,Re,6.0,octahedral,valid,,5d,True
+MAPWAD,Tc,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+MOWBAE,Tc,8.0,dodecahedral,no valid isomer,other connectivity change,4d,False
+NEMYAH,Pd,2.0,linear,valid,,4d,True
+ODIGAJ,Rh,5.0,tetrahedral,valid,,4d,True
+OYIRUK,Cu,4.0,square_planar,valid,,3d,True
+PIYPUI,Rh,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+QAHKUF,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+QOHZAO,Hg,3.0,trigonal_planar,valid,,5d,True
+RAYNUD,Ir,5.0,tetrahedral,valid,,5d,True
+ROVSIG,W,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+SEVROA,W,6.0,octahedral,valid,,5d,True
+TACVAV,Mn,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,3d,False
+TINNIO,Ag,5.0,trigonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+UCEKOD,Co,6.0,octahedral,valid,,3d,True
+UTAWAO,Ag,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+VIBSUV,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+WAWNAN,Zn,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+WOJDAD,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+XAWGAG,V,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+XOKFAF,Tc,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+YIBDUJ,Ru,8.0,pentagonal_bipyramidal,valid,,4d,True
+YUWDAV,W,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,5d,False
+ZOHRAR,Ni,4.0,square_planar,valid,,3d,True
+AHEVUH,Re,9.0,dodecahedral,valid,,5d,True
+AZNIMO,Mo,5.0,trigonal_bipyramidal,valid,,4d,True
+BIRJUH,Y,8.0,dodecahedral,valid,,4d,True
+CASXIE,Re,6.0,octahedral,valid,,5d,True
+CODZAX,Ru,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+DEJVAR,Rh,8.0,dodecahedral,no valid isomer,donor left the metal,4d,False
+DOTXIU,Pd,2.0,linear,valid,,4d,True
+EMEXOL,Au,2.0,linear,valid,,5d,True
+FEBJAX,Co,8.0,dodecahedral,no valid isomer,other connectivity change,3d,False
+FUGQOP,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+GIQSOQ,Ir,4.0,square_planar,valid,,5d,True
+HAJRUI,Pd,2.0,linear,valid,,4d,True
+HOLBIT,Mn,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ILEZUU,Tc,6.0,octahedral,valid,,4d,True
+JANWUR,Nb,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+JUPZIF,Pt,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+KELLOD,Ti,8.0,dodecahedral,valid,,3d,True
+KUWSEA,Tc,6.0,octahedral,valid,,4d,True
+LILBIS,Cd,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+MASSOR,Ag,4.0,tetrahedral,valid,,4d,True
+MOWKER,W,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+NESLUV,Rh,5.0,trigonal_bipyramidal,valid,,4d,True
+ODOCUF,Cu,3.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+OYUHIB,Fe,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+PIYQUL,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+QAHNOD,Ag,6.0,octahedral,valid,,4d,True
+QOJRUD,Ru,6.0,octahedral,no valid isomer,predicted CN differs from crystal,4d,False
+RAZYEA,Ir,5.0,square_planar,valid,,5d,True
+ROYKOI,Ag,2.0,linear,valid,,4d,True
+SEWCAY,Mn,6.0,octahedral,valid,,3d,True
+TAFSAV,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+TIRDON,Au,4.0,square_planar,valid,,5d,True
+UCICEP,Pt,4.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+UTERIX,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+VIFWOY,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+WAWPAO,Mn,8.0,square_antiprism,valid,,3d,True
+WOKJIQ,Zr,6.0,octahedral,valid,,4d,True
+XAWSUK,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+XOKFIN,Tc,6.0,octahedral,valid,,4d,True
+YIBJUP,Ir,4.0,square_planar,valid,,5d,True
+YUWDUS,Hg,3.0,trigonal_planar,valid,,5d,True
+ZOKLAM,Re,6.0,octahedral,valid,,5d,True
+AHOHIP,Fe,2.0,linear,no valid isomer,other connectivity change,3d,False
+BABVEH,Ti,5.0,trigonal_bipyramidal,valid,,3d,True
+BIVDOB,Mn,6.0,octahedral,valid,,3d,True
+CATKIR,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+COFJIT,Ir,6.0,octahedral,valid,,5d,True
+DEJXUM,Ti,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+DOWKEF,Mo,6.0,octahedral,valid,,4d,True
+ENATET,Zr,6.0,octahedral,valid,,4d,True
+FEBRUD,Cd,8.0,dodecahedral,not built,no donor predicted for a ligand,4d,False
+FUJZAL,Ru,8.0,dodecahedral,valid,,4d,True
+GIRLOL,Pt,6.0,octahedral,valid,,5d,True
+HAKCUR,Re,6.0,square_pyramidal,valid,,5d,True
+HOLHUN,Hg,5.0,trigonal_bipyramidal,valid,,5d,True
+IMOTOT,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+JAPLUI,Cr,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+JURCAC,Mo,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+KELQUO,Rh,6.0,square_pyramidal,valid,,4d,True
+LACNAG,Y,4.0,tetrahedral,valid,,4d,True
+LINSAE,Ru,6.0,octahedral,valid,,4d,True
+MATGAS,Fe,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+MOXDEK,Cd,6.0,octahedral,valid,,4d,True
+NESROU,Hg,3.0,trigonal_planar,valid,,5d,True
+OFIFEQ,Fe,6.0,octahedral,valid,,3d,True
+OZEDOO,W,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+PIZHEM,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+QAHVIF,Ru,8.0,pentagonal_bipyramidal,valid,,4d,True
+QOKHOQ,Cu,4.0,square_planar,valid,,3d,True
+REBJIR,Ni,6.0,octahedral,not built,no donor predicted for a ligand,3d,False
+ROZNEA,Fe,8.0,dodecahedral,valid,,3d,True
+SEWKIP,V,4.0,tetrahedral,valid,,3d,True
+TAFTIF,Os,6.0,octahedral,valid,,5d,True
+TIRGEG,Re,6.0,octahedral,valid,,5d,True
+UCOMAC,Zr,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+UTOLIA,Co,4.0,tetrahedral,valid,,3d,True
+VIFZER,Mn,6.0,octahedral,valid,,3d,True
+WAYFAG,Cr,4.0,tetrahedral,valid,,3d,True
+WOMWAX,Pt,6.0,octahedral,valid,,5d,True
+XAXTOI,Fe,4.0,square_planar,valid,,3d,True
+XOLTAV,Re,6.0,octahedral,valid,,5d,True
+YICGAV,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+YUXZIA,Rh,4.0,square_planar,no valid isomer,predicted CN differs from crystal,4d,False
+ZONPIB,Cr,4.0,square_planar,valid,,3d,True
+ABIZIW,Cd,5.0,square_pyramidal,valid,,4d,True
+ASABIH,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+BEQTIA,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+BUWTIZ,W,8.0,dodecahedral,valid,,5d,True
+CIFZOH,Ti,4.0,tetrahedral,valid,,3d,True
+CUYZED,Ni,6.0,octahedral,valid,,3d,True
+DIRZOX,Pt,6.0,octahedral,valid,,5d,True
+EGEBOI,Mo,4.0,tetrahedral,valid,,4d,True
+EZEMON,Os,6.0,octahedral,valid,,5d,True
+FIZLUV,Re,9.0,pentagonal_bipyramidal,valid,,5d,True
+GELZEF,Ru,6.0,square_pyramidal,valid,,4d,True
+GUHRAD,Mo,9.0,dodecahedral,valid,,4d,True
+HIHROJ,W,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+IDOQEX,Mo,4.0,tetrahedral,valid,,4d,True
+IVOYAU,V,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,3d,False
+JIYZAT,Mo,6.0,octahedral,valid,,4d,True
+KAXZUF,Fe,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+KOMNEF,Tc,6.0,octahedral,valid,,4d,True
+LENQEC,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+LUYFIX,Ti,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+MIVXOE,Au,2.0,linear,valid,,5d,True
+NAWKUU,Zr,8.0,dodecahedral,valid,,4d,True
+NURLEU,Sc,4.0,tetrahedral,valid,,3d,True
+OSETAK,Cr,4.0,square_planar,valid,,3d,True
+PERBIZ,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+PUTPUP,Zn,2.0,linear,valid,,3d,True
+QEZPUI,Hg,3.0,trigonal_planar,valid,,5d,True
+RALMOK,Tc,6.0,octahedral,valid,,4d,True
+RISWIC,Cr,6.0,octahedral,valid,,3d,True
+SAXQOX,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+SOWKAR,Zr,6.0,octahedral,valid,,4d,True
+TEQPUC,Cr,6.0,octahedral,valid,,3d,True
+TULCOS,Mo,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+UMEJEC,Nb,4.0,tetrahedral,valid,,4d,True
+VAZWUP,Ir,6.0,octahedral,valid,,5d,True
+WACFUF,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+WIKBOJ,Zr,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+XAKLOK,Mo,6.0,octahedral,valid,,4d,True
+XIQTUN,Au,4.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+YAZVOK,Au,3.0,trigonal_planar,valid,,5d,True
+YOXDUL,Zn,3.0,trigonal_planar,valid,,3d,True
+ZEWSEB,Os,6.0,octahedral,valid,,5d,True
+AHOXOK,Ru,7.0,pentagonal_bipyramidal,valid,,4d,True
+BACFIW,Ru,6.0,square_planar,no valid isomer,predicted CN differs from crystal,4d,False
+BIVJOI,Y,3.0,trigonal_planar,valid,,4d,True
+CAVROJ,W,5.0,trigonal_bipyramidal,valid,,5d,True
+COFLAM,Hf,8.0,dodecahedral,valid,,5d,True
+DEKGAC,Ag,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+DOXRAJ,Zr,6.0,octahedral,valid,,4d,True
+ENEHOU,Pt,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+FECCAU,Ni,5.0,trigonal_bipyramidal,valid,,3d,True
+FULQEK,V,5.0,trigonal_bipyramidal,valid,,3d,True
+GIRMAV,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+HANFEJ,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+HOLXEM,W,8.0,dodecahedral,valid,,5d,True
+IMTOPD,Pd,4.0,square_planar,valid,,4d,True
+JAPREB,Os,6.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+JURYAW,Ru,6.0,octahedral,valid,,4d,True
+KELZIO,V,7.0,pentagonal_bipyramidal,valid,,3d,True
+LACVOA,Hf,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+LIPZOZ,Cr,4.0,tetrahedral,valid,,3d,True
+MAWCOC,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+MOYMUI,W,6.0,octahedral,valid,,5d,True
+NETFAV,Au,4.0,tetrahedral,no valid isomer,donor left the metal,5d,False
+OFOFOI,Ag,2.0,linear,no valid isomer,predicted CN differs from crystal,4d,False
+OZITOI,V,5.0,square_pyramidal,valid,,3d,True
+PIZTAT,V,7.0,pentagonal_bipyramidal,valid,,3d,True
+QAMVIM,Co,5.0,square_pyramidal,valid,,3d,True
+QOKHUU,Y,6.0,octahedral,valid,,4d,True
+RECLIV,Os,6.0,octahedral,valid,,5d,True
+RUDVIW,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+SIFYUD,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+TAGHAK,Cu,2.0,linear,valid,,3d,True
+TIRSOC,V,8.0,dodecahedral,valid,,3d,True
+UDELOH,Hg,5.0,square_pyramidal,valid,,5d,True
+UVIBIM,Cu,3.0,trigonal_planar,valid,,3d,True
+VIGWIU,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+WAYFEK,Cr,4.0,tetrahedral,valid,,3d,True
+WONQAU,Mn,6.0,octahedral,valid,,3d,True
+XAZQIY,Cu,4.0,square_planar,valid,,3d,True
+XOLVOK,Au,2.0,linear,valid,,5d,True
+YIDTAG,Ru,6.0,octahedral,valid,,4d,True
+YUYNAK,Pd,5.0,trigonal_bipyramidal,valid,,4d,True
+ZOPNOH,Mn,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+AHUROK,Ti,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+BACFOE,Nb,4.0,tetrahedral,valid,,4d,True
+BIYNIJ,Co,6.0,octahedral,valid,,3d,True
+CAWKIW,Zn,4.0,tetrahedral,valid,,3d,True
+COFZIH,V,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+DEKQER,Y,9.0,tricapped_trigonal_prism,not built,no donor predicted for a ligand,4d,False
+DOZJIM,Pt,5.0,trigonal_planar,valid,,5d,True
+ENOQIK,Mo,5.0,square_pyramidal,valid,,4d,True
+FEDHEF,Pt,4.0,trigonal_planar,valid,,5d,True
+FUNCEW,V,5.0,trigonal_bipyramidal,valid,,3d,True
+GISHUL,Mn,5.0,square_pyramidal,valid,,3d,True
+HANGEI,Os,6.0,octahedral,valid,,5d,True
+HONGEW,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+IMUJUY,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+JASPIG,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+JURZOL,Ir,7.0,pentagonal_bipyramidal,valid,,5d,True
+KEMTED,Cu,4.0,square_planar,valid,,3d,True
+LAFYEZ,Ir,6.0,octahedral,valid,,5d,True
+LODXAG,Zr,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+MAXZOC,Co,3.0,trigonal_planar,valid,,3d,True
+MOZLIW,Hg,8.0,dodecahedral,valid,,5d,True
+NEVBAS,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+OFUBAU,Au,4.0,tetrahedral,valid,,5d,True
+PABPUE,Pt,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+POBKAS,Ti,8.0,square_antiprism,no valid isomer,other connectivity change,3d,False
+QANLAV,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+QOLDOM,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+RECYUX,Co,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+RUDVIX,Pt,4.0,square_planar,valid,,5d,True
+SIGPIJ,Ti,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+TAHPIC,V,6.0,octahedral,valid,,3d,True
+TIVQIZ,Ir,4.0,square_planar,valid,,5d,True
+UDETAA,Mo,9.0,dodecahedral,valid,,4d,True
+UVIXEE,Ti,5.0,square_pyramidal,valid,,3d,True
+VIKJEE,Mn,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+WAYQEW,Au,3.0,trigonal_planar,valid,,5d,True
+WORFEQ,Mo,10.0,cn8,valid,,4d,True
+XEDDEP,Re,6.0,octahedral,valid,,5d,True
+XOMKEP,Mo,5.0,square_pyramidal,valid,,4d,True
+YIDWEO,Zn,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+YUYSOC,Re,7.0,pentagonal_bipyramidal,valid,,5d,True
+ZOSYIR,Ru,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+AJANEF,Y,6.0,octahedral,valid,,4d,True
+BACGET,Ni,4.0,square_planar,no valid isomer,donor left the metal,3d,False
+BIZLEB,Co,8.0,dodecahedral,valid,,3d,True
+CAXRIC,Co,4.0,tetrahedral,valid,,3d,True
+COGQIZ,Fe,3.0,trigonal_planar,no valid isomer,donor left the metal,3d,False
+DEMTOF,Ni,4.0,square_planar,valid,,3d,True
+DUCBEI,Mo,5.0,trigonal_bipyramidal,valid,,4d,True
+EPUBID,Ir,4.0,square_planar,valid,,5d,True
+FEGBOK,Ag,2.0,linear,no valid isomer,predicted CN differs from crystal,4d,False
+FUNNOR,Nb,4.0,tetrahedral,valid,,4d,True
+GITLEA,Ni,6.0,octahedral,valid,,3d,True
+HAPSUM,Pt,7.0,pentagonal_bipyramidal,valid,,5d,True
+HORKUU,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+IMUTER,Cu,4.0,tetrahedral,no valid isomer,other connectivity change,3d,False
+JAYGUL,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+JUTRUL,Re,8.0,square_antiprism,no valid isomer,predicted CN differs from crystal,5d,False
+KENMUP,Ir,6.0,trigonal_bipyramidal,valid,,5d,True
+LAJBUV,Hg,8.0,square_antiprism,not built,no donor predicted for a ligand,5d,False
+LOFLAT,Mn,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,3d,False
+MAYRAH,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+MOZLUK,Ru,6.0,tetrahedral,valid,,4d,True
+NEVBIA,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+OGARUL,Hg,5.0,trigonal_bipyramidal,valid,,5d,True
+PADJIR,Zn,3.0,trigonal_planar,no valid isomer,donor left the metal,3d,False
+POCGAP,Hf,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+QANWIN,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+QOLJAE,Ir,6.0,octahedral,valid,,5d,True
+REFBOT,V,6.0,octahedral,valid,,3d,True
+RUDXOE,Cr,6.0,octahedral,valid,,3d,True
+SIHFAT,Zn,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+TAJBAK,Ti,4.0,tetrahedral,valid,,3d,True
+TIWTEB,Fe,4.0,tetrahedral,valid,,3d,True
+UDIZUF,Cu,5.0,trigonal_bipyramidal,valid,,3d,True
+UVUKAA,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+VIKPIP,Pt,6.0,octahedral,valid,,5d,True
+WECHIY,Pd,4.0,square_planar,valid,,4d,True
+WOSKUM,Ni,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+XEDLOI,Zr,6.0,octahedral,valid,,4d,True
+XOPPUN,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+YIJBIG,Ni,5.0,trigonal_bipyramidal,valid,,3d,True
+YUZGIL,Zn,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,3d,False
+ZOTROS,Co,4.0,square_planar,valid,,3d,True
+AJELEG,Pd,3.0,trigonal_planar,valid,,4d,True
+BACZEM,V,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+BOBZUO,Hg,3.0,trigonal_planar,valid,,5d,True
+CAYCAH,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+COJHAN,Mn,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+DENBAA,Pt,4.0,square_planar,valid,,5d,True
+DUCHER,Co,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+EPUNUB,Pd,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+FEHHAB,Mn,8.0,dodecahedral,valid,,3d,True
+FURJIN,Ru,6.0,tetrahedral,valid,,4d,True
+GITVOX,Ir,5.0,square_pyramidal,valid,,5d,True
+HARSIC,Pt,6.0,octahedral,valid,,5d,True
+HOYREV,Ni,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+INATAT,Mo,5.0,square_pyramidal,valid,,4d,True
+JAZZOD,Fe,8.0,dodecahedral,no valid isomer,donor left the metal,3d,False
+JUZQON,Ni,5.0,trigonal_bipyramidal,valid,,3d,True
+KENPOJ,Zn,3.0,trigonal_planar,valid,,3d,True
+LAJVOI,Pt,4.0,square_planar,valid,,5d,True
+LOGMIG,Mn,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+MAZJED,Ti,4.0,square_planar,no valid isomer,predicted CN differs from crystal,3d,False
+MTCYCR,Cr,6.0,octahedral,valid,,3d,True
+NEXXOH,Cu,4.0,square_planar,valid,,3d,True
+OGOJEC,Ni,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+PAFWIC,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+POCVIO,Hg,6.0,octahedral,valid,,5d,True
+QAPCUG,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+QONHEG,Nb,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,4d,False
+REFTOO,Au,4.0,square_planar,no valid isomer,donor left the metal,5d,False
+RUJMER,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+SIJJUT,W,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+TAJDOZ,Cd,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+TIXXAZ,Os,6.0,octahedral,valid,,5d,True
+UFIFIZ,V,4.0,tetrahedral,valid,,3d,True
+UWEKUF,Ir,8.0,dodecahedral,no valid isomer,other connectivity change,5d,False
+VIKTUG,Pt,4.0,tetrahedral,no valid isomer,donor left the metal,5d,False
+WECSAY,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+WOWVEJ,Tc,5.0,trigonal_bipyramidal,valid,,4d,True
+XEDPAZ,Ti,5.0,trigonal_bipyramidal,valid,,3d,True
+XOVDUH,Hf,8.0,dodecahedral,valid,,5d,True
+YIMWAU,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+ZABBIR,Co,6.0,octahedral,valid,,3d,True
+ZOVDAR,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+AJENAE,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+BADQAB,W,5.0,trigonal_bipyramidal,valid,,5d,True
+BODREU,Co,4.0,square_planar,valid,,3d,True
+CBFMOP,Fe,5.0,cn5,valid,,3d,True
+COJRUR,Sc,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+DEQHEM,Rh,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+DUGBEP,V,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+EPUTOB,Ni,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+FEKHOT,Pt,4.0,square_planar,valid,,5d,True
+FURROZ,Fe,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+GIVJUS,Mn,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,3d,False
+HATVUW,Cd,8.0,square_antiprism,not built,no donor predicted for a ligand,4d,False
+HUCCAM,Os,6.0,octahedral,valid,,5d,True
+INDRHB,Rh,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+JEBQAM,Cu,3.0,trigonal_planar,valid,,3d,True
+JUZRIF,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+KEPKEW,Nb,5.0,square_pyramidal,valid,,4d,True
+LALMIV,Hg,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+LOKPEH,V,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+MECSAR,Rh,4.0,square_planar,no valid isomer,donor left the metal,4d,False
+MUBCAP,Ir,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+NIBCEH,Os,6.0,square_pyramidal,valid,,5d,True
+OGOJID,Mn,5.0,square_pyramidal,valid,,3d,True
+PAGFOS,Co,8.0,dodecahedral,valid,,3d,True
+PODSUY,Hf,5.0,trigonal_bipyramidal,valid,,5d,True
+QAPSUV,Hg,3.0,trigonal_planar,valid,,5d,True
+QOPLOY,Hf,6.0,octahedral,valid,,5d,True
+REGGEP,Cr,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+RUKGIN,Hg,8.0,dodecahedral,not built,no donor predicted for a ligand,5d,False
+SIKNEI,Ni,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+TAKXUZ,Fe,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+TIZHIT,Au,2.0,linear,valid,,5d,True
+UGASOL,Cu,4.0,square_planar,valid,,3d,True
+UWOTUX,W,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+VINROB,Cr,6.0,octahedral,valid,,3d,True
+WEDJEU,Pt,6.0,octahedral,valid,,5d,True
+WUBVOE,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+XEFFIA,Ru,8.0,dodecahedral,no valid isomer,donor left the metal,4d,False
+XOXMUT,Fe,2.0,linear,valid,,3d,True
+YIMWOK,Y,7.0,pentagonal_bipyramidal,valid,,4d,True
+ZADBEO,Fe,4.0,tetrahedral,valid,,3d,True
+ZOWPAC,Cr,4.0,tetrahedral,valid,,3d,True
+AJENEI,Hf,5.0,trigonal_bipyramidal,valid,,5d,True
+BADQIH,Rh,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+BODTUL,Mo,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+CEBCAN,Fe,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+COLWIL,Ru,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+DERMAO,Fe,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+DUGJUK,Pt,5.0,square_pyramidal,no valid isomer,other connectivity change,5d,False
+EQAVUO,Ni,5.0,trigonal_bipyramidal,valid,,3d,True
+FEQGOY,Ru,5.0,square_planar,valid,,4d,True
+FUTWOH,Ru,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+GIXBIZ,Os,6.0,octahedral,valid,,5d,True
+HAXNEZ,Ir,5.0,square_pyramidal,valid,,5d,True
+HUGRAE,Cr,6.0,octahedral,valid,,3d,True
+INIHAP,Cr,3.0,trigonal_planar,no valid isomer,other connectivity change,3d,False
+JEBRIR,Ir,7.0,pentagonal_bipyramidal,valid,,5d,True
+KABCEW,Y,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+KETTAI,Co,6.0,octahedral,valid,,3d,True
+LALSOI,Cd,5.0,square_pyramidal,valid,,4d,True
+LOKQAD,Fe,6.0,square_pyramidal,valid,,3d,True
+MEDCUU,Ni,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+MUBTUY,Ru,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+NIBRAS,Au,4.0,tetrahedral,valid,,5d,True
+OGOWIQ,Pd,4.0,square_planar,valid,,4d,True
+PAGJUC,Ni,4.0,square_planar,no valid isomer,donor left the metal,3d,False
+POFHUO,Nb,8.0,square_antiprism,valid,,4d,True
+QAPXOY,Mn,5.0,square_pyramidal,valid,,3d,True
+QOPTOE,Au,2.0,linear,valid,,5d,True
+RELSEG,Re,6.0,octahedral,valid,,5d,True
+RUKPUI,W,6.0,octahedral,valid,,5d,True
+SIKQAG,Pt,4.0,square_planar,valid,,5d,True
+TAMCOB,Zr,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+TNBPMN,Mn,5.0,trigonal_bipyramidal,not built,no donor predicted for a ligand,3d,False
+UGEKEW,Y,5.0,square_pyramidal,valid,,4d,True
+UXEPAP,Y,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+VINZEX,Ru,6.0,octahedral,no valid isomer,predicted CN differs from crystal,4d,False
+WEDNAU,Re,6.0,tetrahedral,valid,,5d,True
+WUDWIE,Fe,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+XEFVIN,Os,5.0,square_pyramidal,valid,,5d,True
+XOXXIS,Os,8.0,pentagonal_bipyramidal,valid,,5d,True
+YIPDIK,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ZAFPIF,W,4.0,tetrahedral,valid,,5d,True
+ZOWPAF,Mn,4.0,square_planar,no valid isomer,predicted CN differs from crystal,3d,False
+AJOJUH,Os,4.0,tetrahedral,valid,,5d,True
+BAHKED,Y,8.0,dodecahedral,valid,,4d,True
+BOFQUK,Cd,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+CECCIA,Rh,6.0,octahedral,valid,,4d,True
+CONGUH,Co,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+DESJUJ,Ru,5.0,square_planar,valid,,4d,True
+DUGMAU,Rh,5.0,trigonal_bipyramidal,valid,,4d,True
+EQEKAO,Mo,4.0,tetrahedral,valid,,4d,True
+FETMID,Ir,6.0,octahedral,valid,,5d,True
+FUVMAM,Cr,4.0,tetrahedral,valid,,3d,True
+GIXHIE,Au,4.0,tetrahedral,no valid isomer,other connectivity change,5d,False
+HECTEP,Mo,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+HUJKIH,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+IPIJEW,Au,2.0,linear,valid,,5d,True
+JECHII,Ru,6.0,octahedral,valid,,4d,True
+KADPAI,Zn,4.0,tetrahedral,valid,,3d,True
+KEVNIL,Re,7.0,pentagonal_bipyramidal,valid,,5d,True
+LALVEB,Re,6.0,octahedral,valid,,5d,True
+LOMPAG,Hg,3.0,trigonal_planar,valid,,5d,True
+MEGDOR,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+MUHHEE,Cu,6.0,octahedral,valid,,3d,True
+NICZUU,Ir,5.0,square_pyramidal,valid,,5d,True
+OGUBEX,Co,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+PAJPEV,Pd,4.0,square_planar,valid,,4d,True
+POFKUR,Tc,6.0,octahedral,valid,,4d,True
+QARDAO,Ni,4.0,square_planar,valid,,3d,True
+QOVZEI,Cr,6.0,octahedral,valid,,3d,True
+REMDES,Nb,6.0,octahedral,not built,no donor predicted for a ligand,4d,False
+RUNHUD,Ti,8.0,square_antiprism,valid,,3d,True
+SIKYAO,W,6.0,octahedral,valid,,5d,True
+TAMTUX,Ag,2.0,linear,valid,,4d,True
+TOBHUQ,Zn,3.0,trigonal_planar,no valid isomer,donor left the metal,3d,False
+UGETAC,Ru,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+UXUPUZ,Ir,6.0,octahedral,valid,,5d,True
+VIQMOA,Ru,6.0,trigonal_bipyramidal,valid,,4d,True
+WEFTOQ,Ti,4.0,tetrahedral,valid,,3d,True
+WUHQIA,V,6.0,octahedral,valid,,3d,True
+XEJPUZ,Cu,5.0,trigonal_bipyramidal,valid,,3d,True
+XOXZOB,Ni,4.0,trigonal_planar,valid,,3d,True
+YIPZUV,Fe,6.0,octahedral,valid,,3d,True
+ZAFVEK,Hg,8.0,square_antiprism,not built,no donor predicted for a ligand,5d,False
+ZUBZEE,Pd,2.0,linear,valid,,4d,True
+AKILOY,Pt,6.0,octahedral,valid,,5d,True
+BAJQOU,Cu,2.0,linear,valid,,3d,True
+BOJJEP,Au,4.0,tetrahedral,valid,,5d,True
+CECFIA,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+COTFOJ,Cu,4.0,tetrahedral,valid,,3d,True
+DESKAQ,Ru,5.0,square_planar,valid,,4d,True
+DUGMUO,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+EQOQAF,Ni,4.0,square_planar,valid,,3d,True
+FETPEC,Zr,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+FUVPOD,Cr,4.0,tetrahedral,valid,,3d,True
+GIXQAF,Rh,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+HECTOA,Cu,3.0,trigonal_planar,no valid isomer,other connectivity change,3d,False
+HUNMEI,Zr,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+IPIRUW,Re,6.0,octahedral,valid,,5d,True
+JECZIA,W,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+KADSEN,W,6.0,octahedral,valid,,5d,True
+KEWXUG,Ir,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+LAMFUE,W,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+LOMYUJ,Sc,6.0,octahedral,valid,,3d,True
+MEJKUI,Ag,3.0,trigonal_planar,valid,,4d,True
+MUHRUD,Hg,4.0,tetrahedral,valid,,5d,True
+NIGDIR,Co,4.0,square_planar,valid,,3d,True
+OHAPES,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+PAKXAC,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+POFSUZ,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+QASWEQ,Fe,4.0,tetrahedral,valid,,3d,True
+QOYGOC,Ru,6.0,tetrahedral,no valid isomer,predicted CN differs from crystal,4d,False
+REMJOI,Co,8.0,dodecahedral,valid,,3d,True
+RURZAI,Ni,4.0,square_planar,valid,,3d,True
+SIMJIJ,Zr,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+TAMZUD,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+TOJLOV,Cr,8.0,dodecahedral,valid,,3d,True
+UGIFIC,Ag,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+UYEPUM,Ag,2.0,linear,valid,,4d,True
+VIQPOA,Ti,8.0,dodecahedral,no valid isomer,donor left the metal,3d,False
+WEHNEE,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+WUHTAU,Mn,6.0,octahedral,valid,,3d,True
+XEKBAS,Ni,5.0,trigonal_bipyramidal,valid,,3d,True
+XOYNUU,Zr,5.0,square_pyramidal,valid,,4d,True
+YIVFOY,Os,6.0,octahedral,valid,,5d,True
+ZANCOG,Cu,5.0,square_pyramidal,valid,,3d,True
+ZUCGOT,Re,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,5d,False
+AKILUE,Pt,6.0,octahedral,valid,,5d,True
+BAKPOT,Sc,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+BOLCEL,V,9.0,tricapped_trigonal_prism,valid,,3d,True
+CEHHED,Mo,4.0,tetrahedral,valid,,4d,True
+COWJOP,Cd,6.0,octahedral,valid,,4d,True
+DESKUI,Fe,6.0,octahedral,valid,,3d,True
+DUGVUZ,Mn,6.0,octahedral,valid,,3d,True
+EQUJIJ,Ni,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+FEVFIW,Re,6.0,octahedral,valid,,5d,True
+FUVVOJ,Cr,4.0,tetrahedral,valid,,3d,True
+GIZLAE,W,6.0,octahedral,valid,,5d,True
+HEDCUO,Rh,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+HUPQUG,Co,4.0,square_planar,valid,,3d,True
+IPUBEC,Ru,5.0,square_planar,valid,,4d,True
+JEGDOO,Tc,5.0,trigonal_bipyramidal,valid,,4d,True
+KADYAS,Nb,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+KEYMEG,Co,6.0,octahedral,valid,,3d,True
+LAPDEM,Rh,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+LOQYUL,W,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+MELFAK,Au,3.0,trigonal_planar,valid,,5d,True
+MULJIM,Co,8.0,square_antiprism,valid,,3d,True
+NIKKUO,Y,6.0,octahedral,not built,no donor predicted for a ligand,4d,False
+OHAPUI,Fe,6.0,octahedral,valid,,3d,True
+PALWUV,Ni,6.0,octahedral,valid,,3d,True
+POGNIJ,V,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+QATQEH,Rh,8.0,square_antiprism,valid,,4d,True
+QOZDAN,Ag,4.0,tetrahedral,valid,,4d,True
+REMPUU,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+RUSBIR,Zn,5.0,square_pyramidal,valid,,3d,True
+SIQNAK,Co,6.0,square_pyramidal,valid,,3d,True
+TANGAU,Cu,5.0,square_pyramidal,valid,,3d,True
+TOJMIQ,Cr,4.0,tetrahedral,valid,,3d,True
+UGOSIV,Cu,5.0,trigonal_bipyramidal,valid,,3d,True
+UYEZIK,Mn,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+VIXYIM,Cu,6.0,octahedral,valid,,3d,True
+WEHVEK,Ir,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+WULKOD,Pd,4.0,square_planar,valid,,4d,True
+XEKWIT,Pt,4.0,square_planar,valid,,5d,True
+XUBKOX,Re,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+YIVLIB,V,3.0,trigonal_planar,valid,,3d,True
+ZANCUM,Cu,5.0,square_pyramidal,valid,,3d,True
+ZUDMET,Sc,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,3d,False
+ALECAV,Ru,8.0,pentagonal_bipyramidal,valid,,4d,True
+BALYUK,V,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+BOPZOX,Zr,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+CEJNAJ,Ru,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+COXMUX,Ru,6.0,octahedral,valid,,4d,True
+DETMEY,Ir,5.0,square_planar,valid,,5d,True
+DUGWUX,Au,5.0,trigonal_bipyramidal,valid,,5d,True
+EQUMEI,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+FEVHIX,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+FUVVUP,Cr,4.0,tetrahedral,valid,,3d,True
+GIZWAP,Sc,6.0,octahedral,valid,,3d,True
+HEDHII,Os,6.0,octahedral,valid,,5d,True
+HUQLUA,Ir,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+IPUBIG,Ru,5.0,square_planar,valid,,4d,True
+JEHNET,Rh,5.0,trigonal_bipyramidal,valid,,4d,True
+KADYEW,Nb,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+KEZGON,Fe,8.0,pentagonal_bipyramidal,valid,,3d,True
+LAPVEH,Fe,2.0,linear,valid,,3d,True
+LORKOT,Sc,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+MEMPIH,Ir,6.0,octahedral,valid,,5d,True
+MUSGIR,V,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+NILHUM,Ta,7.0,pentagonal_bipyramidal,valid,,5d,True
+OHEMUM,Ni,4.0,square_planar,valid,,3d,True
+PAQDOB,Zn,2.0,linear,valid,,3d,True
+POHFIE,Y,4.0,tetrahedral,valid,,4d,True
+QAWVUH,Hg,6.0,octahedral,not built,no donor predicted for a ligand,5d,False
+QUDBEZ,Au,4.0,square_planar,valid,,5d,True
+RENDAQ,Co,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+RUTTIJ,Co,4.0,tetrahedral,no valid isomer,other connectivity change,3d,False
+SITYEB,Hg,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+TANYEP,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+TONWEY,Pt,6.0,octahedral,valid,,5d,True
+UGUMIT,Pt,6.0,octahedral,valid,,5d,True
+UYOGEW,Zn,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,3d,False
+VIZSOP,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+WEHZUE,V,6.0,octahedral,valid,,3d,True
+WULLAQ,Pt,4.0,square_planar,valid,,5d,True
+XEMFII,Fe,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+XUHWAY,Re,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+YIVMAU,Cr,2.0,linear,valid,,3d,True
+ZAPQUF,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ZUKJEU,W,4.0,tetrahedral,valid,,5d,True
+ABUBEI,Hg,5.0,trigonal_bipyramidal,valid,,5d,True
+ASAVOH,Mn,5.0,trigonal_bipyramidal,valid,,3d,True
+BERHEO,Sc,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+BUWTUL,W,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+CIFZUN,Ti,4.0,tetrahedral,valid,,3d,True
+DACRAE,Hg,3.0,trigonal_planar,valid,,5d,True
+DITKOK,Mn,6.0,octahedral,valid,,3d,True
+EGUBOX,Sc,4.0,tetrahedral,valid,,3d,True
+EZUZAD,Sc,6.0,octahedral,valid,,3d,True
+FOBTIA,Ru,6.0,octahedral,valid,,4d,True
+GEPGOZ,Tc,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+GULWEP,Ir,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+HIHZII,Fe,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+IDUGOE,Hg,4.0,square_planar,valid,,5d,True
+IWELON,Ru,6.0,trigonal_bipyramidal,valid,,4d,True
+JIZMUA,W,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+KAYWOW,Cu,3.0,trigonal_planar,valid,,3d,True
+KOQYUN,W,6.0,octahedral,valid,,5d,True
+LEPGEU,Os,9.0,tricapped_trigonal_prism,valid,,5d,True
+LUYXAE,Re,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+MIWREP,Zr,6.0,octahedral,valid,,4d,True
+NAXDOI,Mn,8.0,dodecahedral,valid,,3d,True
+NUWMEY,Ir,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+OSETOY,Cr,4.0,square_planar,no valid isomer,donor left the metal,3d,False
+PERHAW,V,5.0,trigonal_bipyramidal,valid,,3d,True
+PUXCUJ,Nb,5.0,square_pyramidal,valid,,4d,True
+QICFUG,Fe,8.0,dodecahedral,no valid isomer,donor left the metal,3d,False
+RALPIH,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+RITMAI,Hg,3.0,trigonal_planar,valid,,5d,True
+SAXZEW,V,5.0,trigonal_bipyramidal,valid,,3d,True
+SOWPAY,Mn,5.0,square_pyramidal,valid,,3d,True
+TERTUG,Cd,6.0,octahedral,valid,,4d,True
+TULTID,Ag,3.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,4d,False
+UMIGAY,W,6.0,octahedral,valid,,5d,True
+VECDIQ,Rh,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,4d,False
+WACNOH,Cu,4.0,tetrahedral,valid,,3d,True
+WIMCED,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+XAKLUQ,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+XITRAT,Mn,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+YAZYOO,Ir,7.0,pentagonal_bipyramidal,valid,,5d,True
+YOXHAV,Sc,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ZEXGAK,Co,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,3d,False
+ALETER,Cr,4.0,square_planar,valid,,3d,True
+BAPLEL,W,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+BOQZEO,Au,2.0,linear,valid,,5d,True
+CEKHOR,Hg,3.0,trigonal_planar,valid,,5d,True
+COYCUR,Cr,4.0,square_planar,valid,,3d,True
+DETTIG,Mo,6.0,octahedral,valid,,4d,True
+DUHCAL,Cd,6.0,octahedral,valid,,4d,True
+ERAPUI,Pt,6.0,octahedral,valid,,5d,True
+FEVPUR,Pt,6.0,octahedral,valid,,5d,True
+FUYYOP,Co,8.0,dodecahedral,valid,,3d,True
+GOCBEG,Ta,6.0,octahedral,valid,,5d,True
+HEDVOB,Cr,6.0,octahedral,valid,,3d,True
+HUQZID,Os,6.0,octahedral,valid,,5d,True
+IQODUN,Zn,4.0,tetrahedral,valid,,3d,True
+JEPWUW,Ni,4.0,square_planar,valid,,3d,True
+KAGLEK,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+KEZZOH,Sc,6.0,octahedral,valid,,3d,True
+LASSOQ,Y,4.0,tetrahedral,valid,,4d,True
+LOSCEE,V,5.0,square_pyramidal,valid,,3d,True
+MENHUL,Fe,8.0,dodecahedral,no valid isomer,donor left the metal,3d,False
+MUSMIY,Pt,4.0,square_planar,no valid isomer,other connectivity change,5d,False
+NINGEY,Cr,6.0,octahedral,valid,,3d,True
+OHOHIC,Ni,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+PAQWAF,Tc,5.0,square_pyramidal,valid,,4d,True
+POLKEG,Hg,8.0,square_antiprism,not built,no donor predicted for a ligand,5d,False
+QAZTEQ,Rh,6.0,octahedral,valid,,4d,True
+QUDWIV,Y,5.0,trigonal_bipyramidal,valid,,4d,True
+REPFID,Cd,6.0,octahedral,valid,,4d,True
+RUVPUW,Cd,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+SIVBUV,Nb,6.0,octahedral,valid,,4d,True
+TAPKIF,Ni,4.0,square_planar,valid,,3d,True
+TONXOL,Mo,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+UHEJEX,Tc,6.0,octahedral,valid,,4d,True
+UZAPOC,Pt,4.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+VOBCOE,Mo,6.0,octahedral,valid,,4d,True
+WEJMAZ,Ni,4.0,square_planar,no valid isomer,other connectivity change,3d,False
+WUNCAK,Cr,5.0,square_pyramidal,valid,,3d,True
+XENMEI,Fe,4.0,tetrahedral,valid,,3d,True
+XUJLIA,Pt,3.0,trigonal_planar,valid,,5d,True
+YIXCIS,Au,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+ZAQGUT,Ir,6.0,octahedral,valid,,5d,True
+ZUKPEA,Hg,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,5d,False
+ALUNUR,Ag,5.0,trigonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+BARSIX,Ti,8.0,dodecahedral,valid,,3d,True
+BOVKON,Pd,6.0,octahedral,valid,,4d,True
+CENWEB,Ti,8.0,dodecahedral,valid,,3d,True
+COYDAY,Cr,5.0,trigonal_bipyramidal,valid,,3d,True
+DEVFOA,Zr,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+DUNYOD,Zr,8.0,dodecahedral,valid,,4d,True
+EREFEM,Ru,6.0,octahedral,valid,,4d,True
+FEVTUV,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+FUZSUR,Ru,4.0,tetrahedral,no valid isomer,donor left the metal,4d,False
+GOCSEY,Hg,2.0,linear,valid,,5d,True
+HEFZIB,Ru,6.0,octahedral,valid,,4d,True
+HURTOE,Ti,5.0,square_pyramidal,valid,,3d,True
+IQOJON,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+JEQBIT,Fe,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+KAGLEL,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+KIGBAD,Fe,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+LAVCUH,Ru,8.0,square_antiprism,valid,,4d,True
+LOTYEA,Cd,5.0,square_pyramidal,valid,,4d,True
+MERJOL,V,5.0,square_pyramidal,valid,,3d,True
+MUTCEJ,Fe,4.0,tetrahedral,valid,,3d,True
+NINGIC,Cr,6.0,octahedral,valid,,3d,True
+OHUMOU,Y,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+PAQWIN,Tc,6.0,octahedral,valid,,4d,True
+POLXEW,Mn,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+QEDREW,Cr,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+QUGCEA,Ta,5.0,square_pyramidal,valid,,5d,True
+RERNEH,Zr,7.0,pentagonal_bipyramidal,valid,,4d,True
+RUXCUI,Ni,4.0,tetrahedral,valid,,3d,True
+SIVFIN,Zr,8.0,dodecahedral,no valid isomer,other connectivity change,4d,False
+TARWOC,Fe,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+TOPYIJ,Y,4.0,tetrahedral,valid,,4d,True
+UHIKUS,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+UZASIZ,Pt,4.0,square_planar,valid,,5d,True
+VOCLEF,Pt,6.0,octahedral,valid,,5d,True
+WEJMIH,Re,6.0,octahedral,valid,,5d,True
+WUPVEI,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+XENVEU,Fe,7.0,pentagonal_bipyramidal,valid,,3d,True
+XUKPIC,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+YIXGAO,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+ZARLAI,Ir,3.0,trigonal_planar,no valid isomer,other connectivity change,5d,False
+ZUXGIL,V,5.0,trigonal_bipyramidal,valid,,3d,True
+ALUYIR,Pt,2.0,linear,valid,,5d,True
+BARTOF,Fe,4.0,square_planar,no valid isomer,donor left the metal,3d,False
+BOXHUR,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+CEPZIG,Os,8.0,dodecahedral,valid,,5d,True
+CPHXIR,Ir,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+DEWDES,Ir,7.0,pentagonal_bipyramidal,valid,,5d,True
+DUQQUD,V,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ERUPUD,Zr,6.0,octahedral,valid,,4d,True
+FEWBOZ,Rh,6.0,octahedral,no valid isomer,predicted CN differs from crystal,4d,False
+GACTEL,Au,3.0,trigonal_planar,valid,,5d,True
+GOGQIC,Tc,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+HEHGIK,Pt,6.0,trigonal_bipyramidal,valid,,5d,True
+HURXAU,Mo,6.0,octahedral,valid,,4d,True
+IRERIH,Zn,4.0,tetrahedral,valid,,3d,True
+JEQSIL,Zn,5.0,square_pyramidal,valid,,3d,True
+KAHBEA,Pt,4.0,square_planar,valid,,5d,True
+KILTEI,Cu,3.0,trigonal_planar,valid,,3d,True
+LAWJEZ,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+LOWXAW,Ti,8.0,dodecahedral,valid,,3d,True
+MERZOB,W,5.0,square_pyramidal,valid,,5d,True
+MUVDAJ,W,6.0,octahedral,valid,,5d,True
+NINJUP,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+OHUTOD,Co,6.0,octahedral,valid,,3d,True
+PAWZAP,V,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+PONJIL,Mn,8.0,dodecahedral,no valid isomer,other connectivity change,3d,False
+QEFPIA,Rh,6.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+QUGZIB,Os,6.0,octahedral,valid,,5d,True
+RESBUO,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+RUZKOP,Pd,4.0,square_planar,valid,,4d,True
+SOCBER,Fe,8.0,dodecahedral,valid,,3d,True
+TAVJIJ,Au,3.0,trigonal_planar,valid,,5d,True
+TOQKEQ,Pt,5.0,square_pyramidal,valid,,5d,True
+UHONUA,Os,8.0,dodecahedral,valid,,5d,True
+UZEXON,Co,3.0,trigonal_planar,valid,,3d,True
+VOGGUV,Sc,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+WEKBIX,Ti,4.0,tetrahedral,valid,,3d,True
+WUPXIO,Zn,4.0,tetrahedral,valid,,3d,True
+XENWIZ,Zn,7.0,pentagonal_bipyramidal,valid,,3d,True
+XULCEM,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+YIXTOO,Ru,8.0,dodecahedral,valid,,4d,True
+ZASMUE,Rh,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+AMEFUW,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+BARVAU,Zr,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+BPOHGB,Hg,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+CEQDUY,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+CPTOMN,Mn,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,3d,False
+DEYMIE,V,7.0,pentagonal_bipyramidal,valid,,3d,True
+DUWNUF,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+ERUQAK,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+FEWPON,Zn,5.0,square_pyramidal,not built,no donor predicted for a ligand,3d,False
+GAGSEO,Os,9.0,tricapped_trigonal_prism,valid,,5d,True
+GOHCUE,Ru,8.0,square_antiprism,valid,,4d,True
+HEHJOW,Co,4.0,square_planar,valid,,3d,True
+HUSJAG,Ta,9.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+IROJEF,Fe,4.0,tetrahedral,valid,,3d,True
+JERCEO,V,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,3d,False
+KAHGUX,Ir,8.0,dodecahedral,valid,,5d,True
+KINYAL,Re,7.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+LAWNAY,Ti,4.0,tetrahedral,valid,,3d,True
+LOYXIG,Cu,3.0,trigonal_planar,no valid isomer,other connectivity change,3d,False
+MEXMUZ,Nb,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,4d,False
+NABSIS,Mn,6.0,trigonal_bipyramidal,valid,,3d,True
+NIPXOB,Ir,6.0,square_pyramidal,valid,,5d,True
+OJEGER,Os,8.0,square_antiprism,valid,,5d,True
+PAXGUT,Ni,6.0,octahedral,valid,,3d,True
+POQKEO,Ir,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+QEFSAY,Sc,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+QUHDUT,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+RESCAT,Ni,6.0,octahedral,valid,,3d,True
+RUZSAI,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+SODXIT,Re,5.0,trigonal_bipyramidal,valid,,5d,True
+TAWHAB,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+TOQVAX,Y,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+UJABEM,W,6.0,octahedral,valid,,5d,True
+UZIWIM,Zn,6.0,octahedral,valid,,3d,True
+VOKYAX,Tc,6.0,octahedral,valid,,4d,True
+WEKTEN,Y,5.0,trigonal_bipyramidal,valid,,4d,True
+WUSFUL,Mo,5.0,trigonal_bipyramidal,valid,,4d,True
+XEQDAZ,Ru,6.0,octahedral,valid,,4d,True
+XUQCOC,W,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+YIZHIY,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+ZAVPEU,Sc,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+AMIGUZ,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+BASLOW,Cu,5.0,trigonal_bipyramidal,valid,,3d,True
+BUDZUX,Y,9.0,tricapped_trigonal_prism,valid,,4d,True
+CESPEX,Zr,5.0,square_pyramidal,valid,,4d,True
+CSBRHB,Rh,7.0,pentagonal_bipyramidal,valid,,4d,True
+DEZGOH,Zn,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+DUXQUJ,Cd,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+ESEHAL,Mo,6.0,octahedral,valid,,4d,True
+FEWVIN,Pt,4.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+GAJHUV,Ag,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+GOLHOE,Rh,6.0,octahedral,valid,,4d,True
+HEKFAH,Ni,4.0,square_planar,valid,,3d,True
+HUYVOO,Mo,4.0,tetrahedral,valid,,4d,True
+ISAKAP,Ag,5.0,square_pyramidal,not built,no donor predicted for a ligand,4d,False
+JERXOU,Zn,3.0,trigonal_planar,not built,no donor predicted for a ligand,3d,False
+KAKJUF,Pt,5.0,square_pyramidal,valid,,5d,True
+KIRCOG,Co,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+LAXJID,Mn,9.0,square_antiprism,valid,,3d,True
+LOYZUW,Ru,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+MEXWOB,Rh,5.0,square_pyramidal,valid,,4d,True
+NACQAM,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+NIRKUU,V,8.0,dodecahedral,valid,,3d,True
+OJETIH,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+PEBQUJ,Cu,4.0,tetrahedral,valid,,3d,True
+POSVIC,Ni,5.0,square_pyramidal,valid,,3d,True
+QEFTOK,Pd,5.0,square_pyramidal,valid,,4d,True
+QUMLEP,Pt,4.0,trigonal_planar,valid,,5d,True
+REVDEB,Rh,8.0,dodecahedral,no valid isomer,other connectivity change,4d,False
+RUZVOX,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+SOGJAC,Fe,6.0,octahedral,valid,,3d,True
+TAWHOP,Mo,8.0,dodecahedral,valid,,4d,True
+TORNOE,Cd,6.0,octahedral,not built,no donor predicted for a ligand,4d,False
+UJAJEX,Ta,8.0,dodecahedral,valid,,5d,True
+UZOREI,Y,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+VOLCOQ,Mo,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+WEKZUH,W,6.0,octahedral,valid,,5d,True
+WUVZAQ,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+XEQPUF,W,6.0,octahedral,valid,,5d,True
+XURYAN,Y,5.0,trigonal_bipyramidal,valid,,4d,True
+YIZXIQ,Ni,3.0,trigonal_planar,valid,,3d,True
+ZEBJAR,Re,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+AMINUG,Ni,4.0,square_planar,no valid isomer,predicted CN differs from crystal,3d,False
+BATKOX,Pt,4.0,cn4,no valid isomer,predicted CN differs from crystal,5d,False
+BUFJUJ,Mo,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+CETCRE,Re,7.0,pentagonal_bipyramidal,valid,,5d,True
+CUBDOT,Ag,5.0,trigonal_bipyramidal,valid,,4d,True
+DEZQIJ,Y,9.0,tricapped_trigonal_prism,valid,,4d,True
+DUYZII,Cr,4.0,square_planar,valid,,3d,True
+ESEJER,Os,6.0,tetrahedral,valid,,5d,True
+FEYPUU,Au,3.0,trigonal_planar,valid,,5d,True
+GAKDIF,Hg,4.0,tetrahedral,valid,,5d,True
+GOLMAW,Co,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+HELSID,Rh,6.0,square_pyramidal,valid,,4d,True
+IBAVIU,Ag,4.0,tetrahedral,not built,no donor predicted for a ligand,4d,False
+ISAPUO,Rh,5.0,square_planar,valid,,4d,True
+JESJOG,Os,6.0,octahedral,valid,,5d,True
+KALWON,Ru,8.0,dodecahedral,no valid isomer,donor left the metal,4d,False
+KISYOA,Cr,7.0,pentagonal_bipyramidal,valid,,3d,True
+LAYCAR,Hg,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+LOZWIJ,Cr,4.0,square_planar,valid,,3d,True
+MEZSEP,W,5.0,square_pyramidal,valid,,5d,True
+NADPOX,Cu,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+NIXCUU,V,4.0,tetrahedral,valid,,3d,True
+OJONAE,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+PECHIR,Mn,6.0,square_pyramidal,valid,,3d,True
+POVQOH,Ti,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+QEHKIY,Mn,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+QUNFIQ,Ni,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+REVQAL,Rh,4.0,square_planar,valid,,4d,True
+SABDOP,Tc,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+SOJCAX,Sc,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+TAXSUI,Fe,8.0,square_antiprism,valid,,3d,True
+TORNUK,Hg,6.0,octahedral,not built,no donor predicted for a ligand,5d,False
+UJAMEZ,Co,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+UZUGAZ,W,6.0,octahedral,valid,,5d,True
+VOLCUW,Mo,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+WEPBIC,Re,5.0,square_pyramidal,valid,,5d,True
+WUWJOP,Pd,3.0,trigonal_planar,valid,,4d,True
+XEQSET,Y,5.0,trigonal_bipyramidal,valid,,4d,True
+XUSMON,Pd,4.0,square_planar,no valid isomer,donor left the metal,4d,False
+YOBQOX,Cr,6.0,octahedral,valid,,3d,True
+ZEDJOK,Y,5.0,trigonal_bipyramidal,valid,,4d,True
+AMOPIB,Re,5.0,square_pyramidal,no valid isomer,other connectivity change,5d,False
+BAVCUX,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+BUFMAT,Ir,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+CEXJEW,Mn,6.0,octahedral,valid,,3d,True
+CUBPIA,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+DIBRIR,Mo,6.0,octahedral,valid,,4d,True
+DUZJAL,Ru,6.0,octahedral,no valid isomer,predicted CN differs from crystal,4d,False
+ETIVUZ,Cu,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+FEYRAC,Au,3.0,trigonal_planar,no valid isomer,donor left the metal,5d,False
+GAKQAK,Os,9.0,tricapped_trigonal_prism,valid,,5d,True
+GONJOL,Zn,5.0,square_pyramidal,valid,,3d,True
+HEMDEI,V,6.0,octahedral,valid,,3d,True
+IBEFUT,Ru,5.0,square_pyramidal,valid,,4d,True
+ISELUN,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+JEVHOH,Pt,4.0,square_planar,valid,,5d,True
+KAMYIJ,Pt,4.0,square_planar,valid,,5d,True
+KITFIF,Fe,5.0,square_pyramidal,valid,,3d,True
+LAYDEW,Re,6.0,octahedral,valid,,5d,True
+LUBVIQ,V,6.0,octahedral,valid,,3d,True
+MIBPEW,Re,9.0,tricapped_trigonal_prism,valid,,5d,True
+NADSIU,Fe,6.0,octahedral,valid,,3d,True
+NOCCIT,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+OKAPUL,Au,2.0,linear,valid,,5d,True
+PEDFUZ,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+POWXUU,Rh,6.0,octahedral,valid,,4d,True
+QEHNOI,Ir,8.0,dodecahedral,no valid isomer,donor left the metal,5d,False
+QUQYOR,Ru,6.0,octahedral,valid,,4d,True
+REXZEZ,Au,2.0,linear,valid,,5d,True
+SADGUZ,Tc,6.0,octahedral,valid,,4d,True
+SOJMUA,Ru,6.0,tetrahedral,valid,,4d,True
+TAZQUH,Ir,5.0,square_pyramidal,no valid isomer,other connectivity change,5d,False
+TOWCIR,Ni,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+UJECUJ,Cd,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+VADTIH,Fe,4.0,tetrahedral,valid,,3d,True
+VOLRUK,Nb,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+WEQWUL,Rh,8.0,dodecahedral,no valid isomer,donor left the metal,4d,False
+WUWNOT,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+XERTUK,Y,9.0,tricapped_trigonal_prism,not built,no donor predicted for a ligand,4d,False
+XUZCIF,V,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+YOFQOC,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ZEGDIY,Fe,8.0,dodecahedral,valid,,3d,True
+AMOVIK,W,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,5d,False
+BAXBOT,Mo,6.0,octahedral,valid,,4d,True
+BUFQOJ,Cu,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+CEXVUW,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+CUFLUK,Pd,4.0,square_planar,valid,,4d,True
+DICLOT,Ti,6.0,octahedral,valid,,3d,True
+EBATAC,Os,6.0,octahedral,valid,,5d,True
+ETOCUM,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+FEYYOA,Ni,6.0,octahedral,valid,,3d,True
+GALZAU,Zr,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+GONTIM,Mn,6.0,octahedral,valid,,3d,True
+HENTUS,Mn,6.0,octahedral,valid,,3d,True
+IBEJAD,Ag,3.0,trigonal_planar,valid,,4d,True
+ISIXOX,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+JEVNED,Tc,6.0,octahedral,valid,,4d,True
+KAPJAP,Mn,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+KITXUG,Os,5.0,trigonal_bipyramidal,valid,,5d,True
+LAYKUT,Ru,6.0,square_pyramidal,valid,,4d,True
+LUFRUA,Ir,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+MIBZEG,Ir,4.0,square_planar,valid,,5d,True
+NADZOK,Rh,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+NODHUK,Cr,4.0,square_planar,valid,,3d,True
+OKIJUQ,Cr,4.0,square_planar,valid,,3d,True
+PEDHOW,Pd,4.0,square_planar,valid,,4d,True
+POWYAB,Rh,6.0,octahedral,valid,,4d,True
+QEHQEB,Ir,8.0,dodecahedral,no valid isomer,donor left the metal,5d,False
+QURGIV,Zn,6.0,octahedral,valid,,3d,True
+REYFEG,Ni,4.0,square_planar,valid,,3d,True
+SAJQAW,Mo,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+SOJYEW,Ru,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,4d,False
+TCNTRU,Ru,6.0,octahedral,valid,,4d,True
+TOXFAP,Cu,4.0,tetrahedral,no valid isomer,other connectivity change,3d,False
+UJEHIB,W,6.0,octahedral,valid,,5d,True
+VAFDIP,Co,5.0,tetrahedral,valid,,3d,True
+VONFUA,Ru,9.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+WEQXIA,Rh,8.0,dodecahedral,no valid isomer,donor left the metal,4d,False
+WUWQOU,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+XERXEX,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+XUZMAI,Cr,4.0,tetrahedral,valid,,3d,True
+YOFZEY,Os,6.0,square_planar,valid,,5d,True
+ZEGGUN,Mn,5.0,trigonal_bipyramidal,valid,,3d,True
+APUTEM,Fe,6.0,octahedral,valid,,3d,True
+BAYYAC,Rh,7.0,pentagonal_bipyramidal,valid,,4d,True
+BUGYIN,Ti,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+CEXWAD,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+CUFRAY,Mo,9.0,dodecahedral,valid,,4d,True
+DIDREN,Ti,8.0,dodecahedral,valid,,3d,True
+EBAZUG,Rh,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+ETPHCR,Cr,6.0,octahedral,valid,,3d,True
+FICMEJ,Re,6.0,square_pyramidal,valid,,5d,True
+GAMLEN,W,8.0,square_antiprism,no valid isomer,donor left the metal,5d,False
+GORYIV,Mn,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+HEPBIN,Cd,5.0,square_pyramidal,valid,,4d,True
+IBIWID,Rh,4.0,square_planar,valid,,4d,True
+ISIXUD,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+JEYROU,Mo,4.0,tetrahedral,valid,,4d,True
+KAPKIV,Nb,7.0,pentagonal_bipyramidal,valid,,4d,True
+KIZWOF,Cr,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+LAYPUY,Au,5.0,square_pyramidal,valid,,5d,True
+LUFXUF,W,6.0,octahedral,valid,,5d,True
+MIDJEQ,W,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+NAGDOO,Ru,6.0,trigonal_bipyramidal,valid,,4d,True
+NOKBEV,Rh,5.0,square_planar,valid,,4d,True
+OKOJOQ,Cd,6.0,octahedral,valid,,4d,True
+PEDHOZ,Fe,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+POZZAF,Re,6.0,octahedral,valid,,5d,True
+QEHSOP,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+QURMAR,W,5.0,square_pyramidal,valid,,5d,True
+REYXID,W,6.0,octahedral,valid,,5d,True
+SAKXIP,Re,8.0,dodecahedral,no valid isomer,other connectivity change,5d,False
+SOLYOJ,Zn,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,3d,False
+TEBQIA,Zr,6.0,octahedral,valid,,4d,True
+TOZFAS,Mn,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+UJELOL,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+VAGCAJ,Fe,3.0,trigonal_planar,valid,,3d,True
+VORQUQ,Cd,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+WETKIQ,Ni,4.0,square_planar,valid,,3d,True
+WUXJUV,Hg,2.0,linear,valid,,5d,True
+XETCAD,Co,5.0,square_pyramidal,valid,,3d,True
+YACGIT,Cd,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+YOGBEB,Tc,5.0,trigonal_bipyramidal,valid,,4d,True
+ZEGJIE,Fe,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+AQEROD,Zn,6.0,octahedral,valid,,3d,True
+BEHYUM,Ru,8.0,dodecahedral,valid,,4d,True
+BUKKOK,Os,4.0,tetrahedral,valid,,5d,True
+CEYBER,Ni,4.0,tetrahedral,no valid isomer,other connectivity change,3d,False
+CUJHOF,Ru,6.0,square_planar,no valid isomer,predicted CN differs from crystal,4d,False
+DIDXEU,Mn,6.0,octahedral,valid,,3d,True
+ECINUA,Pt,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+EVAGEN,Rh,4.0,square_planar,valid,,4d,True
+FIDXUP,Ir,5.0,square_pyramidal,valid,,5d,True
+GANCEG,Zr,8.0,dodecahedral,valid,,4d,True
+GOTQOX,Mn,6.0,octahedral,valid,,3d,True
+HEPHOD,Sc,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+IBOJIW,Au,3.0,trigonal_planar,valid,,5d,True
+ISOSOA,Hg,4.0,tetrahedral,valid,,5d,True
+JIHTAZ,Rh,7.0,pentagonal_bipyramidal,valid,,4d,True
+KAPLAO,V,6.0,octahedral,valid,,3d,True
+KIZZID,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+LAZGAX,Mn,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+LUGWUI,Mo,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+MIJKIZ,Rh,5.0,square_pyramidal,valid,,4d,True
+NAGQEU,Fe,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+NOKWEQ,Mo,4.0,tetrahedral,valid,,4d,True
+OMAHOZ,Ni,6.0,octahedral,not built,no donor predicted for a ligand,3d,False
+PEFPIZ,Cr,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+PUBJUS,Ta,5.0,square_pyramidal,no valid isomer,donor left the metal,5d,False
+QEKVAD,Os,6.0,octahedral,valid,,5d,True
+QUSTUV,V,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+RIDJUK,Fe,8.0,dodecahedral,valid,,3d,True
+SAKXUB,Re,8.0,square_antiprism,no valid isomer,donor left the metal,5d,False
+SONLUC,Os,5.0,square_pyramidal,valid,,5d,True
+TEDJER,Cr,6.0,octahedral,valid,,3d,True
+TOZREF,V,5.0,cn5,no valid isomer,predicted CN differs from crystal,3d,False
+UJELUR,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+VALREI,Rh,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+VOWHIA,Ni,6.0,octahedral,valid,,3d,True
+WEVPIZ,Zn,4.0,trigonal_planar,valid,,3d,True
+WUYREN,Mo,4.0,tetrahedral,valid,,4d,True
+XETGUA,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+YAFSAC,Ni,4.0,square_planar,valid,,3d,True
+YOGTAQ,V,6.0,octahedral,valid,,3d,True
+ZEGYOZ,Ru,8.0,dodecahedral,valid,,4d,True
+ACAZFE,Fe,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+ATAWOJ,Hg,5.0,square_pyramidal,valid,,5d,True
+BETLIX,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+BUWZIF,Mo,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+CIGBOK,Zr,4.0,tetrahedral,valid,,4d,True
+DACTOQ,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+DITRAC,Ir,7.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+EHALAB,Mo,4.0,trigonal_planar,valid,,4d,True
+FACHUP,Pt,6.0,octahedral,valid,,5d,True
+FOCKIU,Ru,6.0,octahedral,valid,,4d,True
+GERHUJ,Fe,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+GUNDEY,Mn,6.0,octahedral,valid,,3d,True
+HIJHAL,Au,4.0,tetrahedral,valid,,5d,True
+IGATOZ,Ni,8.0,square_antiprism,valid,,3d,True
+IWISAK,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+JIZNUC,Ir,8.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+KAYZET,Co,4.0,tetrahedral,valid,,3d,True
+KORCAY,Hf,4.0,tetrahedral,valid,,5d,True
+LEPZOY,Ru,6.0,octahedral,valid,,4d,True
+LUZHUJ,Ag,3.0,trigonal_planar,valid,,4d,True
+MIWWOF,Fe,6.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+NAYROW,Cr,8.0,square_antiprism,valid,,3d,True
+NUXDOB,Pd,4.0,square_planar,valid,,4d,True
+OTETOX,Re,6.0,octahedral,valid,,5d,True
+PERLON,Nb,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+PUXVOU,Cr,3.0,trigonal_planar,no valid isomer,donor left the metal,3d,False
+QICSOL,Re,6.0,octahedral,valid,,5d,True
+RALPOJ,Ru,8.0,pentagonal_bipyramidal,valid,,4d,True
+RITVOI,Ag,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+SAZFEE,Co,5.0,square_pyramidal,valid,,3d,True
+SOXCUG,Re,6.0,octahedral,valid,,5d,True
+TESBID,V,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+TUNDIQ,Au,2.0,linear,valid,,5d,True
+UMIYUL,Cr,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+VECHOC,W,6.0,octahedral,valid,,5d,True
+WACRAT,Ta,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+WIRTUP,W,5.0,square_pyramidal,valid,,5d,True
+XAMGOH,Zn,4.0,square_planar,valid,,3d,True
+XIVPOI,Os,6.0,square_pyramidal,valid,,5d,True
+YECFIW,Ir,8.0,dodecahedral,valid,,5d,True
+YOYNIK,Fe,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+ZIDTEL,W,6.0,octahedral,valid,,5d,True
+AQOMUP,Hf,6.0,octahedral,valid,,5d,True
+BEJKOQ,Pd,6.0,octahedral,valid,,4d,True
+BUKYIR,Hg,3.0,trigonal_planar,valid,,5d,True
+CEZJEY,Ru,8.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+CUMPCO,Co,6.0,octahedral,valid,,3d,True
+DIFQER,Pd,4.0,square_planar,valid,,4d,True
+ECOQIW,Au,4.0,square_planar,valid,,5d,True
+EVISAE,Mo,6.0,octahedral,valid,,4d,True
+FIHTEV,Fe,8.0,dodecahedral,valid,,3d,True
+GANCIK,Hf,8.0,dodecahedral,valid,,5d,True
+GOVTUI,Nb,5.0,square_pyramidal,valid,,4d,True
+HEPVEH,Cu,4.0,tetrahedral,valid,,3d,True
+IBUKID,Mn,8.0,dodecahedral,valid,,3d,True
+ISUCOO,Nb,7.0,pentagonal_bipyramidal,valid,,4d,True
+JIKTEC,Pt,4.0,square_planar,valid,,5d,True
+KARDOA,Fe,4.0,square_planar,valid,,3d,True
+KOBTAA,Zr,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,4d,False
+LAZYOA,Cu,4.0,square_planar,valid,,3d,True
+LUJVUK,Cu,3.0,trigonal_planar,valid,,3d,True
+MIJLIB,Hf,6.0,octahedral,not built,no donor predicted for a ligand,5d,False
+NAJWOK,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+NOPZUN,Cu,5.0,square_pyramidal,valid,,3d,True
+OMEDAM,Re,9.0,tricapped_trigonal_prism,valid,,5d,True
+PEFXII,Cr,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,3d,False
+PUBKAZ,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+QELZOZ,V,7.0,pentagonal_bipyramidal,valid,,3d,True
+QUTGUH,Rh,4.0,square_planar,valid,,4d,True
+RIFRUT,V,4.0,tetrahedral,no valid isomer,donor left the metal,3d,False
+SAMLUO,W,5.0,trigonal_bipyramidal,valid,,5d,True
+SONPUI,Pd,4.0,square_planar,valid,,4d,True
+TEGVEG,Ru,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+TROPSC,Sc,6.0,octahedral,valid,,3d,True
+UJEMEC,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+VANHUN,Ir,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+VUFXIE,Au,5.0,trigonal_bipyramidal,valid,,5d,True
+WEXVAW,Fe,6.0,octahedral,valid,,3d,True
+XABBIM,W,6.0,octahedral,valid,,5d,True
+XICCET,Hf,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+YAHMAZ,Au,3.0,trigonal_planar,valid,,5d,True
+YOHQAO,V,8.0,dodecahedral,valid,,3d,True
+ZEJQEM,Pd,4.0,square_planar,no valid isomer,donor left the metal,4d,False
+AQUGEY,Fe,4.0,trigonal_planar,valid,,3d,True
+BEJQOA,Fe,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+BULNAZ,Mo,4.0,tetrahedral,no valid isomer,other connectivity change,4d,False
+CEZLUP,Pd,4.0,square_planar,valid,,4d,True
+CUMTUC,Ni,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+DIFRUI,Sc,4.0,tetrahedral,valid,,3d,True
+ECORIA,Re,8.0,dodecahedral,valid,,5d,True
+EVOVUH,V,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+FIJKOB,Ru,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+GAQYEC,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+GOWSUI,Mn,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+HETLEX,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+ICACEU,W,4.0,tetrahedral,valid,,5d,True
+ITAHIU,Nb,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+JILLOI,Zr,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+KARPOJ,Re,5.0,square_pyramidal,valid,,5d,True
+KOBWEF,Ir,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,5d,False
+LECFAE,Rh,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+LUKCUP,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+MIKBIS,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+NAKWUS,Mn,6.0,octahedral,valid,,3d,True
+NOQPER,Co,4.0,tetrahedral,valid,,3d,True
+OMITUZ,Fe,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+PEFXIK,Cd,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+PUDJOO,Rh,4.0,square_planar,valid,,4d,True
+QEMSEH,Ta,7.0,pentagonal_bipyramidal,valid,,5d,True
+QUTNAX,Zn,3.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+RIJQEJ,Hf,4.0,tetrahedral,valid,,5d,True
+SAPROT,Pt,4.0,square_planar,no valid isomer,donor left the metal,5d,False
+SOPVIC,Fe,5.0,square_pyramidal,valid,,3d,True
+TEHRUX,W,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+TUCGAA,Rh,7.0,pentagonal_bipyramidal,valid,,4d,True
+UJUDEJ,Rh,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+VANQEI,Ni,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+VUFXOK,Au,5.0,square_pyramidal,valid,,5d,True
+WEZDUC,Ti,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+XABSOK,Cu,4.0,square_planar,valid,,3d,True
+XICDOE,Pd,2.0,linear,valid,,4d,True
+YAPFIF,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+YOJXEA,Ru,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+ZEKXES,W,5.0,square_pyramidal,valid,,5d,True
+ARARER,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+BEJTEQ,Ru,6.0,octahedral,valid,,4d,True
+BULNIH,Mo,4.0,tetrahedral,no valid isomer,other connectivity change,4d,False
+CEZMID,Co,6.0,octahedral,valid,,3d,True
+CUMYOY,W,5.0,trigonal_bipyramidal,valid,,5d,True
+DIFSET,Sc,4.0,tetrahedral,valid,,3d,True
+EDODOR,Os,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,5d,False
+EVOXIX,Os,5.0,square_pyramidal,valid,,5d,True
+FIKQUP,Tc,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+GAWYUB,Ag,5.0,trigonal_bipyramidal,valid,,4d,True
+GOWTET,Mn,5.0,square_pyramidal,valid,,3d,True
+HEVBAM,Rh,6.0,octahedral,valid,,4d,True
+ICIKOX,Cr,4.0,square_planar,no valid isomer,other connectivity change,3d,False
+ITAJES,Nb,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+JIMSUX,W,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,5d,False
+KATJUN,Hg,3.0,trigonal_planar,valid,,5d,True
+KOCZIL,V,7.0,pentagonal_bipyramidal,valid,,3d,True
+LECFUX,Ir,5.0,square_pyramidal,valid,,5d,True
+LUKDAW,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+MIKZIS,Hg,5.0,square_pyramidal,valid,,5d,True
+NAMBIN,Re,6.0,octahedral,valid,,5d,True
+NORSAO,Fe,8.0,square_antiprism,valid,,3d,True
+ONAJET,Ru,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,4d,False
+PEKKID,Ru,8.0,dodecahedral,valid,,4d,True
+PUKHIO,Sc,4.0,tetrahedral,valid,,3d,True
+QENLUT,Ru,6.0,square_pyramidal,valid,,4d,True
+QUTNUO,Au,2.0,linear,valid,,5d,True
+RIJWIU,Cu,2.0,linear,valid,,3d,True
+SAPSOS,Ni,4.0,square_planar,valid,,3d,True
+SOQCUW,W,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,5d,False
+TEHSIM,Mo,6.0,octahedral,valid,,4d,True
+TUCNOU,Zr,6.0,octahedral,valid,,4d,True
+UKARUU,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+VANWUD,Rh,6.0,octahedral,valid,,4d,True
+VUJYEG,Ta,5.0,trigonal_bipyramidal,valid,,5d,True
+WICRIJ,Zn,6.0,octahedral,valid,,3d,True
+XACFUF,Zr,6.0,octahedral,valid,,4d,True
+XIDPEG,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+YAQNOT,Os,5.0,square_pyramidal,no valid isomer,other connectivity change,5d,False
+YOJXEB,Os,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+ZELLUZ,Ag,3.0,trigonal_planar,no valid isomer,other connectivity change,4d,False
+ARIBEK,Fe,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+BEKZUP,Cu,3.0,trigonal_planar,valid,,3d,True
+BULWEK,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+CEZROP,W,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+CUNBEU,Mn,6.0,octahedral,valid,,3d,True
+DIFSIX,Sc,4.0,tetrahedral,valid,,3d,True
+EDOQIZ,Au,2.0,linear,no valid isomer,donor left the metal,5d,False
+EWORAM,Tc,6.0,trigonal_bipyramidal,valid,,4d,True
+FILZOS,Ni,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+GAXZEN,Fe,3.0,trigonal_planar,valid,,3d,True
+GUBCUB,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+HEVDIY,Cr,5.0,trigonal_bipyramidal,valid,,3d,True
+ICOHOX,Fe,4.0,square_planar,valid,,3d,True
+ITAYAE,V,5.0,square_pyramidal,valid,,3d,True
+JIQYAJ,W,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+KATQAA,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+KODMUL,Fe,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+LECZEZ,Ru,6.0,square_pyramidal,valid,,4d,True
+LUSBEH,Y,4.0,tetrahedral,valid,,4d,True
+MIMHEV,Ir,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+NANVAB,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+NOSZIE,Cu,4.0,square_planar,valid,,3d,True
+ONAJIX,Ru,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,4d,False
+PEKNIE,Tc,6.0,octahedral,valid,,4d,True
+PUKLUE,Zn,6.0,octahedral,valid,,3d,True
+QENPOP,Pt,4.0,square_planar,no valid isomer,other connectivity change,5d,False
+QUVQOO,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+RIKCOC,Zr,4.0,tetrahedral,valid,,4d,True
+SAQGAS,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+SOSZAC,W,6.0,octahedral,valid,,5d,True
+TEKVOW,Mo,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+TUCSOA,Ru,8.0,dodecahedral,valid,,4d,True
+UKASUV,Mn,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+VASHUW,Pt,4.0,square_planar,valid,,5d,True
+VUMMUO,Re,4.0,tetrahedral,no valid isomer,donor left the metal,5d,False
+WIFPEG,Cr,6.0,trigonal_bipyramidal,valid,,3d,True
+XAFKUO,Rh,6.0,trigonal_bipyramidal,valid,,4d,True
+XIJFON,Ir,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+YAQZOF,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+YOLNET,Re,7.0,pentagonal_bipyramidal,valid,,5d,True
+ZELSER,Re,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+ARIMEV,Os,6.0,octahedral,valid,,5d,True
+BELCOL,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+BUNYIS,Fe,5.0,tetrahedral,valid,,3d,True
+CEZTUW,Hg,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,5d,False
+CUQNEI,Ru,6.0,octahedral,valid,,4d,True
+DIFTIY,Sc,4.0,tetrahedral,valid,,3d,True
+EDUGAN,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+EXUFEJ,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+FIPPUQ,Tc,6.0,octahedral,no valid isomer,predicted CN differs from crystal,4d,False
+GAYMAU,Mn,5.0,square_pyramidal,valid,,3d,True
+GUBDOW,Re,7.0,pentagonal_bipyramidal,valid,,5d,True
+HEVKEB,Mn,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,3d,False
+ICUCAN,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+ITEREF,Mn,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+JIVJUU,Rh,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+KAVPUW,Ru,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+KOGKAT,Re,6.0,octahedral,valid,,5d,True
+LEFWUS,Tc,5.0,trigonal_bipyramidal,valid,,4d,True
+LUSVIG,Cr,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+MIRYIX,Y,9.0,tricapped_trigonal_prism,not built,no donor predicted for a ligand,4d,False
+NARMOJ,Ti,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+NOWXIG,W,6.0,octahedral,valid,,5d,True
+ONOGEE,Ti,8.0,dodecahedral,valid,,3d,True
+PELNIG,Ag,5.0,trigonal_bipyramidal,valid,,4d,True
+PUKROF,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+QEPDAS,Rh,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+RABJUA,Nb,5.0,trigonal_bipyramidal,valid,,4d,True
+RILHID,Hg,7.0,pentagonal_bipyramidal,valid,,5d,True
+SAQJEB,Ag,2.0,linear,valid,,4d,True
+SOTLET,Fe,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,3d,False
+TEMHEY,V,6.0,octahedral,valid,,3d,True
+TUHMOA,Zn,5.0,trigonal_bipyramidal,valid,,3d,True
+ULAMIE,Ni,4.0,square_planar,valid,,3d,True
+VATHUW,Cd,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+VUPNUS,V,6.0,octahedral,valid,,3d,True
+WIGPOU,Mn,6.0,octahedral,valid,,3d,True
+XAGJIA,Mo,9.0,tricapped_trigonal_prism,no valid isomer,predicted CN differs from crystal,4d,False
+XIKNEO,Y,6.0,octahedral,valid,,4d,True
+YARRAK,Co,8.0,square_antiprism,valid,,3d,True
+YOMGEO,Cd,8.0,square_antiprism,not built,no donor predicted for a ligand,4d,False
+ZELTIW,Re,8.0,dodecahedral,no valid isomer,donor left the metal,5d,False
+ARIQID,Fe,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+BELCUR,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+BUPBEU,Zr,7.0,pentagonal_bipyramidal,valid,,4d,True
+CFBXMO,Mo,9.0,tricapped_trigonal_prism,valid,,4d,True
+CUSBOI,Hg,5.0,trigonal_bipyramidal,valid,,5d,True
+DIHNIT,Pt,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+EFOLOD,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+EXUWOK,Re,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+FIQTOQ,Pd,4.0,square_planar,valid,,4d,True
+GAYNEZ,Tc,5.0,square_pyramidal,valid,,4d,True
+GUFFUI,Cd,4.0,tetrahedral,valid,,4d,True
+HEVKOL,Mn,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,3d,False
+ICUZEN,Pd,6.0,octahedral,valid,,4d,True
+ITIFEY,Ti,8.0,dodecahedral,valid,,3d,True
+JIXWIA,Sc,4.0,tetrahedral,valid,,3d,True
+KAWBUJ,Sc,5.0,square_pyramidal,valid,,3d,True
+KOHDER,Pt,3.0,trigonal_planar,valid,,5d,True
+LEGBEE,Cu,4.0,square_planar,valid,,3d,True
+LUTFAK,Pt,4.0,square_planar,valid,,5d,True
+MISDAV,W,6.0,octahedral,valid,,5d,True
+NASJOH,Fe,3.0,trigonal_planar,valid,,3d,True
+NUGWER,Ta,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+OPAGIW,Hg,2.0,linear,valid,,5d,True
+PEMLAX,Rh,6.0,tetrahedral,valid,,4d,True
+PUMDEH,Re,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+QERNEG,Mn,6.0,octahedral,valid,,3d,True
+RADYAW,Ru,5.0,square_planar,valid,,4d,True
+RILJIH,Pd,4.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,4d,False
+SATDID,Tc,6.0,octahedral,valid,,4d,True
+SOTSAW,Hf,7.0,pentagonal_bipyramidal,valid,,5d,True
+TEMKIF,Re,7.0,pentagonal_bipyramidal,valid,,5d,True
+TUHZAA,Ir,4.0,square_planar,valid,,5d,True
+ULONUG,Ti,4.0,tetrahedral,valid,,3d,True
+VAVGAA,Hg,2.0,linear,no valid isomer,predicted CN differs from crystal,5d,False
+VUTSAG,Ir,4.0,square_planar,valid,,5d,True
+WIHPEI,Rh,4.0,square_planar,valid,,4d,True
+XAGNUR,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+XILMAI,Ti,6.0,octahedral,valid,,3d,True
+YASSIU,Co,6.0,octahedral,valid,,3d,True
+YOMRUN,Tc,6.0,octahedral,valid,,4d,True
+ZEMSES,Cu,4.0,square_planar,valid,,3d,True
+ARORAD,Zr,7.0,pentagonal_bipyramidal,not built,unsupported coordination number,4d,False
+BELDAY,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+BUPNOP,Ru,8.0,dodecahedral,valid,,4d,True
+CIBDUN,Hg,3.0,trigonal_planar,valid,,5d,True
+CUTDAY,Ir,6.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+DIHRIX,Cd,5.0,square_pyramidal,valid,,4d,True
+EFUKEX,Hg,4.0,tetrahedral,valid,,5d,True
+EYEPOO,Ru,6.0,square_planar,no valid isomer,predicted CN differs from crystal,4d,False
+FIQXOV,Ir,5.0,square_pyramidal,valid,,5d,True
+GEBVER,Fe,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+GUFKEZ,Ru,7.0,pentagonal_bipyramidal,valid,,4d,True
+HIBVOG,W,6.0,octahedral,valid,,5d,True
+IDATAL,V,6.0,octahedral,valid,,3d,True
+ITUWUP,Y,9.0,tricapped_trigonal_prism,not built,no donor predicted for a ligand,4d,False
+JIXYAR,Zr,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+KAXMIF,Co,3.0,trigonal_planar,valid,,3d,True
+KOJBAO,Cr,4.0,tetrahedral,valid,,3d,True
+LEHVEA,Co,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+LUTVIF,Fe,4.0,square_planar,no valid isomer,donor left the metal,3d,False
+MITDAW,Mo,6.0,octahedral,valid,,4d,True
+NAVFEV,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+NULNEN,Nb,6.0,octahedral,not built,no donor predicted for a ligand,4d,False
+OPUHEN,Re,6.0,octahedral,valid,,5d,True
+PENGAT,Ir,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,5d,False
+PUMXIH,Re,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+QEVBUO,Rh,5.0,tetrahedral,valid,,4d,True
+RAHBUY,Cu,3.0,trigonal_planar,valid,,3d,True
+RILRUC,Y,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+SAVLAC,Zr,4.0,square_planar,valid,,4d,True
+SOWBEO,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+TEMTOU,V,5.0,square_pyramidal,valid,,3d,True
+TUJZUT,Ta,5.0,square_pyramidal,valid,,5d,True
+ULUDOV,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+VAWKUD,W,6.0,octahedral,valid,,5d,True
+VUTSEK,Cr,3.0,trigonal_planar,valid,,3d,True
+WIJKOP,W,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+XAHNOK,Hf,6.0,octahedral,valid,,5d,True
+XILPUH,Y,7.0,pentagonal_bipyramidal,valid,,4d,True
+YATYOJ,Pt,6.0,octahedral,valid,,5d,True
+YOPSIF,Zn,4.0,square_planar,valid,,3d,True
+ZENFIK,Pd,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+ARUQEL,Nb,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+BELGUW,Zn,4.0,tetrahedral,valid,,3d,True
+BURCAV,Hg,4.0,tetrahedral,no valid isomer,other connectivity change,5d,False
+CIBYEU,Ag,4.0,tetrahedral,valid,,4d,True
+CUWGIM,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+DIJFAD,Mo,6.0,octahedral,valid,,4d,True
+EFUWAD,Pd,4.0,square_planar,valid,,4d,True
+EYEVUZ,Pt,4.0,tetrahedral,no valid isomer,donor left the metal,5d,False
+FIVBES,Fe,5.0,trigonal_bipyramidal,valid,,3d,True
+GEDTOY,W,5.0,trigonal_bipyramidal,valid,,5d,True
+GUFQAA,Fe,6.0,octahedral,valid,,3d,True
+HIGWOM,Ru,5.0,square_pyramidal,no valid isomer,other connectivity change,4d,False
+IDELIN,Ru,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+IVAQAX,Mo,6.0,octahedral,valid,,4d,True
+JIYKEL,Sc,4.0,tetrahedral,valid,,3d,True
+KAXNAY,Ta,6.0,octahedral,valid,,5d,True
+KOKHEY,Cd,8.0,dodecahedral,not built,no donor predicted for a ligand,4d,False
+LEMJEV,Ni,4.0,tetrahedral,valid,,3d,True
+LUWQEA,V,4.0,tetrahedral,no valid isomer,donor left the metal,3d,False
+MITQIP,Pd,4.0,square_planar,valid,,4d,True
+NAVGEW,Fe,8.0,dodecahedral,valid,,3d,True
+NURJUF,Pd,5.0,square_pyramidal,valid,,4d,True
+ORONOZ,Cr,6.0,octahedral,valid,,3d,True
+PENJIF,Fe,3.0,trigonal_planar,valid,,3d,True
+PUNFAF,W,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+QEWDEC,Ir,7.0,pentagonal_bipyramidal,valid,,5d,True
+RAHLUI,Re,5.0,trigonal_bipyramidal,valid,,5d,True
+RINHED,Re,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,5d,False
+SAVMAD,Ir,4.0,square_planar,valid,,5d,True
+SOWBIQ,Pt,4.0,square_planar,valid,,5d,True
+TEPVAL,Mo,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,4d,False
+TUKVOM,Ir,6.0,octahedral,valid,,5d,True
+UMADET,Re,6.0,octahedral,valid,,5d,True
+VAWQAL,Re,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+VUTTAH,Cr,6.0,octahedral,valid,,3d,True
+WIJLEG,W,7.0,pentagonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+XAHRUT,Re,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+XIMXIB,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+YAWZEC,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+YORQUS,Rh,7.0,pentagonal_bipyramidal,valid,,4d,True
+ZEVVUR,Cr,4.0,tetrahedral,valid,,3d,True
+ACNCFE,Fe,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+ATECUZ,Y,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+BEWYEH,Zn,4.0,tetrahedral,valid,,3d,True
+BUYKIP,Rh,5.0,square_pyramidal,valid,,4d,True
+CIGCOK,Au,2.0,linear,valid,,5d,True
+DADMOL,Re,4.0,tetrahedral,valid,,5d,True
+DIVDUH,Nb,6.0,octahedral,valid,,4d,True
+EHOCOU,Sc,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+FADREH,Pt,4.0,linear,valid,,5d,True
+FOCMIW,Cd,8.0,dodecahedral,not built,no donor predicted for a ligand,4d,False
+GESDOY,Sc,6.0,octahedral,valid,,3d,True
+GUNJUX,Pd,6.0,octahedral,valid,,4d,True
+HIJWOP,Pd,3.0,trigonal_planar,valid,,4d,True
+IGAWEV,V,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+IWUFOW,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+JOBKUG,Fe,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+KAZLIH,Mo,6.0,octahedral,valid,,4d,True
+KORWEW,Y,5.0,square_pyramidal,valid,,4d,True
+LERBES,Ir,5.0,square_planar,valid,,5d,True
+MABPUD,W,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+MOBKOE,Fe,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,3d,False
+NEBQOB,Ru,8.0,pentagonal_bipyramidal,valid,,4d,True
+NUZHEW,Sc,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+OTODOR,V,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+PERPIO,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+PUYDAR,Co,6.0,octahedral,valid,,3d,True
+QICZEJ,Pd,4.0,square_planar,valid,,4d,True
+RAMVEI,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+RITXUN,Mo,8.0,square_antiprism,valid,,4d,True
+SECJIU,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+SOYHEW,Co,4.0,square_planar,valid,,3d,True
+TESCAV,Ti,9.0,tricapped_trigonal_prism,valid,,3d,True
+TUNGUF,Ir,6.0,square_pyramidal,valid,,5d,True
+UMUDIP,Os,6.0,octahedral,valid,,5d,True
+VEDQOK,Pd,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+WACTID,Cu,3.0,trigonal_planar,valid,,3d,True
+WIRYUU,Ni,4.0,trigonal_planar,valid,,3d,True
+XAMTIO,Co,8.0,square_antiprism,no valid isomer,donor left the metal,3d,False
+XIWPUQ,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+YECMIF,Ru,6.0,tetrahedral,valid,,4d,True
+YOZFUP,Nb,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+ZIGPIQ,Hg,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,5d,False
+ACUDOT,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+ATEPEV,V,6.0,octahedral,valid,,3d,True
+BHNCOC,Co,7.0,pentagonal_bipyramidal,valid,,3d,True
+CAFLII,Zr,8.0,square_antiprism,valid,,4d,True
+CIGJUZ,Rh,5.0,square_pyramidal,valid,,4d,True
+DAHRUC,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+DIVWEN,Nb,5.0,trigonal_bipyramidal,valid,,4d,True
+EHUJEW,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+FAFWUE,Zr,6.0,octahedral,valid,,4d,True
+FOGLUK,Rh,6.0,trigonal_bipyramidal,valid,,4d,True
+GESKAQ,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+GUQZEZ,V,4.0,tetrahedral,valid,,3d,True
+HILHAN,Rh,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+IGAWUL,V,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+IXIQAI,Ru,6.0,tetrahedral,valid,,4d,True
+JOBZUW,Mo,4.0,tetrahedral,valid,,4d,True
+KEBXIA,Ni,3.0,trigonal_planar,valid,,3d,True
+KOXROG,Hg,4.0,tetrahedral,valid,,5d,True
+LERLEC,Ru,9.0,tricapped_trigonal_prism,valid,,4d,True
+MAGFEJ,Zr,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,4d,False
+MOBSUS,Ag,4.0,square_planar,not built,unsupported coordination number,4d,False
+NEBVEW,Pt,4.0,square_planar,valid,,5d,True
+OBASIV,Mo,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+OTOVOJ,Cu,3.0,trigonal_planar,valid,,3d,True
+PERYUJ,Ni,7.0,pentagonal_bipyramidal,valid,,3d,True
+PUYDEV,Co,6.0,octahedral,valid,,3d,True
+QIHDOC,Pt,3.0,trigonal_planar,valid,,5d,True
+RANDUF,Y,5.0,trigonal_bipyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+RIVQUI,Ni,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+SEDZAE,Tc,6.0,octahedral,valid,,4d,True
+SUBMUA,Os,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,5d,False
+TESQIS,Ag,4.0,tetrahedral,valid,,4d,True
+TUQVUW,Ag,6.0,octahedral,not built,no donor predicted for a ligand,4d,False
+UNAKEB,Mo,6.0,octahedral,valid,,4d,True
+VEFPOO,Ir,6.0,octahedral,valid,,5d,True
+WACWOM,Os,6.0,octahedral,valid,,5d,True
+WISJUG,Ni,3.0,trigonal_planar,valid,,3d,True
+XANHUR,Pd,4.0,square_planar,valid,,4d,True
+XIXHUI,Ru,5.0,square_pyramidal,valid,,4d,True
+YEGGUO,Cr,4.0,square_planar,valid,,3d,True
+YOZHEB,Ir,6.0,square_pyramidal,valid,,5d,True
+ZIHRUD,Re,5.0,trigonal_bipyramidal,valid,,5d,True
+ACURAU,Ir,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+AVOVUC,Mo,6.0,octahedral,valid,,4d,True
+BIBXIU,Ag,3.0,trigonal_planar,valid,,4d,True
+CAFZUE,Re,5.0,square_pyramidal,valid,,5d,True
+CIGNEN,Zn,4.0,tetrahedral,valid,,3d,True
+DAHSAJ,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+DIXVAH,Au,2.0,linear,valid,,5d,True
+EHUYUB,Mo,6.0,octahedral,valid,,4d,True
+FAHQAG,Pd,6.0,octahedral,valid,,4d,True
+FOGZUX,Hg,6.0,octahedral,valid,,5d,True
+GEWHEZ,Re,6.0,octahedral,valid,,5d,True
+GURJOV,Zn,3.0,trigonal_planar,valid,,3d,True
+HILNOH,Rh,6.0,octahedral,no valid isomer,other connectivity change,4d,False
+IGAZAS,Co,6.0,octahedral,valid,,3d,True
+IXISUE,Co,4.0,square_planar,valid,,3d,True
+JOCHIU,Rh,4.0,square_planar,valid,,4d,True
+KEBXOG,Ni,3.0,trigonal_planar,valid,,3d,True
+KOXVAW,Mo,7.0,pentagonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+LESGEV,Mo,9.0,tricapped_trigonal_prism,no valid isomer,donor left the metal,4d,False
+MAHVEZ,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+MOGHOG,Ti,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+NECHAF,W,6.0,octahedral,valid,,5d,True
+OBIKUF,Ti,4.0,cn4,valid,,3d,True
+OVAHUP,Y,6.0,octahedral,valid,,4d,True
+PEXNOW,Re,6.0,octahedral,valid,,5d,True
+PUYDIX,Ir,6.0,octahedral,no valid isomer,predicted CN differs from crystal,5d,False
+QIJCAP,Fe,5.0,square_pyramidal,no valid isomer,other connectivity change,3d,False
+RAPWIS,V,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,3d,False
+RIVSAR,Re,5.0,trigonal_bipyramidal,valid,,5d,True
+SEFSIJ,Zn,6.0,octahedral,no valid isomer,donor left the metal,3d,False
+SUCGEC,Os,6.0,octahedral,valid,,5d,True
+TETBUP,Mo,7.0,pentagonal_bipyramidal,valid,,4d,True
+TUQWUX,Pt,4.0,square_planar,valid,,5d,True
+UNAZUH,Os,6.0,octahedral,valid,,5d,True
+VEFTEI,Pd,3.0,trigonal_planar,valid,,4d,True
+WAFGOD,V,5.0,trigonal_bipyramidal,valid,,3d,True
+WIVBEI,Mo,6.0,octahedral,valid,,4d,True
+XANTEL,W,6.0,octahedral,valid,,5d,True
+XIXVOP,Hf,6.0,octahedral,valid,,5d,True
+YEHJOL,Ag,2.0,linear,no valid isomer,predicted CN differs from crystal,4d,False
+YUBGEH,Tc,6.0,octahedral,valid,,4d,True
+ZIJWAQ,W,6.0,octahedral,valid,,5d,True
+ADEMII,Fe,5.0,square_planar,valid,,3d,True
+AVUBIF,Pd,4.0,square_planar,valid,,4d,True
+BICCIB,Ir,4.0,square_planar,valid,,5d,True
+CAJHEB,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+CIMMER,Pt,5.0,trigonal_bipyramidal,valid,,5d,True
+DALCEA,Mo,9.0,tricapped_trigonal_prism,not built,no donor predicted for a ligand,4d,False
+DOFGAH,Fe,4.0,tetrahedral,valid,,3d,True
+EJANOT,Au,4.0,square_planar,valid,,5d,True
+FAJGON,Mo,5.0,square_pyramidal,valid,,4d,True
+FOKVIN,W,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,5d,False
+GEXXOY,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+GUSQOA,Y,6.0,octahedral,no valid isomer,donor left the metal,4d,False
+HINGUK,Sc,6.0,octahedral,valid,,3d,True
+IGOBUD,Fe,8.0,dodecahedral,valid,,3d,True
+IYENAD,Y,8.0,dodecahedral,valid,,4d,True
+JOCQEZ,Ru,5.0,trigonal_bipyramidal,no valid isomer,other connectivity change,4d,False
+KEDGAC,Rh,5.0,square_pyramidal,valid,,4d,True
+KOZSOH,Cr,9.0,tricapped_trigonal_prism,valid,,3d,True
+LESVOX,Cu,3.0,trigonal_planar,no valid isomer,predicted CN differs from crystal,3d,False
+MAJFIO,Cd,4.0,square_planar,valid,,4d,True
+MOHQEG,Pd,2.0,linear,valid,,4d,True
+NECMEP,Nb,4.0,tetrahedral,no valid isomer,predicted CN differs from crystal,4d,False
+OBIRIA,Re,8.0,square_antiprism,valid,,5d,True
+OVOJAM,Ir,6.0,square_planar,no valid isomer,predicted CN differs from crystal,5d,False
+PIBBAF,Mn,6.0,trigonal_bipyramidal,valid,,3d,True
+PUZNEF,Hg,4.0,tetrahedral,valid,,5d,True
+QIQBUQ,Rh,5.0,square_pyramidal,no valid isomer,predicted CN differs from crystal,4d,False
+RAQSUA,Mo,6.0,octahedral,valid,,4d,True
+RIWYIF,Pd,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+SEGWOQ,Ti,8.0,dodecahedral,valid,,3d,True
+SUCVET,Ir,6.0,octahedral,valid,,5d,True
+TETJUY,Cd,7.0,pentagonal_bipyramidal,not built,no donor predicted for a ligand,4d,False
+TUSFAO,V,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,3d,False
+UNEJAY,Os,4.0,tetrahedral,valid,,5d,True
+VEJBIY,Pd,3.0,trigonal_planar,valid,,4d,True
+WAGCAM,Ir,5.0,trigonal_bipyramidal,valid,,5d,True
+WIVVUT,Mo,4.0,tetrahedral,valid,,4d,True
+XANVEN,Fe,7.0,pentagonal_bipyramidal,valid,,3d,True
+XIYCAK,Hg,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,5d,False
+YEJVOB,Rh,8.0,dodecahedral,no valid isomer,predicted CN differs from crystal,4d,False
+YUCLEP,Ir,6.0,square_pyramidal,valid,,5d,True
+ZIKFEI,Ni,6.0,octahedral,valid,,3d,True
+ADESEH,Ta,6.0,octahedral,valid,,5d,True
+AWOGAV,Zn,5.0,square_pyramidal,valid,,3d,True
+BIGBAW,Ti,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+CAJKEG,Co,5.0,trigonal_bipyramidal,valid,,3d,True
+CIMMIX,Co,8.0,square_antiprism,no valid isomer,donor left the metal,3d,False
+DALLEJ,Mn,8.0,dodecahedral,no valid isomer,other connectivity change,3d,False
+DOGGIQ,Zr,5.0,trigonal_bipyramidal,valid,,4d,True
+EJAPIQ,Ir,6.0,octahedral,valid,,5d,True
+FAJVES,Mn,6.0,square_pyramidal,valid,,3d,True
+FOLKIA,Au,2.0,linear,valid,,5d,True
+GEYMEF,Zn,3.0,trigonal_planar,no valid isomer,donor left the metal,3d,False
+GUTDAD,Rh,6.0,octahedral,valid,,4d,True
+HIQBAK,W,6.0,octahedral,valid,,5d,True
+IGOJEU,Pt,4.0,square_planar,valid,,5d,True
+IYIPEO,Pt,4.0,square_planar,valid,,5d,True
+JOCZEG,Zn,4.0,tetrahedral,valid,,3d,True
+KEDRIU,Mn,9.0,tricapped_trigonal_prism,valid,,3d,True
+KUDLEB,Ru,6.0,octahedral,valid,,4d,True
+LETSUA,Pd,4.0,square_planar,valid,,4d,True
+MAJSOF,Au,4.0,tetrahedral,no valid isomer,donor left the metal,5d,False
+MOJRIN,W,4.0,square_planar,valid,,5d,True
+NEDQIX,Re,8.0,square_antiprism,valid,,5d,True
+OBOLEZ,Au,4.0,tetrahedral,valid,,5d,True
+OVOJUF,Ti,8.0,square_antiprism,valid,,3d,True
+PIFTED,Mo,8.0,dodecahedral,valid,,4d,True
+QABKEL,Ru,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+QISLOU,Ir,6.0,octahedral,no valid isomer,other connectivity change,5d,False
+RARRIL,Co,8.0,dodecahedral,no valid isomer,other connectivity change,3d,False
+RIXJOY,Ru,5.0,square_planar,valid,,4d,True
+SEJGIA,Mo,7.0,pentagonal_bipyramidal,no valid isomer,donor left the metal,4d,False
+SUGPOC,Cd,5.0,trigonal_bipyramidal,valid,,4d,True
+TEVCIK,Ir,5.0,tetrahedral,valid,,5d,True
+TUTLAX,Hg,3.0,trigonal_planar,no valid isomer,other connectivity change,5d,False
+UNEJEC,Os,4.0,tetrahedral,valid,,5d,True
+VEJLED,Fe,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+WAGSOP,V,6.0,octahedral,valid,,3d,True
+WIVWEE,W,4.0,tetrahedral,valid,,5d,True
+XAQSAJ,Ta,6.0,octahedral,no valid isomer,donor left the metal,5d,False
+XIYNIC,W,6.0,octahedral,valid,,5d,True
+YEMSAL,W,9.0,tricapped_trigonal_prism,valid,,5d,True
+YUDXUR,Ir,4.0,square_planar,valid,,5d,True
+ZIPFAF,Mo,6.0,octahedral,valid,,4d,True
+ADINOS,Pd,4.0,square_planar,valid,,4d,True
+AWOQIM,Co,8.0,dodecahedral,valid,,3d,True
+BIGKEI,Mo,5.0,trigonal_bipyramidal,valid,,4d,True
+CAKVEQ,W,6.0,octahedral,valid,,5d,True
+CIPFUE,Pd,4.0,trigonal_planar,valid,,4d,True
+DAMVUI,Cu,3.0,trigonal_planar,valid,,3d,True
+DOHLUI,Ti,6.0,octahedral,valid,,3d,True
+EJOJAO,Pd,2.0,linear,no valid isomer,other connectivity change,4d,False
+FANHUX,Ni,4.0,square_planar,valid,,3d,True
+FONNIF,Tc,5.0,square_pyramidal,no valid isomer,donor left the metal,4d,False
+GICROA,Co,6.0,octahedral,no valid isomer,predicted CN differs from crystal,3d,False
+GUZFEP,Os,9.0,tricapped_trigonal_prism,no valid isomer,other connectivity change,5d,False
+HIQFUI,Pd,4.0,square_planar,valid,,4d,True
+IGUXUD,Ni,4.0,tetrahedral,valid,,3d,True
+IYOQES,W,7.0,pentagonal_bipyramidal,valid,,5d,True
+JODGIV,Fe,4.0,tetrahedral,valid,,3d,True
+KEGFOR,Fe,2.0,linear,valid,,3d,True
+KUDMOM,Os,6.0,octahedral,valid,,5d,True
+LEVKUS,W,6.0,octahedral,valid,,5d,True
+MAJWAV,Ni,4.0,square_planar,valid,,3d,True
+MOKRUZ,Mn,8.0,dodecahedral,valid,,3d,True
+NEGHOZ,V,6.0,octahedral,no valid isomer,other connectivity change,3d,False
+OBOLID,Au,4.0,tetrahedral,no valid isomer,donor left the metal,5d,False
+OWAGUQ,Cr,5.0,trigonal_bipyramidal,no valid isomer,donor left the metal,3d,False
+PIHQUV,Pd,4.0,square_planar,valid,,4d,True
+QADFEG,Pt,4.0,square_planar,valid,,5d,True
+QIVJIP,Co,4.0,square_planar,valid,,3d,True
+RATQUZ,Rh,4.0,square_planar,no valid isomer,other connectivity change,4d,False
+ROCVIQ,Rh,8.0,dodecahedral,no valid isomer,donor left the metal,4d,False
+SEJZEM,Zn,3.0,trigonal_planar,valid,,3d,True
+SULBUW,Rh,4.0,square_planar,valid,,4d,True
+TEZLOZ,Re,5.0,square_pyramidal,no valid isomer,other connectivity change,5d,False
+TUTQII,Au,8.0,dodecahedral,valid,,5d,True
+UNONIV,Ni,4.0,square_planar,valid,,3d,True
+VELCAU,Ir,5.0,square_pyramidal,valid,,5d,True
+WAHMAW,W,6.0,octahedral,valid,,5d,True
+WIWJIV,Rh,7.0,pentagonal_bipyramidal,valid,,4d,True
+XATHIL,Ru,5.0,trigonal_bipyramidal,valid,,4d,True
+XIZHEU,Rh,6.0,octahedral,valid,,4d,True
+YEQBEB,Co,5.0,square_pyramidal,no valid isomer,donor left the metal,3d,False
+YUGHEP,Hg,2.0,linear,valid,,5d,True
+ZISREB,Ag,3.0,trigonal_planar,valid,,4d,True

@@ -1,0 +1,7 @@
+Quantity,MeCoBi,MetalloGen,Architector,molSimplify
+Complexes attempted,100,94,100,100
+Complexes built,100,83,94,65
+Built with the crystal geometry imposed,100,83,77,54
+Stopped at the 900 s limit,0,13,0,3
+"Time per complex (s), median (interquartile range)",12.3 (5–25),263.2 (106–499),42.5 (15–215),28.8 (13–64)
+Total CPU time (h),0.83,9.39,9.87,1.94

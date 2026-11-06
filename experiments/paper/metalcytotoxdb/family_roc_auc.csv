@@ -1,0 +1,13 @@
+family,measurements,complexes,toxic,auc_lightgbm,auc_dimenet,set
+other,1008,430,0.274,0.73,0.751,ru
+DMSO / azole,329,132,0.085,0.742,0.643,ru
+Cp / Cp*,366,144,0.566,0.711,0.779,ru
+phosphine,958,419,0.557,0.87,0.809,ru
+polypyridyl,3135,1060,0.226,0.843,0.831,ru
+η6-arene,5028,2039,0.318,0.766,0.73,ru
+other,7630,2905,0.496,0.766,0.762,multimetal
+DMSO / azole,518,194,0.193,0.76,0.769,multimetal
+Cp / Cp*,1423,640,0.467,0.713,0.681,multimetal
+phosphine,2682,1051,0.631,0.815,0.804,multimetal
+polypyridyl,3550,1128,0.246,0.851,0.849,multimetal
+η6-arene,5751,2277,0.332,0.774,0.732,multimetal

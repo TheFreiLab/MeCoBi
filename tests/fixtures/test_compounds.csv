@@ -1,0 +1,25 @@
+Index,Name,Metal,Charge,L1,L2,L3,L4,L5,L6,class
+1,Cp_Ir_1,Ir,3,CC1=C(C)C(C)C(C)=C1C,COc1ccc(N=Cc2ccccn2)cc1OC,[Cl],,,, Cp_2bi1mono
+2,Cp_Ir_2,Ir,3,CC1=C(C)C(c2cc(F)cc(F)c2)C(C)=C1C,O=[N+]([O-])c1ccc(N=Cc2ccccn2)cc1,[Br],,,,Cp_2bi1mono
+3,Cp_Ir_3,Ir,3,CC1=C(C)C(C)C(C)=C1C,COc1ccc(-c2cccc(N=Cc3ccccn3)c2)cc1,[I],,,,Cp_2bi1mono
+4,Cym_Ru_1,Ru,2,CC1=CC=C(C(C)C)C=C1,COC(=O)c1ccc(-n2cc(-c3ncccc3OC)nn2)cc1,[Cl],,,,Cymene_2bi1mono
+5,Cym_Ru_2,Ru,2,CC1=CC=C(C(C)C)C=C1,COc1cccnc1-c1cn(-c2ccc(Br)cc2)nn1,[Br],,,,Cymene_2bi1mono
+6,Cym_Ru_3,Ru,2,CC1=CC=C(C(C)C)C=C1,COc1cccnc1-c1cn(-c2cc(C)c(Br)c(C)c2)nn1,[I],,,,Cymene_2bi1mono
+7,Octa_Mn_1,Mn,1,COc1ccc(N=Cc2ccccn2)cc1OC,CN1C=NC2=C1C=CC=C2,[C]#[O+],[C]#[O+],[C]#[O+],,octa_1bi4mono
+8,Octa_Re_1,Re,1,O=[N+]([O-])c1ccc(N=Cc2ccccn2)cc1,CN1C=NC2=C1C=CC=C2,[C]#[O+],[C]#[O+],[C]#[O+],,octa_1bi4mono
+9,Octa_Mn_2,Mn,1,COc1cccnc1-c1cn(-c2ccc(F)cc2)nn1,CN1C=NC2=C1C=CC=C2,[C]#[O+],[C]#[O+],[C]#[O+],,octa_1bi4mono
+10,Tris_Ir_1,Ir,3,C1(C2=CC=CC=C2)=NC=CC=C1,C1(C2=CC=CC=C2)=NC=CC=C1,COC(=O)c1ccc(-c2cn(C(C)c3ccccn3)nn2)cc1,,,,octa_3bi
+11,Tris_Co_1,Co,3,C1(C2=CC=CC=C2)=NC=CC=C1,C1(C2=CC=CC=C2)=NC=CC=C1,CC(c1ccccn1)n1cc(-c2cccc3ccccc23)nn1,,,,octa_3bi
+12,Tris_Co_2,Co,3,C1(C2=CC=CC=C2)=NC=CC=C1,C1(C2=CC=CC=C2)=NC=CC=C1,CC(c1ccccn1)n1cc(-c2ccc(Cl)cc2)nn1,,,,octa_3bi
+13,Oct6_Mn_1,Mn,1,[C]#[O+],[Br-],[I-],[Cl-],[Cl-],[Cl-],octa_6mono
+14,Oct6_Fe_1,Fe,3,[Br-],[C]#[O+],[Cl-],[I-],O,O,octa_6mono
+15,Oct6_Ni_1,Ni,2,[Br-],[C]#[O+],[Cl-],[Cl-],[I-],[I-],octa_6mono
+16,Sq4_Pt_1,Pt,2,c1ccc([P](c2ccccc2)c2ccccc2)cc1,c1ccc([P](c2ccccc2)c2ccccc2)cc1,c1ccc([P](c2ccccc2)c2ccccc2)cc1,c1ccc([P](c2ccccc2)c2ccccc2)cc1,,,square_4mono
+17,Sq4_Pt_2,Pt,2,O=[N+][O-],O=[N+][O-],O=[N+][O-],O=[N+][O-],,,square_4mono
+18,Sq4_Pt_3,Pt,2,[C-]#N,[C-]#N,[C-]#N,[C-]#N,,,square_4mono
+19,Sq1t_Pt_1,Pt,2,CC1=C(CCC(OC)=O)/C2=C/C3=C(CCC(OC)=O)C(C)=C(/C=C4C(C)=C(CCC(OC)=O)C(/C=C5C(CCC(OC)=O)=C(C)C(/C=C1\[N-]2)=N/5)=N/4)[N-]3,,,,,,square_1tetra
+20,Sq2b_Pt_1,Pt,2,c1ccc(-c2ccccn2)nc1,c1ccc(-c2ccccn2)nc1,,,,,square_2bi
+21,Sq1b_Pt_1,Pt,2,c1ccc(-c2ccccn2)nc1,[Cl-],[Cl-],,,,square_1bi2mono
+22,Oct2b_Ir_1,Ir,3,c1ccc(-c2ccccn2)nc1,c1ccc(-c2ccccn2)nc1,[Cl-],[Cl-],,,octa_2bi2mono
+23,Lin_Au_1,Au,1,[C-]#N,[C-]#N,,,,,linear_2mono
+23,Lin_Au_2,Au,1,[C-]#N,c1ccc([P](c2ccccc2)c2ccccc2)cc1,,,,,linear_2mono

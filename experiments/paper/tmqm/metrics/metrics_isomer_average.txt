@@ -1,0 +1,21 @@
+1248 complexes with at least one isomer of the tmQM formula; 1839 isomers; evaluated: 1246
+isomers per complex: {np.int64(1): 911, np.int64(2): 189, np.int64(3): 68, np.int64(4): 51, np.int64(5): 23, np.int64(6): 4} (6 = 6 or more)
+an isomer agrees with the crystal-isomer structure (< 0.2 A): 76.8%; the lowest-energy isomer does: 72.4%; among complexes with more than one isomer, lowest energy agrees: 69.6%
+
+dipole_D  (n = 1246)
+  floor            MAE 1.791
+  crystal isomer   MAE 1.238   vs floor -0.553 [-0.623, -0.484]
+  lowest           MAE 1.458   vs floor -0.332 [-0.405, -0.254]
+  uniform          MAE 1.483   vs floor -0.308 [-0.378, -0.239]
+  boltzmann        MAE 1.459   vs floor -0.332 [-0.403, -0.256]
+    one isomer     n = 911   floor 1.692 | rule 1.305 | lowest 1.308 | uniform 1.308 | boltzmann 1.308 | crystal isomer 1.214
+    more than one  n = 335   floor 2.059 | rule 1.981 | lowest 1.866 | uniform 1.958 | boltzmann 1.868 | crystal isomer 1.303
+
+gap_eV  (n = 1246)
+  floor            MAE 0.398
+  crystal isomer   MAE 0.322   vs floor -0.075 [-0.089, -0.062]
+  lowest           MAE 0.338   vs floor -0.060 [-0.075, -0.044]
+  uniform          MAE 0.336   vs floor -0.062 [-0.078, -0.047]
+  boltzmann        MAE 0.338   vs floor -0.060 [-0.075, -0.044]
+    one isomer     n = 911   floor 0.389 | rule 0.349 | lowest 0.328 | uniform 0.328 | boltzmann 0.328 | crystal isomer 0.314
+    more than one  n = 335   floor 0.422 | rule 0.346 | lowest 0.366 | uniform 0.357 | boltzmann 0.365 | crystal isomer 0.344

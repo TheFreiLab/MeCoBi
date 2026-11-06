@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <text x="150.0" y="22" font-family="system-ui,Arial" font-size="15" font-weight="600" fill="#8a8a8a" text-anchor="middle">square_planar · CN 4</text>
+  <line x1="150.0" y1="150.0" x2="109.0" y2="119.2" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="150.0" y1="150.0" x2="269.1" y2="139.4" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="150.0" y1="150.0" x2="191.0" y2="180.8" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="150.0" y1="150.0" x2="30.9" y2="160.6" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="150.0" cy="150.0" r="17" fill="#5a5ad8"/>
+  <text x="150.0" y="150.0" font-family="system-ui,Arial" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="central">M</text>
+  <circle cx="109.0" cy="119.2" r="15" fill="#ffffff" stroke="#5a5ad8" stroke-width="2.5"/><text x="109.0" y="119.2" font-family="system-ui,Arial" font-size="16" font-weight="700" fill="#1a1a2a" text-anchor="middle" dominant-baseline="central">0</text>
+  <circle cx="269.1" cy="139.4" r="15" fill="#ffffff" stroke="#5a5ad8" stroke-width="2.5"/><text x="269.1" y="139.4" font-family="system-ui,Arial" font-size="16" font-weight="700" fill="#1a1a2a" text-anchor="middle" dominant-baseline="central">1</text>
+  <circle cx="30.9" cy="160.6" r="15" fill="#ffffff" stroke="#5a5ad8" stroke-width="2.5"/><text x="30.9" y="160.6" font-family="system-ui,Arial" font-size="16" font-weight="700" fill="#1a1a2a" text-anchor="middle" dominant-baseline="central">3</text>
+  <circle cx="191.0" cy="180.8" r="15" fill="#ffffff" stroke="#5a5ad8" stroke-width="2.5"/><text x="191.0" y="180.8" font-family="system-ui,Arial" font-size="16" font-weight="700" fill="#1a1a2a" text-anchor="middle" dominant-baseline="central">2</text>
+</svg>

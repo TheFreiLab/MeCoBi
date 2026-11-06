@@ -1,0 +1,14 @@
+# scratch experiments + regenerable outputs (keep the frozen .gz bundle)
+_*
+benchmark_bundle.json
+benchmark_table.csv
+*_builds/
+structures/
+
+# corrected-bundle scratch (v2 is copied into the frozen benchmark_bundle/spheres.json.gz)
+benchmark_bundle_v2.json
+benchmark_bundle_v2.json.gz
+benchmark_spheres_v2.json.gz
+benchmark_results.csv
+structures_heuristic/
+structures_oracle/

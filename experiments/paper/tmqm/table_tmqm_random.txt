@@ -1,0 +1,38 @@
+split: random; mean DFT values: dipole 5.18 D, gap 2.892 eV (10,175 complexes)
+                                                                                                                       MAE          rMAE_%               R2       
+property                                                                                                          dipole_D gap_eV dipole_D  gap_eV dipole_D gap_eV
+block                                                    input                                                                                                    
+10,175 complexes                                         2D features (negative control)                              1.681  0.367   32.481  12.693    0.540  0.742
+                                                         2D + isomer label                                           1.575  0.365   30.421  12.606    0.593  0.745
+                                                         xTB of the crystal-isomer structure alone                   1.463  0.526   28.259  18.191    0.624  0.500
+                                                         2D + xTB of the crystal-isomer structure                    1.236  0.311   23.868  10.738    0.725  0.819
+                                                         2D + xTB of the tmQM geometry (positive control)            0.570  0.225   11.008   7.792    0.942  0.903
+Structures built from the SMILES alone (1,246 complexes) 2D features (negative control)                              1.683  0.378   32.166  13.391    0.551  0.735
+                                                         2D + xTB of the crystal-isomer structure                    1.188  0.308   22.693  10.906    0.741  0.823
+                                                         2D + xTB of the lowest-energy SMILES-only isomer            1.402  0.326   26.791  11.535    0.662  0.804
+                                                         2D + xTB, Boltzmann average over the SMILES-only isomers    1.403  0.325   26.799  11.518    0.663  0.805
+SMILES alone, one isomer (911 complexes)                 2D features                                                 1.580  0.367   30.604  12.974    0.594  0.747
+                                                         2D + xTB, lowest-energy isomer                              1.253  0.317   24.269  11.211    0.722  0.814
+                                                         2D + xTB, crystal isomer                                    1.158  0.299   22.415  10.571    0.763  0.831
+SMILES alone, more than one isomer (335 complexes)       2D features                                                 1.963  0.408   36.210  14.534    0.419  0.703
+                                                         2D + xTB, lowest-energy isomer                              1.807  0.349   33.324  12.422    0.476  0.779
+                                                         2D + xTB, crystal isomer                                    1.269  0.332   23.414  11.823    0.673  0.803
+
+Dipole, DFT below 1 D
+                                                                                                                   MAE_below_1D  n_below_1D
+block                                                    input                                                                             
+10,175 complexes                                         2D features (negative control)                                   2.417      1074.0
+                                                         2D + isomer label                                                2.051      1074.0
+                                                         xTB of the crystal-isomer structure alone                        1.988      1074.0
+                                                         2D + xTB of the crystal-isomer structure                         1.531      1074.0
+                                                         2D + xTB of the tmQM geometry (positive control)                 0.550      1074.0
+Structures built from the SMILES alone (1,246 complexes) 2D features (negative control)                                   2.475       139.0
+                                                         2D + xTB of the lowest-energy SMILES-only isomer                 1.704       139.0
+                                                         2D + xTB, Boltzmann average over the SMILES-only isomers         1.707       139.0
+                                                         2D + xTB of the crystal-isomer structure                         1.560       139.0
+SMILES alone, one isomer (911 complexes)                 2D features                                                      2.112        97.0
+                                                         2D + xTB, lowest-energy isomer                                   1.436        97.0
+                                                         2D + xTB, crystal isomer                                         1.444        97.0
+SMILES alone, more than one isomer (335 complexes)       2D features                                                      3.311        42.0
+                                                         2D + xTB, lowest-energy isomer                                   2.323        42.0
+                                                         2D + xTB, crystal isomer                                         1.825        42.0

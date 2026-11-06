@@ -1,0 +1,31 @@
+block,model,input,property,n,MAE,rMAE_%,R2,MAE_below_1D,n_below_1D
+"10,175 complexes",LightGBM,2D features (negative control),dipole_D,10175,1.681351738890252,32.48112871246137,0.5395889233271103,2.4165556906640235,1074.0
+"10,175 complexes",LightGBM,2D features (negative control),gap_eV,10175,0.367142576719441,12.693292447158736,0.7424228831327002,,
+"10,175 complexes",LightGBM,2D + isomer label,dipole_D,10175,1.574734342930056,30.421444661189437,0.5925630599381619,2.051296003907112,1074.0
+"10,175 complexes",LightGBM,2D + isomer label,gap_eV,10175,0.36461003688559745,12.605734449848004,0.7454599466318954,,
+"10,175 complexes",Linear fit,xTB of the crystal-isomer structure alone,dipole_D,10175,1.462783066024782,28.25871823662542,0.6236609571138398,1.9884424005862933,1074.0
+"10,175 complexes",Linear fit,xTB of the crystal-isomer structure alone,gap_eV,10175,0.52616860321123,18.19133050911965,0.49963165435988377,,
+"10,175 complexes",LightGBM,2D + xTB of the crystal-isomer structure,dipole_D,10175,1.2355130778558252,23.86821173673753,0.7246205201762121,1.5309923153917404,1074.0
+"10,175 complexes",LightGBM,2D + xTB of the crystal-isomer structure,gap_eV,10175,0.3105907385501117,10.738114633891293,0.819022788399064,,
+"10,175 complexes",LightGBM,2D + xTB of the tmQM geometry (positive control),dipole_D,10175,0.5698217547449655,11.008079589133454,0.9420800319054764,0.5502668610101089,1074.0
+"10,175 complexes",LightGBM,2D + xTB of the tmQM geometry (positive control),gap_eV,10175,0.22536872004488617,7.791717042280339,0.9028216189813871,,
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,2D features (negative control),dipole_D,1246,1.6833968968594268,32.16558319245755,0.5512027251790451,2.4745352725251055,139.0
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,2D features (negative control),gap_eV,1246,0.37830819679481503,13.390848231120795,0.7353130863214445,,
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,2D + xTB of the lowest-energy SMILES-only isomer,dipole_D,1246,1.4021326111765207,26.791312990891324,0.6619916415984397,1.703934087874931,139.0
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,2D + xTB of the lowest-energy SMILES-only isomer,gap_eV,1246,0.3258744727837859,11.534869306072592,0.8044303365829748,,
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,"2D + xTB, Boltzmann average over the SMILES-only isomers",dipole_D,1246,1.4025586385263482,26.799453327961395,0.6632438989866994,1.7068163922312352,139.0
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,"2D + xTB, Boltzmann average over the SMILES-only isomers",gap_eV,1246,0.3254053277194344,11.518263135737568,0.8052352112749737,,
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,2D + xTB of the crystal-isomer structure,dipole_D,1246,1.1876617394791418,22.693301001674143,0.7412425589374502,1.5595750141514673,139.0
+"Structures built from the SMILES alone (1,246 complexes)",LightGBM,2D + xTB of the crystal-isomer structure,gap_eV,1246,0.3081042748089455,10.905863574412166,0.8232747767517705,,
+"SMILES alone, one isomer (911 complexes)",LightGBM,2D features,dipole_D,911,1.580480310210498,30.60414091637993,0.5937122351862949,2.112245365747007,97.0
+"SMILES alone, one isomer (911 complexes)",LightGBM,2D features,gap_eV,911,0.3672872288960309,12.973791615814186,0.7473693414113729,,
+"SMILES alone, one isomer (911 complexes)",LightGBM,"2D + xTB, lowest-energy isomer",dipole_D,911,1.2533280451691031,24.26922237563187,0.7221832205749077,1.4359367002567542,97.0
+"SMILES alone, one isomer (911 complexes)",LightGBM,"2D + xTB, lowest-energy isomer",gap_eV,911,0.3173848784661298,11.211076648667477,0.8139910183276703,,
+"SMILES alone, one isomer (911 complexes)",LightGBM,"2D + xTB, crystal isomer",dipole_D,911,1.157578863721149,22.415152177648235,0.7632358219482485,1.4444712310875591,97.0
+"SMILES alone, one isomer (911 complexes)",LightGBM,"2D + xTB, crystal isomer",gap_eV,911,0.2992713312445414,10.571246650269629,0.8310046885856062,,
+"SMILES alone, more than one isomer (335 complexes)",LightGBM,2D features,dipole_D,335,1.963268569806214,36.21001367782651,0.4190021567602139,3.311252438179285,42.0
+"SMILES alone, more than one isomer (335 complexes)",LightGBM,2D features,gap_eV,335,0.4082786497971802,14.533805996605885,0.7031772659013555,,
+"SMILES alone, more than one isomer (335 complexes)",LightGBM,"2D + xTB, lowest-energy isomer",dipole_D,335,1.8067921921698267,33.32400416205781,0.476086164969705,2.322880435469292,42.0
+"SMILES alone, more than one isomer (335 complexes)",LightGBM,"2D + xTB, lowest-energy isomer",gap_eV,335,0.34896110091329274,12.422234039314278,0.7789514441963445,,
+"SMILES alone, more than one isomer (335 complexes)",LightGBM,"2D + xTB, crystal isomer",dipole_D,335,1.269469201615056,23.413759004249698,0.6727308730166403,1.8254099417038268,42.0
+"SMILES alone, more than one isomer (335 complexes)",LightGBM,"2D + xTB, crystal isomer",gap_eV,335,0.33212460790498155,11.82289257689011,0.8026683269909799,,

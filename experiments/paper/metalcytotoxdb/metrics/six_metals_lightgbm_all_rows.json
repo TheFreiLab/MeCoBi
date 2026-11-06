@@ -1,0 +1,169 @@
+{
+  "model": "LightGBM",
+  "scheme": "doi",
+  "negative_control": false,
+  "generated_utc": "2026-09-03T09:14:00.333947+00:00",
+  "config": {
+    "optuna": true,
+    "n_trials": 25,
+    "inner_splits": 3,
+    "seed": 42,
+    "folds": "all",
+    "lightgbm": "4.7.0"
+  },
+  "ecfp_backend": "rdkit==2025.09.6 MorganGenerator(r2,2048)",
+  "class_distribution": {
+    "0": 12989,
+    "1": 9369
+  },
+  "baseline_majority_accuracy": 0.581,
+  "per_fold": [
+    {
+      "fold": 0,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.827224656218452,
+      "pr_auc": 0.7664550826678332,
+      "accuracy": 0.7535778175313059,
+      "balanced_accuracy": 0.7350301064097413,
+      "f1": 0.6779661016949152,
+      "n_estimators": 294,
+      "seconds": 129.2
+    },
+    {
+      "fold": 1,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.8080467029407954,
+      "pr_auc": 0.7771547933813245,
+      "accuracy": 0.7455277280858676,
+      "balanced_accuracy": 0.7379663816556549,
+      "f1": 0.7006838506049448,
+      "n_estimators": 269,
+      "seconds": 108.2
+    },
+    {
+      "fold": 2,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.8384547213283352,
+      "pr_auc": 0.7643135004440842,
+      "accuracy": 0.7844364937388193,
+      "balanced_accuracy": 0.7528726512157877,
+      "f1": 0.6816380449141347,
+      "n_estimators": 266,
+      "seconds": 100.8
+    },
+    {
+      "fold": 3,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.811460887707222,
+      "pr_auc": 0.8218089153607364,
+      "accuracy": 0.7110912343470484,
+      "balanced_accuracy": 0.7144953537915415,
+      "f1": 0.6743951612903226,
+      "n_estimators": 458,
+      "seconds": 145.3
+    },
+    {
+      "fold": 4,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.786329566874318,
+      "pr_auc": 0.680998147050681,
+      "accuracy": 0.7352415026833632,
+      "balanced_accuracy": 0.6929326724070102,
+      "f1": 0.5972789115646259,
+      "n_estimators": 314,
+      "seconds": 135.9
+    },
+    {
+      "fold": 5,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.8214478788319938,
+      "pr_auc": 0.7741857749260069,
+      "accuracy": 0.7343470483005367,
+      "balanced_accuracy": 0.7184458317214621,
+      "f1": 0.6621160409556314,
+      "n_estimators": 63,
+      "seconds": 95.8
+    },
+    {
+      "fold": 6,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.8177691829488609,
+      "pr_auc": 0.7628258900200429,
+      "accuracy": 0.731216457960644,
+      "balanced_accuracy": 0.7157761005344648,
+      "f1": 0.6547960941987364,
+      "n_estimators": 50,
+      "seconds": 87.3
+    },
+    {
+      "fold": 7,
+      "n_train": 20122,
+      "n_val": 2236,
+      "roc_auc": 0.8105046369519224,
+      "pr_auc": 0.7224883582342774,
+      "accuracy": 0.7383720930232558,
+      "balanced_accuracy": 0.7303809022234385,
+      "f1": 0.6825827455236029,
+      "n_estimators": 98,
+      "seconds": 88.1
+    },
+    {
+      "fold": 8,
+      "n_train": 20123,
+      "n_val": 2235,
+      "roc_auc": 0.7777917772106837,
+      "pr_auc": 0.6873405595033871,
+      "accuracy": 0.6953020134228188,
+      "balanced_accuracy": 0.6893045924507566,
+      "f1": 0.6280720917531404,
+      "n_estimators": 293,
+      "seconds": 114.6
+    },
+    {
+      "fold": 9,
+      "n_train": 20123,
+      "n_val": 2235,
+      "roc_auc": 0.7979945339344817,
+      "pr_auc": 0.7765643495766256,
+      "accuracy": 0.7302013422818792,
+      "balanced_accuracy": 0.7191914143566033,
+      "f1": 0.6710310965630114,
+      "n_estimators": 556,
+      "seconds": 103.1
+    }
+  ],
+  "aggregate": {
+    "roc_auc": {
+      "mean": 0.8097,
+      "std": 0.0184
+    },
+    "pr_auc": {
+      "mean": 0.7534,
+      "std": 0.0437
+    },
+    "accuracy": {
+      "mean": 0.7359,
+      "std": 0.0238
+    },
+    "balanced_accuracy": {
+      "mean": 0.7206,
+      "std": 0.0196
+    },
+    "f1": {
+      "mean": 0.6631,
+      "std": 0.0301
+    }
+  },
+  "published_target": {
+    "roc_auc": "0.810 +- 0.024",
+    "accuracy": "0.773 +- 0.017"
+  },
+  "total_seconds": 1108.5
+}

@@ -1,0 +1,350 @@
+{
+ "stats": {
+  "Bi": {
+   "used": 1984,
+   "os_dropped_odd": 1,
+   "os_used": 12,
+   "no_bonds": 1
+  },
+  "Cd": {
+   "used": 3591,
+   "os_from_xyz2mol_only": 616,
+   "os_used": 2235,
+   "os_consensus": 1633,
+   "os_dropped_no_xyz2mol": 412,
+   "os_dropped_disagree": 111,
+   "no_bonds": 7,
+   "os_dropped_odd": 6,
+   "os_dropped_range": 8
+  },
+  "Cr": {
+   "used": 5828,
+   "os_from_xyz2mol_only": 2123,
+   "os_used": 3708,
+   "os_consensus": 1687,
+   "os_dropped_no_xyz2mol": 909,
+   "os_dropped_odd": 102,
+   "no_bonds": 7,
+   "os_dropped_disagree": 28
+  },
+  "Co": {
+   "used": 25187,
+   "os_consensus": 7142,
+   "os_used": 11940,
+   "no_bonds": 1378,
+   "os_from_xyz2mol_only": 4936,
+   "os_dropped_no_xyz2mol": 3357,
+   "os_dropped_disagree": 154,
+   "os_dropped_odd": 130,
+   "os_dropped_range": 8
+  },
+  "Cu": {
+   "used": 28396,
+   "os_consensus": 12940,
+   "os_used": 19154,
+   "os_from_xyz2mol_only": 6238,
+   "os_dropped_no_xyz2mol": 3920,
+   "os_dropped_disagree": 289,
+   "os_dropped_odd": 21,
+   "no_bonds": 12,
+   "os_dropped_range": 3
+  },
+  "Ga": {
+   "used": 2597,
+   "os_used": 23,
+   "no_bonds": 2
+  },
+  "Ge": {
+   "used": 2963,
+   "os_used": 25,
+   "no_bonds": 9
+  },
+  "Au": {
+   "used": 7585,
+   "os_consensus": 3615,
+   "os_used": 5737,
+   "os_from_xyz2mol_only": 2132,
+   "os_dropped_no_xyz2mol": 1076,
+   "no_bonds": 9,
+   "os_dropped_disagree": 23,
+   "os_dropped_odd": 10
+  },
+  "Hf": {
+   "used": 1089,
+   "os_from_xyz2mol_only": 445,
+   "os_used": 740,
+   "os_consensus": 296,
+   "os_dropped_no_xyz2mol": 135,
+   "os_dropped_disagree": 5,
+   "no_bonds": 1,
+   "os_dropped_range": 1
+  },
+  "In": {
+   "used": 1455,
+   "os_used": 14,
+   "no_bonds": 6
+  },
+  "Ir": {
+   "used": 10588,
+   "os_consensus": 2960,
+   "os_used": 6174,
+   "os_from_xyz2mol_only": 3984,
+   "os_dropped_odd": 770,
+   "os_dropped_no_xyz2mol": 1302,
+   "no_bonds": 367,
+   "os_dropped_disagree": 30
+  },
+  "Fe": {
+   "no_bonds": 1280,
+   "used": 25913,
+   "os_consensus": 7827,
+   "os_used": 16306,
+   "os_from_xyz2mol_only": 8959,
+   "os_dropped_odd": 477,
+   "os_dropped_no_xyz2mol": 4705,
+   "os_dropped_disagree": 68,
+   "os_dropped_hydride": 1,
+   "os_dropped_range": 2
+  },
+  "Pb": {
+   "used": 1375,
+   "os_dropped_haptic": 3,
+   "os_used": 90,
+   "no_bonds": 11
+  },
+  "Mn": {
+   "used": 8364,
+   "os_dropped_no_xyz2mol": 1171,
+   "os_consensus": 3121,
+   "os_used": 5521,
+   "os_from_xyz2mol_only": 2466,
+   "os_dropped_odd": 65,
+   "os_dropped_disagree": 40,
+   "no_bonds": 4,
+   "os_dropped_hydride": 1
+  },
+  "Hg": {
+   "used": 2383,
+   "os_consensus": 1290,
+   "os_used": 1535,
+   "os_from_xyz2mol_only": 257,
+   "os_dropped_no_xyz2mol": 409,
+   "os_dropped_disagree": 9,
+   "os_dropped_range": 11,
+   "os_dropped_odd": 1
+  },
+  "Mo": {
+   "used": 8413,
+   "os_consensus": 2497,
+   "os_used": 4587,
+   "os_from_xyz2mol_only": 2204,
+   "os_dropped_no_xyz2mol": 1496,
+   "os_dropped_disagree": 36,
+   "os_dropped_range": 5,
+   "os_dropped_odd": 108,
+   "no_bonds": 4,
+   "os_dropped_hydride": 1
+  },
+  "Ni": {
+   "used": 24423,
+   "os_consensus": 9854,
+   "os_used": 14976,
+   "os_from_xyz2mol_only": 5571,
+   "os_dropped_odd": 434,
+   "os_dropped_no_xyz2mol": 4340,
+   "os_dropped_disagree": 118,
+   "os_dropped_hydride": 2,
+   "no_bonds": 2,
+   "os_dropped_range": 13
+  },
+  "Nb": {
+   "used": 1252,
+   "os_from_xyz2mol_only": 398,
+   "os_used": 772,
+   "os_dropped_no_xyz2mol": 252,
+   "os_consensus": 375,
+   "os_dropped_disagree": 1,
+   "os_dropped_range": 1
+  },
+  "Os": {
+   "used": 3062,
+   "os_from_xyz2mol_only": 846,
+   "os_used": 1580,
+   "os_dropped_no_xyz2mol": 476,
+   "os_consensus": 881,
+   "no_bonds": 91,
+   "os_dropped_odd": 146,
+   "os_dropped_disagree": 19,
+   "os_dropped_hydride": 1
+  },
+  "Pd": {
+   "used": 18989,
+   "os_consensus": 8981,
+   "os_used": 13446,
+   "os_from_xyz2mol_only": 4535,
+   "os_dropped_no_xyz2mol": 2157,
+   "os_dropped_odd": 70,
+   "os_dropped_disagree": 76
+  },
+  "Pt": {
+   "used": 15555,
+   "os_consensus": 6889,
+   "os_used": 10718,
+   "os_from_xyz2mol_only": 3970,
+   "os_dropped_no_xyz2mol": 1946,
+   "os_dropped_odd": 139,
+   "os_dropped_disagree": 52,
+   "no_bonds": 3,
+   "os_dropped_range": 1,
+   "os_dropped_hydride": 1
+  },
+  "Re": {
+   "used": 7684,
+   "os_dropped_no_xyz2mol": 1230,
+   "os_consensus": 3777,
+   "os_used": 5335,
+   "os_from_xyz2mol_only": 1662,
+   "os_dropped_disagree": 31,
+   "os_dropped_odd": 103,
+   "no_bonds": 5,
+   "os_dropped_hydride": 1
+  },
+  "Rh": {
+   "used": 9369,
+   "os_dropped_no_xyz2mol": 1435,
+   "os_from_xyz2mol_only": 4055,
+   "os_used": 5590,
+   "os_consensus": 1854,
+   "no_bonds": 441,
+   "os_dropped_odd": 319,
+   "os_dropped_disagree": 35
+  },
+  "Ru": {
+   "used": 21658,
+   "os_consensus": 6103,
+   "os_used": 13072,
+   "os_from_xyz2mol_only": 7870,
+   "os_dropped_odd": 901,
+   "os_dropped_no_xyz2mol": 2874,
+   "no_bonds": 683,
+   "os_dropped_disagree": 65
+  },
+  "Sc": {
+   "used": 991,
+   "os_consensus": 245,
+   "os_used": 661,
+   "os_from_xyz2mol_only": 418,
+   "os_dropped_no_xyz2mol": 122,
+   "os_dropped_range": 2,
+   "os_dropped_disagree": 7,
+   "no_bonds": 1
+  },
+  "Ag": {
+   "used": 4012,
+   "os_consensus": 1912,
+   "os_used": 2825,
+   "os_from_xyz2mol_only": 920,
+   "os_dropped_disagree": 109,
+   "os_dropped_no_xyz2mol": 526,
+   "no_bonds": 22,
+   "os_dropped_odd": 6,
+   "os_dropped_range": 1
+  },
+  "Ta": {
+   "used": 1581,
+   "os_consensus": 403,
+   "os_used": 913,
+   "os_from_xyz2mol_only": 518,
+   "os_dropped_no_xyz2mol": 211,
+   "os_dropped_hydride": 1,
+   "os_dropped_range": 7,
+   "os_dropped_disagree": 4,
+   "no_bonds": 1
+  },
+  "Tc": {
+   "used": 744,
+   "os_dropped_no_xyz2mol": 194,
+   "os_consensus": 311,
+   "os_used": 423,
+   "os_from_xyz2mol_only": 122,
+   "os_dropped_odd": 10,
+   "os_dropped_disagree": 1
+  },
+  "Tl": {
+   "used": 504,
+   "no_bonds": 68,
+   "os_used": 6
+  },
+  "Sn": {
+   "used": 7622,
+   "os_used": 44,
+   "os_dropped_haptic": 1,
+   "no_bonds": 1,
+   "os_dropped_odd": 1
+  },
+  "Ti": {
+   "used": 6238,
+   "os_from_xyz2mol_only": 2470,
+   "os_used": 4329,
+   "os_consensus": 1869,
+   "os_dropped_no_xyz2mol": 1029,
+   "os_dropped_range": 9,
+   "os_dropped_disagree": 17,
+   "os_dropped_hydride": 1,
+   "no_bonds": 5
+  },
+  "W": {
+   "used": 6138,
+   "os_consensus": 1986,
+   "os_used": 3376,
+   "os_from_xyz2mol_only": 1521,
+   "os_dropped_no_xyz2mol": 934,
+   "os_dropped_disagree": 90,
+   "os_dropped_odd": 130,
+   "no_bonds": 2,
+   "os_dropped_range": 1
+  },
+  "V": {
+   "used": 3980,
+   "os_from_xyz2mol_only": 943,
+   "os_used": 2698,
+   "os_consensus": 1790,
+   "os_dropped_no_xyz2mol": 625,
+   "os_dropped_odd": 33,
+   "os_dropped_disagree": 8,
+   "no_bonds": 2,
+   "os_dropped_range": 2
+  },
+  "Y": {
+   "used": 2059,
+   "os_dropped_no_xyz2mol": 326,
+   "os_from_xyz2mol_only": 667,
+   "os_used": 1166,
+   "os_consensus": 508,
+   "no_bonds": 8,
+   "os_dropped_disagree": 48,
+   "os_dropped_range": 9
+  },
+  "Zn": {
+   "used": 14677,
+   "os_consensus": 7106,
+   "os_used": 9911,
+   "os_from_xyz2mol_only": 2928,
+   "os_dropped_no_xyz2mol": 2133,
+   "os_dropped_disagree": 92,
+   "os_dropped_odd": 59,
+   "os_dropped_range": 64,
+   "no_bonds": 12
+  },
+  "Zr": {
+   "used": 5194,
+   "os_consensus": 1107,
+   "os_used": 3327,
+   "os_from_xyz2mol_only": 2222,
+   "os_dropped_no_xyz2mol": 772,
+   "no_bonds": 3,
+   "os_dropped_disagree": 13,
+   "os_dropped_range": 2
+  }
+ }
+}

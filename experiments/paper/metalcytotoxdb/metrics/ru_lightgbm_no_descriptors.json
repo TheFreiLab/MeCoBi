@@ -1,0 +1,172 @@
+{
+  "model": "LightGBM",
+  "scheme": "doi",
+  "negative_control": false,
+  "generated_utc": "2026-10-12T12:44:09.385642+00:00",
+  "context_groups": [
+    "ecfp",
+    "charge",
+    "exposure_time",
+    "cell_line"
+  ],
+  "config": {
+    "optuna": true,
+    "n_trials": 25,
+    "inner_splits": 3,
+    "seed": 42,
+    "folds": "all",
+    "lightgbm": "4.7.0"
+  },
+  "ecfp_backend": "rdkit==2026.03.1 MorganGenerator(r2,2048)",
+  "class_distribution": {
+    "0": 7800,
+    "1": 3494
+  },
+  "baseline_majority_accuracy": 0.6906,
+  "per_fold": [
+    {
+      "fold": 0,
+      "n_train": 10164,
+      "n_val": 1130,
+      "roc_auc": 0.8581009352093689,
+      "pr_auc": 0.8066018965783365,
+      "accuracy": 0.8035398230088495,
+      "balanced_accuracy": 0.7598281236835454,
+      "f1": 0.6899441340782123,
+      "n_estimators": 449,
+      "seconds": 80.3
+    },
+    {
+      "fold": 1,
+      "n_train": 10164,
+      "n_val": 1130,
+      "roc_auc": 0.7900187507451526,
+      "pr_auc": 0.6243880463529272,
+      "accuracy": 0.7265486725663717,
+      "balanced_accuracy": 0.6328990675207469,
+      "f1": 0.46632124352331605,
+      "n_estimators": 200,
+      "seconds": 55.3
+    },
+    {
+      "fold": 2,
+      "n_train": 10164,
+      "n_val": 1130,
+      "roc_auc": 0.7497946529372495,
+      "pr_auc": 0.6409465909774668,
+      "accuracy": 0.7247787610619469,
+      "balanced_accuracy": 0.6181680595314243,
+      "f1": 0.4143126177024482,
+      "n_estimators": 154,
+      "seconds": 52.4
+    },
+    {
+      "fold": 3,
+      "n_train": 10164,
+      "n_val": 1130,
+      "roc_auc": 0.8011601039184935,
+      "pr_auc": 0.6215879045285486,
+      "accuracy": 0.7884955752212389,
+      "balanced_accuracy": 0.675663757427738,
+      "f1": 0.5229540918163673,
+      "n_estimators": 50,
+      "seconds": 50.2
+    },
+    {
+      "fold": 4,
+      "n_train": 10165,
+      "n_val": 1129,
+      "roc_auc": 0.7443340707041195,
+      "pr_auc": 0.6140946460324936,
+      "accuracy": 0.7121346324180691,
+      "balanced_accuracy": 0.6186332206408169,
+      "f1": 0.4328097731239092,
+      "n_estimators": 78,
+      "seconds": 44.9
+    },
+    {
+      "fold": 5,
+      "n_train": 10165,
+      "n_val": 1129,
+      "roc_auc": 0.7953762689572972,
+      "pr_auc": 0.6231028442499335,
+      "accuracy": 0.7883082373782108,
+      "balanced_accuracy": 0.6623915991944432,
+      "f1": 0.49471458773784355,
+      "n_estimators": 189,
+      "seconds": 56.5
+    },
+    {
+      "fold": 6,
+      "n_train": 10165,
+      "n_val": 1129,
+      "roc_auc": 0.8134307185031823,
+      "pr_auc": 0.7008804857360827,
+      "accuracy": 0.8007085916740478,
+      "balanced_accuracy": 0.6813626255655241,
+      "f1": 0.5360824742268041,
+      "n_estimators": 217,
+      "seconds": 40.3
+    },
+    {
+      "fold": 7,
+      "n_train": 10165,
+      "n_val": 1129,
+      "roc_auc": 0.7822751556360104,
+      "pr_auc": 0.6608664395792803,
+      "accuracy": 0.7555358724534986,
+      "balanced_accuracy": 0.6528360339676512,
+      "f1": 0.49264705882352944,
+      "n_estimators": 145,
+      "seconds": 51.2
+    },
+    {
+      "fold": 8,
+      "n_train": 10165,
+      "n_val": 1129,
+      "roc_auc": 0.8356973095957511,
+      "pr_auc": 0.6972464587108131,
+      "accuracy": 0.7626217891939769,
+      "balanced_accuracy": 0.6496387916730069,
+      "f1": 0.4765625,
+      "n_estimators": 267,
+      "seconds": 58.0
+    },
+    {
+      "fold": 9,
+      "n_train": 10165,
+      "n_val": 1129,
+      "roc_auc": 0.7209009160433648,
+      "pr_auc": 0.5605181279988353,
+      "accuracy": 0.7466784765279008,
+      "balanced_accuracy": 0.6260361833309139,
+      "f1": 0.43700787401574803,
+      "n_estimators": 198,
+      "seconds": 56.4
+    }
+  ],
+  "aggregate": {
+    "roc_auc": {
+      "mean": 0.7891,
+      "std": 0.0421
+    },
+    "pr_auc": {
+      "mean": 0.655,
+      "std": 0.0673
+    },
+    "accuracy": {
+      "mean": 0.7609,
+      "std": 0.0334
+    },
+    "balanced_accuracy": {
+      "mean": 0.6577,
+      "std": 0.0423
+    },
+    "f1": {
+      "mean": 0.4963,
+      "std": 0.0784
+    }
+  },
+  "published_target": null,
+  "total_seconds": 545.6
+}

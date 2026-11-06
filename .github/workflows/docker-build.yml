@@ -1,0 +1,110 @@
+name: docker-image
+
+# Builds the production image and smoke-tests it. The image is Linux and the
+# development machine is Windows, so this is where the build is actually verified —
+# and where the first-Dockerfile rounds of missing libraries surface.
+#
+# Build only, no registry push: a PR run publishes nothing.
+
+# PRs (and manual runs) only: a branch push does not build on its own, and the PR run has
+# already tested the merged result.
+on:
+  pull_request:
+    paths:
+      - "Dockerfile"
+      - ".dockerignore"
+      - "pyproject.toml"
+      - "constraints.txt"
+      - "src/**"
+      - "tests/**"
+      - "experiments/benchmark/**"
+      - "scripts/docker_smoke.py"
+      - ".github/workflows/docker-build.yml"
+  workflow_dispatch:
+
+# A newer commit on the same PR/branch cancels the run still in progress (saves minutes).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Build image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          load: true
+          tags: mecobi:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Report image size
+        # The VM starts with a 15 GB disk, so size is a deployment constraint, not trivia.
+        run: docker image ls mecobi:ci --format '{{.Repository}}:{{.Tag}}  {{.Size}}'
+
+      - name: xtb is present and runnable
+        run: docker run --rm mecobi:ci xtb --version
+
+      - name: Redistributed licence texts ship with the binaries
+        # The image redistributes xtb, which is LGPL-3.0, so its licence must travel with
+        # it. conda-forge keeps licence text only in the package cache that `clean` wipes,
+        # so this asserts the Dockerfile's copy survived rather than trusting it.
+        run: |
+          docker run --rm mecobi:ci sh -c '
+            ls "$MAMBA_ROOT_PREFIX"/share/licenses/xtb-*/COPYING.LESSER
+            echo "conda packages carrying licence text: $(ls "$MAMBA_ROOT_PREFIX"/share/licenses | wc -l)"
+          '
+
+      - name: Core imports (rdkit, torch, stk) and MeCoBi loads
+        run: |
+          docker run --rm mecobi:ci python -c "
+          import torch, rdkit, stk
+          from mecobi import pipeline, perception
+          print('torch', torch.__version__, '| rdkit', rdkit.__version__)
+          assert '+cpu' in torch.__version__ or not torch.cuda.is_available(), 'expected the CPU build'
+          "
+
+      - name: App serves, and builds a real structure end to end
+        # Assert a real optimized structure and download; an assembly fallback fails.
+        run: |
+          docker run -d --name mecobi_ci -p 127.0.0.1:8000:8000 mecobi:ci
+          for i in $(seq 1 60); do
+            if curl -fsS http://127.0.0.1:8000/api/health >/dev/null 2>&1; then break; fi
+            sleep 2
+          done
+          curl -fsS http://127.0.0.1:8000/api/health
+          echo
+          python scripts/docker_smoke.py
+
+      - name: Python regression suite including xTB chemistry
+        # GitHub-hosted runners have only 2 CPUs, so cap the CI run at 2 here; the
+        # production run on the 4-vCPU VM uses --cpus=3 (see the Dockerfile example).
+        run: |
+          docker run --rm --cpus=2 --memory=6g --pids-limit=256 \
+            --mount type=bind,source="$PWD",target=/validation,readonly \
+            mecobi:ci bash -c '
+              python -m pip install -c /validation/constraints.txt pytest httpx &&
+              python -m pytest -c /validation/pyproject.toml /validation/tests -q -p no:cacheprovider
+            '
+
+      - name: Container logs
+        if: always()
+        run: docker logs mecobi_ci || true
+
+      - name: Stop smoke container
+        if: always()
+        run: docker rm -f mecobi_ci || true
+
+      - name: Runs as a non-root user
+        run: |
+          uid=$(docker run --rm mecobi:ci id -u)
+          echo "container uid: $uid"
+          test "$uid" != "0"

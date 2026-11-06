@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use MeCoBi in your work, please cite it using this metadata."
+title: "MeCoBi: Metal Complex Builder"
+abstract: >-
+  MeCoBi turns SMILES strings of metal-complex ligands into optimised 3D
+  structures of the assembled complex, covering donor and denticity perception,
+  coordination number and geometry assignment, isomer enumeration, assembly and
+  semi-empirical relaxation.
+type: software
+license: MIT
+version: 0.1.0
+date-released: "2026-11-05"
+repository-code: "https://github.com/TheFreiLab/MeCoBi"
+keywords:
+  - chemistry
+  - metal complex
+  - coordination chemistry
+  - structure generation
+  - cheminformatics
+authors:
+  - family-names: Clauss
+    given-names: Gustavo
+    affiliation: "Department of Chemistry, University of York, Heslington, York, YO10 5DD, U.K.; Institute of Chemistry, State University of Campinas, Campinas, 13083-632, Brazil"
+  - family-names: Husbands
+    given-names: David R.
+    affiliation: "Department of Chemistry, University of York, Heslington, York, YO10 5DD, U.K."
+  - family-names: Özsan
+    given-names: Çağrı
+    affiliation: "Department of Chemistry, University of York, Heslington, York, YO10 5DD, U.K."
+  - family-names: Abbehausen
+    given-names: Camilla
+    affiliation: "Institute of Chemistry, State University of Campinas, Campinas, 13083-632, Brazil"
+  - family-names: Frei
+    given-names: Angelo
+    affiliation: "Department of Chemistry, University of York, Heslington, York, YO10 5DD, U.K."

@@ -1,0 +1,12 @@
+10,824 measurements, 10 DOI folds
+probabilities: Pearson r 0.78, Spearman rho 0.81
+ROC-AUC (mean over folds; paired t-test against LightGBM):
+  LightGBM         0.809
+  DimeNet++        0.792   P = 0.04
+  rank mean        0.815   P = 0.22
+  rank min (AND)   0.813   P = 0.45
+Rules (each model flags the toxic fraction of the training folds): precision / recall / bal. acc. / flagged
+  LightGBM   0.60 / 0.61 / 0.715 / 31%
+  DimeNet++  0.59 / 0.59 / 0.704 / 31%
+  AND        0.68 / 0.50 / 0.696 / 23%
+  OR         0.55 / 0.70 / 0.723 / 39%

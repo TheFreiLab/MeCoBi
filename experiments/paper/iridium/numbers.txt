@@ -1,0 +1,32 @@
+
+=== trained on gen0: 186 test complexes, 77 active; without amines 26/36/38: 120 (65 active) ===
+  LogP (no model)            ensemble 0.861   top40 82%   terciles 0.72 / 0.62 / 0.63   no-amide 0.801
+  LightGBM ECFP              seeds 0.800 ± 0.003   ensemble 0.801   top40 72%   rho(LogP) 0.63   terciles 0.89 / 0.67 / 0.59   no-amide 0.707
+  LightGBM RDKit             seeds 0.844 ± 0.008   ensemble 0.846   top40 85%   rho(LogP) 0.73   terciles 0.74 / 0.66 / 0.75   no-amide 0.800
+  LightGBM ECFP+RDKit        seeds 0.829 ± 0.008   ensemble 0.833   top40 85%   rho(LogP) 0.72   terciles 0.71 / 0.65 / 0.71   no-amide 0.774
+  LightGBM ECFP+RDKit+xTB    seeds 0.868 ± 0.006   ensemble 0.868   top40 82%   rho(LogP) 0.76   terciles 0.73 / 0.71 / 0.75   no-amide 0.808
+  DimeNet++                  seeds 0.878 ± 0.009   ensemble 0.891   top40 85%   rho(LogP) 0.91   terciles 0.75 / 0.71 / 0.73   no-amide 0.855
+  GINE                       seeds 0.495 ± 0.013   ensemble 0.494   top40 40%   rho(LogP) -0.09   terciles 0.73 / 0.60 / 0.47   no-amide 0.501
+  paired bootstrap, ensemble ROC-AUC difference [2.5, 97.5]:
+    DimeNet++ - LightGBM RDKit: +0.046 [+0.002, +0.094]
+    DimeNet++ - LightGBM ECFP+RDKit: +0.058 [+0.013, +0.106]
+    DimeNet++ - LightGBM ECFP+RDKit+xTB: +0.023 [-0.021, +0.065]
+    DimeNet++ - LogP: +0.031 [+0.000, +0.062]
+    LightGBM ECFP+RDKit+xTB - LightGBM ECFP+RDKit: +0.035 [+0.010, +0.061]
+    LightGBM ECFP+RDKit+xTB - LogP: +0.008 [-0.044, +0.058]
+
+=== trained on gen0 + gen1: 182 test complexes, 76 active; without amines 26/36/38: 120 (65 active) ===
+  LogP (no model)            ensemble 0.858   top40 82%   terciles 0.72 / 0.60 / 0.64   no-amide 0.801
+  LightGBM ECFP              seeds 0.788 ± 0.003   ensemble 0.788   top40 68%   rho(LogP) 0.69   terciles 0.90 / 0.56 / 0.59   no-amide 0.679
+  LightGBM RDKit             seeds 0.816 ± 0.007   ensemble 0.817   top40 72%   rho(LogP) 0.71   terciles 0.79 / 0.55 / 0.74   no-amide 0.738
+  LightGBM ECFP+RDKit        seeds 0.807 ± 0.008   ensemble 0.807   top40 72%   rho(LogP) 0.71   terciles 0.74 / 0.55 / 0.71   no-amide 0.709
+  LightGBM ECFP+RDKit+xTB    seeds 0.831 ± 0.003   ensemble 0.834   top40 78%   rho(LogP) 0.74   terciles 0.84 / 0.59 / 0.73   no-amide 0.754
+  DimeNet++                  seeds 0.858 ± 0.012   ensemble 0.859   top40 85%   rho(LogP) 0.87   terciles 0.84 / 0.53 / 0.71   no-amide 0.839
+  GINE                       seeds 0.499 ± 0.016   ensemble 0.496   top40 38%   rho(LogP) -0.11   terciles 0.63 / 0.61 / 0.49   no-amide 0.529
+  paired bootstrap, ensemble ROC-AUC difference [2.5, 97.5]:
+    DimeNet++ - LightGBM RDKit: +0.041 [+0.000, +0.085]
+    DimeNet++ - LightGBM ECFP+RDKit: +0.051 [+0.009, +0.096]
+    DimeNet++ - LightGBM ECFP+RDKit+xTB: +0.024 [-0.017, +0.068]
+    DimeNet++ - LogP: +0.001 [-0.040, +0.041]
+    LightGBM ECFP+RDKit+xTB - LightGBM ECFP+RDKit: +0.027 [+0.005, +0.050]
+    LightGBM ECFP+RDKit+xTB - LogP: -0.023 [-0.079, +0.034]

@@ -1,0 +1,6 @@
+split: random (folds.csv)
+10209 complexes, 10175 evaluated (exclude_overlap: 12, xTB failed: 22); isomer label source: {'site_map': 7895, 'geometry_only': 2314}
+dipole_D  2D features          MAE of the 3-seed mean 1.681   (single seeds 1.690 +/- 0.002)
+dipole_D  2D + isomer label    MAE of the 3-seed mean 1.575   (single seeds 1.584 +/- 0.001)
+gap_eV    2D features          MAE of the 3-seed mean 0.367   (single seeds 0.370 +/- 0.000)
+gap_eV    2D + isomer label    MAE of the 3-seed mean 0.365   (single seeds 0.367 +/- 0.000)

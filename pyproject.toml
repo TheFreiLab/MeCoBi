@@ -1,0 +1,105 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mecobi"
+version = "0.1.0"
+description = "MeCoBi — Metal Complex Builder: SMILES ligands to optimised 3D metal-complex structures."
+readme = "README.md"
+# Supported and CI-tested: Python 3.11-3.14 (PRs test 3.12; every push to main runs the suite on
+# all four). 3.10 is out: stk, numpy 2.4 and pandas 3 all require 3.11+.
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Angelo Frei" }]
+keywords = ["chemistry", "metal-complex", "stk", "xtb", "coordination"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+# Core has ZERO web dependencies. Web extras live under [project.optional-dependencies].
+#
+# Dependency policy: runtime requirements are kept intentionally loose (few hard
+# floors) so the package stays broadly installable across the scientific-Python
+# stack. Reproducibility is provided separately by `constraints.txt`, which pins
+# the exact tested versions — use `pip install -e ".[web,dev]" -c constraints.txt`
+# for a known-good environment (CI, bug repro). Add a floor here only when a lower
+# version is known to break MeCoBi.
+#
+# Known version sensitivity (not a floor): RDKit conformers differ between releases, and
+# so can the raw stk placement that the joint re-embedding trigger judges.
+# test_two_interpenetrating_chelates_are_re_embedded passes with the locked rdkit 2026.3.3
+# but not with 2025.03.5. A floor would make the reverse-tm extra (trex pins
+# rdkit==2025.3.5) uninstallable, so published results use the lock instead.
+dependencies = [
+    "numpy",
+    "pandas",
+    "rdkit",
+    "stk",
+    "stko",
+    "MCHammer",
+    "torch",          # pydentate backend
+    "tqdm",           # used by vendored pydentate
+]
+
+[project.optional-dependencies]
+web = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "pydantic>=2",  # app.py uses v2-only APIs (BaseModel.model_dump)
+]
+dev = [
+    "pytest",
+    "ruff",
+    "httpx",  # FastAPI TestClient
+]
+# Metal-aware xyz->SMILES / T-REX reverse backends (both MIT, imported lazily;
+# see mecobi.reverse). Not on PyPI, so installed from git.
+reverse-tm = [
+    "xyz2mol_tm @ git+https://github.com/jensengroup/xyz2mol_tm",
+    # upstream distribution is named "trex-notation" (module still imports as `trex`)
+    "trex-notation @ git+https://github.com/iliak14/trex",
+]
+
+[project.scripts]
+mecobi = "mecobi.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"mecobi" = ["data/*.json"]
+"mecobi._pydentate" = ["LICENSE"]
+"mecobi._pydentate.models" = ["*.pt"]
+# The whole built frontend bundle is package data (a non-editable install serves it
+# from site-packages, not ./src). Recursive glob so no static subdir is silently
+# dropped — the explicit ones (assets, vendor/3Dmol) are listed too for older
+# setuptools that don't honour **.
+"mecobi.web" = ["static/*", "static/assets/*", "static/vendor/*", "static/**/*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# Vendored third-party code (pydentate, MIT) stays as upstream wrote it; the paper's analysis scripts
+# stay as they were run.
+extend-exclude = ["src/mecobi/_pydentate", "experiments/paper/scripts"]
+force-exclude = true  # also when a file is named explicitly (pre-commit, editors)
+
+[tool.ruff.lint]
+# House idioms, deliberately allowed: `l` for a ligand and element-named constants (`O`)
+# (E741), and short `a; b` / `if x: return` lines and named lambdas (E702, E701, E731).
+ignore = ["E741", "E702", "E701", "E731"]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests and research scripts put experiments/ on sys.path before importing from it.
+"tests/**" = ["E402"]
+"experiments/**" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]  # never collect stray tests from gitignored tmp_* scratch dirs
+markers = ["slow: tests that load the pydentate torch models"]

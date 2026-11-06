@@ -1,0 +1,58 @@
+{
+"HOVWUL": {
+"msmiles": "[Mo+4]|[Cl-:2]|CC(C)c1cccc(C(C)C)c1[N-2:1]|C[P:6](C)C|C[P:4](C)C|C[P:3](C)C|[H-:5]|6_octahedral",
+"metal": "Mo",
+"cn": 6,
+"geometry": "octahedral",
+"status": "ok",
+"note": ""
+},
+"IDEQEN": {
+"msmiles": "[Os+4]|[Cl-:2]|CC(C)(C)[P:3](Cc1cccc(C[P:4](C(C)(C)C)C(C)(C)C)[c-:6]1)C(C)(C)C|[H-:1]|[H-:5]|6_octahedral",
+"metal": "Os",
+"cn": 6,
+"geometry": "octahedral",
+"status": "ok",
+"note": ""
+},
+"JOMNAD": {
+"msmiles": "[Ni+2]|CC[P:3](CC)CC|Clc1nc2ccccc2[n-:1]1|CC[P:4](CC)CC|[H-:2]|4_square_planar",
+"metal": "Ni",
+"cn": 4,
+"geometry": "square_planar",
+"status": "ok",
+"note": ""
+},
+"KAXBES": {
+"msmiles": "[Rh+3]|[O+]#[C-:1]|c1ccc([P:3](c2ccccc2)c2ccccc2[Si-:2](c2ccccc2[P:4](c2ccccc2)c2ccccc2)c2ccccc2[P:6](c2ccccc2)c2ccccc2)cc1|[H-:5]|6_octahedral",
+"metal": "Rh",
+"cn": 6,
+"geometry": "octahedral",
+"status": "ok",
+"note": ""
+},
+"OCUFEA": {
+"msmiles": "[Ge+4]|C[Si](C)(C)[Si-:3]([Si](C)(C)C)[Si](C)(C)C|N#[C-:1]|C[Si](C)(C)[Si-:4]([Si](C)(C)C)[Si](C)(C)C|[H-:2]|4_tetrahedral",
+"metal": "Ge",
+"cn": 4,
+"geometry": "tetrahedral",
+"status": "ok",
+"note": ""
+},
+"OWIFOR": {
+"msmiles": "[Ni+2]|C1CCC([P:2]2CCC[P:4](C3CCCCC3)C[NH2+]C2)CC1|c1ccc([P:1](CC[P:5](c2ccccc2)c2ccccc2)c2ccccc2)cc1|[H-:3]|5_square_pyramidal",
+"metal": "Ni",
+"cn": 5,
+"geometry": "square_pyramidal",
+"status": "ok",
+"note": ""
+},
+"WORFEQ": {
+"msmiles": "[Mo+4]|C[P:2](C)C|[cH:4]1[cH:4][cH:4][cH-:4][cH:4]1|C[P:1](C)C|C[P:6](C)C|[H-:3]|[H-:5]|6_octahedral",
+"metal": "Mo",
+"cn": 10,
+"geometry": "octahedral",
+"status": "ok",
+"note": ""
+}
+}

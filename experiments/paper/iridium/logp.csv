@@ -1,0 +1,11 @@
+Training set,Score,n,ROC-AUC,Spearman with LogP,Active among the 40 highest
+gen0,Calculated LogP (no model),186,0.861,–,82%
+gen0,"LightGBM, ECFP",186,0.801,0.63,72%
+gen0,"LightGBM, RDKit descriptors",186,0.846,0.73,85%
+gen0,"MLP, RDKit descriptors",186,0.757,0.46,55%
+gen0,"DimeNet++, MeCoBi structure",184,0.857,0.85,82%
+gen0 + gen1,Calculated LogP (no model),182,0.858,–,82%
+gen0 + gen1,"LightGBM, ECFP",182,0.788,0.69,68%
+gen0 + gen1,"LightGBM, RDKit descriptors",182,0.817,0.71,72%
+gen0 + gen1,"MLP, RDKit descriptors",182,0.839,0.72,80%
+gen0 + gen1,"DimeNet++, MeCoBi structure",180,0.834,0.86,85%

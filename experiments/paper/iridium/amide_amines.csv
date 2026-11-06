@@ -1,0 +1,7 @@
+Training set,Model,"Complexes with amines 26, 36 or 38 (active)",Their mean percentile in the ranking,"ROC-AUC, all test complexes",ROC-AUC without them
+gen0,"LightGBM, RDKit descriptors",66 (12),33,0.846,0.8
+gen0,"MLP, RDKit descriptors",66 (12),47,0.757,0.809
+gen0,"DimeNet++, MeCoBi structure",65 (12),36,0.857,0.807
+gen0 + gen1,"LightGBM, RDKit descriptors",62 (11),23,0.817,0.738
+gen0 + gen1,"MLP, RDKit descriptors",62 (11),21,0.839,0.806
+gen0 + gen1,"DimeNet++, MeCoBi structure",61 (11),18,0.834,0.789

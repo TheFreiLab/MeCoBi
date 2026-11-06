@@ -1,0 +1,26 @@
+# Deterministic frontend builds across Windows dev and Linux CI.
+#
+# Vite content-hashes emitted assets over their raw bytes, so a source asset with
+# CRLF on Windows but LF on Linux produces a different hash (and cascades into the
+# JS that imports it) — which broke the build-consistency check. Force LF on the
+# frontend SOURCE and on the committed bundle so every checkout feeds vite identical
+# bytes. Images stay binary (never converted).
+frontend/**/*.js    text eol=lf
+frontend/**/*.mjs   text eol=lf
+scripts/**/*.sh     text eol=lf
+frontend/**/*.jsx   text eol=lf
+frontend/**/*.css   text eol=lf
+frontend/**/*.svg   text eol=lf
+frontend/**/*.html  text eol=lf
+frontend/**/*.json  text eol=lf
+frontend/**/*.png   binary
+frontend/**/*.ico   binary
+
+src/mecobi/web/static/**/*.js   text eol=lf
+src/mecobi/web/static/**/*.css  text eol=lf
+src/mecobi/web/static/**/*.svg  text eol=lf
+src/mecobi/web/static/*.html    text eol=lf
+# Vendored third-party notice shipped beside the self-hosted viewer: same LF
+# normalisation as the rest of the bundle, so Windows and Linux builds match.
+src/mecobi/web/static/**/*.txt  text eol=lf
+src/mecobi/web/static/**/*.png  binary

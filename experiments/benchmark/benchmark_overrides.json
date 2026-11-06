@@ -1,0 +1,41 @@
+{
+  "HIFZEF": {
+    "ox": 2,
+    "ligands": ["[Cl-]", "[Cl-]", "C1CCPC1", "C1CCPC1"],
+    "charges": [-1, -1, 0, 0],
+    "donor_elements": ["Cl", "Cl", "P", "P"],
+    "note": "Pt(II) with neutral phosphines, not Pt(IV) with anionic phospholides (same total charge 0, but the anionic-P + Pt(IV) d-count wreck the xtb relaxation)."
+  },
+  "ROQDOQ": {
+    "ox": 2,
+    "note": "[Co(NCS)4]2- is Co(II) d7 (uhf 3), not Co(IV) d5 (uhf 1). The wrong d5 low-spin doublet let xtb relax the tetrahedron flat to square planar (pre-opt poly 0.2 -> 31); Co(II) d7 keeps it tetrahedral."
+  },
+  "AMUJUO": {
+    "ox": 0,
+    "ligands": ["CC(/C(C)=N/C1=C(C(C)C)C=CC=C1C(C)C)=N\\C2=C(C(C)C)C=CC=C2C(C)C", "C1(C2=CC=CC=C2)=CC(C3=CC=CC=C3)=CC(C4=CC=CC=C4)=C1"],
+    "charges": [0, 0],
+    "donor_elements": ["N", "N", "C", "C", "C", "C", "C", "C"],
+    "donors": [[4, 17], [0, 7, 8, 15, 16, 23]],
+    "note": "CSD extraction built the wrong ligands: an anionic beta-diketiminate + a benzene TRIANION instead of the real NEUTRAL bis-aryl alpha-diimine (N,N chelate) + NEUTRAL 1,3,5-triphenylbenzene (eta6 arene). User-supplied SMILES. Both ligands neutral -> V(0), total charge 0 (was V(IV) balancing -4). OS is the neutral-complex reading; verify against the crystal counterion count."
+  },
+  "INIHOD": {
+    "ox": 2,
+    "ligands": ["[Cl-]", "Cc1ccc([N-]c2ccc(C)cc2)cc1", "CC(/C(C)=N/C1=C(C(C)C)C=CC=C1C(C)C)=N\\C2=C(C(C)C)C=CC=C2C(C)C"],
+    "charges": [-1, -1, 0],
+    "donor_elements": ["Cl", "N", "N", "N"],
+    "donors": [[0], [5], [4, 17]],
+    "note": "Same broken ligand as AMUJUO: the third ligand is the NEUTRAL bis-aryl alpha-diimine (user-supplied SMILES), not the anionic beta-diketiminate. With Cl- + amide- + neutral diimine the total ligand charge is -2 -> V(II), total charge 0 (was V(III) balancing -3). Verify OS against the crystal."
+  },
+  "UMIZOG": {
+    "donors": [[2], [0, 1, 2, 3, 4], [4]],
+    "note": "The mesityl carbanion binds through its DEPROTONATED ring carbon ([c-], atom 2), not a neighbouring CH (atom 5). Donor-only fix."
+  },
+  "MUTSAX": {
+    "ox": 0,
+    "ligands": ["CC(P(C(C)C)c1c(c2c[n+]([B-](C3CCCCC3)(C4CCCCC4)OS(=O)(C(F)(F)F)=O)cc(c5c(P(C(C)C)C(C)C)cccc5)c2)cccc1)C"],
+    "charges": [0],
+    "donor_elements": ["P", "C", "P", "C"],
+    "donors": [[2, 8, 36, 47]],
+    "note": "User-corrected ligand SMILES: the SAME molecule as the mined one (identical canonical skeleton) but re-drawn and with the [c-] carbanion neutralised. Binds through the same 2 P + 2 central-ring C = new atoms 2,8,36,47 (were 3,10,11,19). The neutral tetradentate is on Ni(0) (d10), so the complex is neutral (total charge 0); ligand charge -1 -> 0 and OS 1 -> 0 together keep it neutral."
+  }
+}

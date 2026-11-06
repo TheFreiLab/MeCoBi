@@ -1,0 +1,41 @@
+# Reproducible-install lock: the exact dependency versions CI verifies. The fast
+# suite installs exactly these (Linux x86-64, CPU-only torch from the PyTorch index)
+# on Python 3.12 for every PR and on 3.11, 3.12, 3.13 and 3.14 for every push to
+# main; the Docker image installs them on Python 3.12. One lock serves all four
+# versions (every pin has wheels for cp311-cp314). Use for a reproducible environment:
+#
+#     pip install -e ".[web,dev]" -c constraints.txt
+#
+# pyproject.toml keeps runtime requirements deliberately loose (see its dependency
+# policy note) so the package stays broadly installable; this file is the pinned
+# counterpart for CI and for reproducing a green run. Regenerate after a verified
+# upgrade. NOTE: the optional `reverse-tm` extra's trex pins rdkit==2025.3.5, but
+# both tools run on the rdkit below — install them with `pip install --no-deps` (as
+# the Dockerfile does) or in a separate environment if that pin conflicts.
+
+# --- core runtime ---
+numpy==2.4.6
+pandas==3.0.3
+rdkit==2026.3.3
+stk==2026.1.4.0
+stko==2025.12.7.1
+MCHammer==2024.2.29.0
+torch==2.12.1
+tqdm==4.68.3
+# transitive (stk -> atomlite -> polars): polars >= 1.35 refuses some CPUs at import
+# ("unknown feature flag: 'sse3'"), e.g. x86-64 Python emulated on Windows on ARM, so
+# `import stk` and with it all of MeCoBi fail. 1.34.0 and its runtime import cleanly.
+polars==1.34.0
+polars-runtime-32==1.34.0
+
+# --- web extra ---
+fastapi==0.139.0
+uvicorn==0.49.0
+python-multipart==0.0.32
+pydantic==2.13.4
+starlette==1.3.1
+
+# --- dev extra ---
+pytest==9.1.1
+ruff==0.15.22
+httpx==0.28.1

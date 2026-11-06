@@ -1,0 +1,48 @@
+name: python-tests
+
+# PRs, plus pushes to main; a branch push alone no longer runs (open a PR).
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# A newer commit on the same PR/branch cancels the run still in progress (saves minutes).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        # Supported: Python 3.11-3.14 (pyproject requires-python). A PR tests 3.12 (the Docker
+        # image's version) to keep PR minutes down; a push to main or a manual run tests all four.
+        python-version: ${{ github.event_name == 'pull_request' && fromJSON('["3.12"]') || fromJSON('["3.11", "3.12", "3.13", "3.14"]') }}
+    name: test (py${{ matrix.python-version }})
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            constraints.txt
+            pyproject.toml
+      - name: Install CPU PyTorch and package with web/test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu -c constraints.txt torch
+          python -m pip install -e ".[web,dev]" -c constraints.txt
+          python -m pip check
+      - name: Ruff
+        if: matrix.python-version == '3.12'
+        run: python -m ruff check .
+      - name: Fast Python suite
+        run: python -m pytest -m "not slow" -q

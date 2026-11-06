@@ -1,0 +1,32 @@
+
+=== gen0: 186 test complexes, 77 active ===
+[DimeNet++, MeCoBi structure] n = 186 (77 active)
+  S13  ROC-AUC 0.891 | Spearman with LogP 0.91 | active among the 40 highest 85%
+  S14  terciles low / middle / high: 0.75 / 0.71 / 0.73
+  S15  amines 26/36/38: 66 (12) | mean percentile 27 | ROC-AUC all 0.891 | without them 0.855
+  S16  76 / 59 / 1 / 50 | thr 0.400 | acc 0.677 | bal.acc 0.723 | precision 0.563 | recall 0.987
+       specificity 0.459 | NPV 0.980 | F1 0.717 | MCC 0.492 | kappa 0.401 | enrichment 1.360 | ROC-AUC 0.891 | PR-AUC 0.814
+  S18  0.888 | 0.868 | 0.866 | 0.880 | 0.889 | mean 0.878 | s.d. 0.009
+[GINE (control), MeCoBi structure] n = 186 (77 active)
+  S13  ROC-AUC 0.494 | Spearman with LogP -0.09 | active among the 40 highest 40%
+  S14  terciles low / middle / high: 0.73 / 0.60 / 0.47
+  S15  amines 26/36/38: 66 (12) | mean percentile 51 | ROC-AUC all 0.494 | without them 0.501
+  S16  16 / 22 / 61 / 87 | thr 0.355 | acc 0.554 | bal.acc 0.503 | precision 0.421 | recall 0.208
+       specificity 0.798 | NPV 0.588 | F1 0.278 | MCC 0.007 | kappa 0.006 | enrichment 1.017 | ROC-AUC 0.494 | PR-AUC 0.400
+  S18  0.509 | 0.474 | 0.509 | 0.490 | 0.494 | mean 0.495 | s.d. 0.013
+
+=== gen0 + gen1: 182 test complexes, 76 active ===
+[DimeNet++, MeCoBi structure] n = 182 (76 active)
+  S13  ROC-AUC 0.859 | Spearman with LogP 0.87 | active among the 40 highest 85%
+  S14  terciles low / middle / high: 0.84 / 0.53 / 0.71
+  S15  amines 26/36/38: 62 (11) | mean percentile 19 | ROC-AUC all 0.859 | without them 0.839
+  S16  67 / 38 / 9 / 68 | thr 0.522 | acc 0.742 | bal.acc 0.762 | precision 0.638 | recall 0.882
+       specificity 0.642 | NPV 0.883 | F1 0.740 | MCC 0.522 | kappa 0.496 | enrichment 1.528 | ROC-AUC 0.859 | PR-AUC 0.778
+  S18  0.846 | 0.873 | 0.873 | 0.844 | 0.857 | mean 0.858 | s.d. 0.012
+[GINE (control), MeCoBi structure] n = 182 (76 active)
+  S13  ROC-AUC 0.496 | Spearman with LogP -0.11 | active among the 40 highest 38%
+  S14  terciles low / middle / high: 0.63 / 0.61 / 0.49
+  S15  amines 26/36/38: 62 (11) | mean percentile 58 | ROC-AUC all 0.496 | without them 0.529
+  S16  72 / 97 / 4 / 9 | thr 0.534 | acc 0.445 | bal.acc 0.516 | precision 0.426 | recall 0.947
+       specificity 0.085 | NPV 0.692 | F1 0.588 | MCC 0.062 | kappa 0.028 | enrichment 1.020 | ROC-AUC 0.496 | PR-AUC 0.404
+  S18  0.515 | 0.477 | 0.509 | 0.484 | 0.511 | mean 0.499 | s.d. 0.016

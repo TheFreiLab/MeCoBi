@@ -1,0 +1,46 @@
+# Keep the build context small: everything here is sent to the Docker daemon before
+# the first instruction runs. The repo carries ~1.5 GB that the image never needs
+# (experiments/ alone is 1.4 GB, frontend/node_modules ~86 MB).
+#
+# NOTE: src/mecobi/web/static IS required — FastAPI serves the committed frontend
+# bundle from there, which is why frontend/ itself can be excluded outright.
+
+.git
+.github
+.gitignore
+.gitattributes
+
+# Research/benchmark material — not part of the shipped app
+experiments/
+arch_comparison/
+docs/
+
+# React sources + toolchain; the built bundle is committed under src/mecobi/web/static
+frontend/
+
+# Local scratch and data files
+tmp_*/
+tmp_*
+*.zip
+*.csv
+*.xlsx
+*.docx
+*.svg
+MeCoBi_files/
+
+# Python build/test noise
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Docs: the image needs README.md only (pyproject's readme)
+*.md
+!README.md
+notes/

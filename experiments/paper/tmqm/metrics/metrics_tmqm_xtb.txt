@@ -1,0 +1,32 @@
+10209 complexes; xTB ok in both geometries: 10186; analysed (no MeCoBi atoms < 0.8 A): 10175
+A. No training (MAE cal. = linear calibration fitted on the other folds of the ligand split)
+quantity  comparison                     n Spearman  Pearson  MAE raw MAE cal.
+gap_eV    xTB(tmQM) vs DFT           10175    0.844    0.833    1.290    0.391
+gap_eV    xTB(MeCoBi) vs DFT         10175    0.708    0.707    1.610    0.526
+gap_eV    xTB(MeCoBi) vs xTB(tmQM)   10175    0.817    0.842    0.388    0.321
+gap_eV    LightGBM floor (2D)        10175                               0.392
+homo_eV   xTB(tmQM) vs DFT           10175    0.891    0.945    4.268    0.361
+homo_eV   xTB(MeCoBi) vs DFT         10175    0.840    0.921    4.166    0.431
+homo_eV   xTB(MeCoBi) vs xTB(tmQM)   10175    0.955    0.977    0.213    0.206
+lumo_eV   xTB(tmQM) vs DFT           10175    0.915    0.948    5.549    0.306
+lumo_eV   xTB(MeCoBi) vs DFT         10175    0.878    0.923    5.769    0.393
+lumo_eV   xTB(MeCoBi) vs xTB(tmQM)   10175    0.949    0.969    0.293    0.256
+dipole_D  xTB(tmQM) vs DFT           10175    0.955    0.955    1.241    0.729
+dipole_D  xTB(MeCoBi) vs DFT         10175    0.797    0.790    2.139    1.463
+dipole_D  xTB(MeCoBi) vs xTB(tmQM)   10175    0.835    0.826    1.535    1.531
+dipole_D  LightGBM floor (2D)        10175                               1.791
+q_metal   xTB(tmQM) vs DFT           10175    0.658    0.622    0.583    0.582
+q_metal   xTB(MeCoBi) vs DFT         10175    0.653    0.611    0.585    0.585
+q_metal   xTB(MeCoBi) vs xTB(tmQM)   10175    0.991    0.976    0.034    0.039
+
+B. LightGBM, ligand split, complexes without MeCoBi atoms < 0.8 A
+  dipole_D floor                            MAE 1.791 ± 0.056  R2 0.492
+  dipole_D floor + xTB(tmQM)                MAE 0.599 ± 0.022  R2 0.938 | vs floor -1.193 [-1.220, -1.166], lower in 10/10 folds
+  dipole_D floor + xTB(MeCoBi)              MAE 1.294 ± 0.043  R2 0.703 | vs floor -0.497 [-0.520, -0.472], lower in 10/10 folds
+  dipole_D floor + label + xTB(MeCoBi)      MAE 1.267 ± 0.041  R2 0.715 | vs floor -0.524 [-0.550, -0.500], lower in 10/10 folds
+  dipole_D delta: floor + xTB(MeCoBi)       MAE 1.271 ± 0.052  R2 0.693 | vs floor -0.520 [-0.553, -0.488], lower in 10/10 folds
+  gap_eV   floor                            MAE 0.392 ± 0.021  R2 0.710
+  gap_eV   floor + xTB(tmQM)                MAE 0.235 ± 0.013  R2 0.895 | vs floor -0.156 [-0.162, -0.150], lower in 10/10 folds
+  gap_eV   floor + xTB(MeCoBi)              MAE 0.326 ± 0.016  R2 0.802 | vs floor -0.065 [-0.070, -0.061], lower in 10/10 folds
+  gap_eV   floor + label + xTB(MeCoBi)      MAE 0.324 ± 0.015  R2 0.805 | vs floor -0.067 [-0.072, -0.063], lower in 10/10 folds
+  gap_eV   delta: floor + xTB(MeCoBi)       MAE 0.329 ± 0.016  R2 0.797 | vs floor -0.063 [-0.069, -0.057], lower in 10/10 folds
