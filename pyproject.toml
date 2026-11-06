@@ -11,7 +11,14 @@ readme = "README.md"
 # all four). 3.10 is out: stk, numpy 2.4 and pandas 3 all require 3.11+.
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "Angelo Frei" }]
+# Same five authors, in the same order, as CITATION.cff.
+authors = [
+    { name = "Gustavo Clauss" },
+    { name = "David R. Husbands" },
+    { name = "Çağrı Özsan" },
+    { name = "Camilla Abbehausen" },
+    { name = "Angelo Frei" },
+]
 keywords = ["chemistry", "metal-complex", "stk", "xtb", "coordination"]
 classifiers = [
     "Programming Language :: Python :: 3",

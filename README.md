@@ -235,7 +235,11 @@ proxy settings the public deployment runs with.
 
 MeCoBi is MIT-licensed ([`LICENSE`](LICENSE), Copyright (c) 2026 The Frei Lab).
 To cite MeCoBi itself, use the metadata in [`CITATION.cff`](CITATION.cff), which
-GitHub renders as a "Cite this repository" button.
+GitHub renders as a "Cite this repository" button. Released versions are archived on
+Zenodo ([10.5281/zenodo.24013232](https://doi.org/10.5281/zenodo.24013232), all versions;
+0.1.0, the version described in the preprint, is
+[10.5281/zenodo.24013233](https://doi.org/10.5281/zenodo.24013233)). The paper's
+supplementary data are at [10.5281/zenodo.24011213](https://doi.org/10.5281/zenodo.24011213).
 
 The full inventory of third-party material, separated by
 whether we redistribute it (vendored code, the xtb binary in the Docker image) or

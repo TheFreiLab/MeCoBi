@@ -14,7 +14,9 @@ data that belong to the source databases, are included:
 
 The iridium library is our own and is given in full (activities, conversions, building blocks).
 
-Supplementary Tables and Figures are numbered as in the submitted Supplementary Information.
+Supplementary Tables and Figures are numbered as in the submitted Supplementary Information. Supplementary Data 1–9
+(the benchmark set, the generated structures and the tool-comparison report) are on Zenodo:
+[10.5281/zenodo.24011213](https://doi.org/10.5281/zenodo.24011213).
 
 ## `benchmark/`: 30,830 CSD complexes (Figures 2–3, Tables S1–S5, S11)
 

@@ -11,6 +11,17 @@ license: MIT
 version: 0.1.1
 date-released: "2026-11-06"
 repository-code: "https://github.com/TheFreiLab/MeCoBi"
+doi: 10.5281/zenodo.24013232
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24013232
+    description: "MeCoBi on Zenodo, all versions (resolves to the latest)"
+  - type: doi
+    value: 10.5281/zenodo.24013233
+    description: "MeCoBi 0.1.0 on Zenodo, the version described in the preprint"
+  - type: doi
+    value: 10.5281/zenodo.24011213
+    description: "Supplementary data of the MeCoBi paper on Zenodo"
 keywords:
   - chemistry
   - metal complex
