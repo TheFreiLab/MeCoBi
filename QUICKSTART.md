@@ -196,7 +196,8 @@ in a pasted or uploaded CSV is ignored by the GUI; the CLI (step 5) supports it.
 The local GUI is the same application as the public site, with the same defaults.
 It listens on `127.0.0.1` only, so nobody else on the network can reach it (leave
 `--host` alone unless you mean to share it). Stop it with **Ctrl+C**. Relaxation
-needs xtb, exactly as for the CLI (step 3a).
+needs xtb, exactly as for the CLI (step 3a). The structures counter in the footer
+counts the builds on your machine only; nothing is sent anywhere.
 
 Things that behave as on the public server:
 

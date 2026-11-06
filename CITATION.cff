@@ -8,8 +8,8 @@ abstract: >-
   semi-empirical relaxation.
 type: software
 license: MIT
-version: 0.1.0
-date-released: "2026-11-05"
+version: 0.1.1
+date-released: "2026-11-06"
 repository-code: "https://github.com/TheFreiLab/MeCoBi"
 keywords:
   - chemistry

@@ -5,6 +5,7 @@ import freilabLogoDark from "./assets/freilab-logo-dark.svg";
 import mecobiLogo from "./assets/mecobi-logo.svg";
 import BusyLabel from "./components/BusyLabel.jsx";
 import ComplexTable from "./components/ComplexTable.jsx";
+import FlipCounter from "./components/FlipCounter.jsx";
 import GuidedTour from "./components/GuidedTour.jsx";
 import Icon from "./components/Icon.jsx";
 import IsomerScene from "./components/IsomerScene.jsx";
@@ -1001,6 +1002,8 @@ export default function App() {
         className="mono muted"
         style={{ textAlign: "center", padding: "18px 0 26px", fontSize: "var(--text-caption)" }}
       >
+        {/* Public usage counter; re-reads the total whenever new results arrive. */}
+        <FlipCounter refreshKey={files.length} />
         {/* Legal disclaimer link is always rendered (not gated behind the version
             fetch) — a public deployment must surface it even if /api/version fails. */}
         <a

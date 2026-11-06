@@ -789,6 +789,15 @@ def create_app() -> FastAPI:
         """Version + git branch/commit of the running build, for the GUI footer."""
         return _version_info()
 
+    @app.get("/api/stats")
+    def stats() -> dict:
+        """Public usage counter for the GUI footer: ``{"structures_built", "since"}``.
+
+        Anonymous running totals only (see :mod:`mecobi.web.usage`); ``since`` is the first
+        day counted (ISO date) or null before the first build.
+        """
+        return app.state.store.usage_totals()
+
     @app.get("/api/geometries")
     def geometries() -> dict[str, list[str]]:
         """CN -> geometry options; lets the client refresh the table when donor

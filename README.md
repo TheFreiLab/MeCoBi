@@ -313,6 +313,13 @@ are bounded before JSON parsing; molecular previews also enforce ligand/atom
 limits, a concurrency cap, and a request rate limit. These application controls
 do not replace deployment CPU, memory, disk, and whole-job runtime limits.
 
+**Usage counter.** The GUI footer shows how many structures have been built since
+counting began (`GET /api/stats`). The server keeps only anonymous daily totals in the
+job database: requests, complexes, structures, errors, and an approximate number of
+distinct users, counted with a hash whose salt exists only in memory and only for the
+current day. No IP addresses, SMILES or file names are kept, and the totals are not
+removed by the 24-hour cleanup. `python -m mecobi.web.usage` prints them as CSV.
+
 "Download all" builds the job's zip in a temporary file (never in memory) after
 checking `MECOBI_MAX_ZIP_FILES` (default 5,000) and `MECOBI_MAX_ZIP_BYTES` (250 MB
 uncompressed); a finished job's archive is built once and reused. Archive building

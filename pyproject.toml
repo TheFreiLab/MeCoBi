@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mecobi"
-version = "0.1.0"
+version = "0.1.1"
 description = "MeCoBi — Metal Complex Builder: SMILES ligands to optimised 3D metal-complex structures."
 readme = "README.md"
 # Supported and CI-tested: Python 3.11-3.14 (PRs test 3.12; every push to main runs the suite on

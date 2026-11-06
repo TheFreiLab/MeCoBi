@@ -30,6 +30,7 @@ from pathlib import Path
 
 from .. import pipeline
 from ..model import Complex, Geometry, Ligand, Metal, Spin
+from . import usage
 
 RESULT_TTL = timedelta(hours=24)          # §10.6
 CLEANUP_INTERVAL_S = 3600
@@ -332,6 +333,39 @@ class JobStore:
                 c.execute("ALTER TABLE jobs ADD COLUMN finished_at TEXT")
                 c.execute("UPDATE jobs SET finished_at=updated_at WHERE status IN (?,?)",
                           (JobStatus.DONE.value, JobStatus.FAILED.value))
+            # Daily usage totals (structures built etc.); kept when jobs expire.
+            usage.ensure_schema(c)
+
+    @staticmethod
+    def _is_active(c: sqlite3.Connection, jid: str) -> bool:
+        row = c.execute("SELECT status FROM jobs WHERE id=?", (jid,)).fetchone()
+        return row is not None and row["status"] in (JobStatus.QUEUED.value,
+                                                      JobStatus.RUNNING.value)
+
+    def usage_totals(self) -> dict:
+        """Public counter: structures built since counting began (see usage.py)."""
+        with self._conn() as c:
+            return usage.totals(c)
+
+    @staticmethod
+    def _count_usage(c: sqlite3.Connection, jid: str, results: list | None,
+                     errors: list | None, *, failed: bool) -> None:
+        """Add a job that is ending now to the daily totals, in the caller's transaction.
+
+        Called only on the transition out of queued/running, so each job counts once.
+        ``results``/``errors`` of None mean "whatever the job has published so far"
+        (a failed or interrupted job keeps, and counts, the structures it finished).
+        """
+        row = c.execute("SELECT submitter, n_complexes, results, complex_errors FROM jobs "
+                        "WHERE id=?", (jid,)).fetchone()
+        if row is None:
+            return
+        if results is None:
+            results = json.loads(row["results"] or "[]")
+        if errors is None:
+            errors = json.loads(row["complex_errors"] or "[]")
+        usage.record(c, submitter=row["submitter"], complexes=row["n_complexes"] or 0,
+                     structures=len(results), complex_errors=len(errors), failed=failed)
 
     @contextlib.contextmanager
     def _conn(self) -> Iterator[sqlite3.Connection]:
@@ -480,6 +514,8 @@ class JobStore:
 
     def finish(self, jid: str, results: list[dict], errors: list[dict] | None = None) -> None:
         with self._lock, self._conn() as c:
+            if self._is_active(c, jid):
+                self._count_usage(c, jid, results, errors or [], failed=False)
             c.execute(
                 "UPDATE jobs SET status=?, results=?, complex_errors=?, progress=?, stage=?, updated_at=?, finished_at=? WHERE id=?",
                 (JobStatus.DONE.value, json.dumps(results),
@@ -489,6 +525,8 @@ class JobStore:
 
     def fail(self, jid: str, error: str) -> None:
         with self._lock, self._conn() as c:
+            if self._is_active(c, jid):
+                self._count_usage(c, jid, None, None, failed=True)
             c.execute(
                 "UPDATE jobs SET status=?, error=?, updated_at=?, finished_at=? WHERE id=?",
                 (JobStatus.FAILED.value, error, _now().isoformat(), _now().isoformat(), jid),
@@ -498,6 +536,9 @@ class JobStore:
         """Called once at startup, before any worker or request starts building."""
         now = _now().isoformat()
         with self._lock, self._conn() as c:
+            for row in c.execute("SELECT id FROM jobs WHERE status=?",
+                                 (JobStatus.RUNNING.value,)).fetchall():
+                self._count_usage(c, row["id"], None, None, failed=True)
             cursor = c.execute(
                 "UPDATE jobs SET status=?, error=?, updated_at=?, finished_at=? WHERE status=?",
                 (JobStatus.FAILED.value,

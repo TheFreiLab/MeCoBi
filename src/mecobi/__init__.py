@@ -19,4 +19,4 @@ Public surface (stable seams):
     - :mod:`mecobi.pipeline`   — end-to-end orchestration.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

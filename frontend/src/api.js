@@ -30,6 +30,11 @@ export const api = {
   cancelJob: (id) => post(`/api/jobs/${id}/cancel`, {}),
   geometries: () => fetch("/api/geometries").then((r) => r.json()),
   version: () => fetch("/api/version").then((r) => r.json()),
+  stats: () =>
+    fetch("/api/stats").then((r) => {
+      if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+      return r.json();
+    }),
   depict: (smiles) =>
     fetch(`/api/depict?smiles=${encodeURIComponent(smiles)}`).then((r) => r.json()),
   depictSvg: (smiles) =>
