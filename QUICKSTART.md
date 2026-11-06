@@ -191,6 +191,49 @@ The GUI has no notation input: to build a specific isomer, pick donors in the
 row's donor panel and assign sites in the 3D **Assign** scene. An `isomer` column
 in a pasted or uploaded CSV is ignored by the GUI; the CLI (step 5) supports it.
 
+### Running the GUI on your own machine
+
+The local GUI is the same application as the public site, with the same defaults.
+It listens on `127.0.0.1` only, so nobody else on the network can reach it (leave
+`--host` alone unless you mean to share it). Stop it with **Ctrl+C**. Relaxation
+needs xtb, exactly as for the CLI (step 3a).
+
+Things that behave as on the public server:
+
+- **Results are deleted after 24 hours.** They are kept in a `mecobi_data` folder
+  in the system temp directory (`%TEMP%\mecobi_data` on Windows), and the same
+  24-hour cleanup runs locally. Download what you want to keep.
+- **Builds run one at a time.** There is a single build worker, so a large job
+  uses one core. Restarting the server marks a job that was running as failed;
+  the structures it had already finished are kept.
+- **Limits:** at most 1,000 complexes per job and 1,000 structures waiting at
+  once (with *all isomers*, every isomer counts), and 20 builds, job submissions
+  or exports per minute. Clicking **Build** on many rows in quick succession can
+  hit that last one; use **Build all** instead.
+
+The limits are environment variables, so you can raise them for your own machine.
+Set them in the terminal you start the server from. The structure limit must be
+at least as large as your biggest job, or the job is rejected:
+
+```bash
+# Linux / macOS
+MECOBI_MAX_COMPLEXES=5000 MECOBI_MAX_PENDING_STRUCTURES=20000 MECOBI_RATE_MAX=1000 \
+  python -m uvicorn mecobi.web:app --port 8000
+```
+
+```powershell
+# Windows PowerShell
+$env:MECOBI_MAX_COMPLEXES = "5000"
+$env:MECOBI_MAX_PENDING_STRUCTURES = "20000"
+$env:MECOBI_RATE_MAX = "1000"
+python -m uvicorn mecobi.web:app --port 8000
+```
+
+For thousands of complexes the CLI (step 4) is usually the better tool: it has no
+job limits, writes straight into the folder you choose, and keeps nothing in temp.
+It also builds one complex at a time; to use several cores, split the CSV and run
+one `mecobi build` per part, each with its own `--output-dir`.
+
 ---
 
 ## Troubleshooting

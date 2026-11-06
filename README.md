@@ -190,6 +190,10 @@ python -m uvicorn mecobi.web:app --port 8000
 # open http://127.0.0.1:8000  → paste a CSV (or "Load sample") → Parse → Build → view/download
 ```
 
+A local GUI keeps the public server's defaults (results deleted after 24 h, one build
+at a time, 1,000 complexes per job). [QUICKSTART §7](QUICKSTART.md#running-the-gui-on-your-own-machine)
+explains them and how to raise the limits on your own machine.
+
 The GUI is a **React + Vite** app (`frontend/`) whose production build is committed
 into `src/mecobi/web/static/` and served by FastAPI — so running the GUI needs no
 Node. To develop the frontend:
