@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="frontend/src/assets/mecobi-logo.svg" alt="MeCoBi logo" width="180">
+</p>
+
 # MeCoBi — Metal Complex Builder
 
 Turn SMILES strings of metal-complex **ligands** into optimised 3D structures
