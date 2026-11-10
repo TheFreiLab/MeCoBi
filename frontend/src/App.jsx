@@ -15,6 +15,10 @@ import WebLimitNote from "./components/WebLimitNote.jsx";
 import WorkloadNotice from "./components/WorkloadNotice.jsx";
 import { TOUR_STEPS } from "./tourSteps.js";
 
+// Where MeCoBi is described and where its code lives (also in README and CITATION.cff).
+const PREPRINT_URL = "https://doi.org/10.26434/chemrxiv.15011867/v1";
+const GITHUB_URL = "https://github.com/TheFreiLab/MeCoBi";
+
 // A themed showcase of real metallodrugs spanning Pt/Ti/Ru/Fe, several
 // coordination motifs (square planar, bent metallocene, tris-bidentate
 // octahedral, ferrocene sandwich) and a bulky pendant ligand (TLD1433's IP-3T).
@@ -829,6 +833,13 @@ export default function App() {
           </div>
         </div>
         <div className="header-right">
+          {/* Hidden on narrow screens (styles.css): the intro and footer carry the same links. */}
+          <a className="toggle-btn header-link" href={PREPRINT_URL} target="_blank" rel="noreferrer">
+            Paper
+          </a>
+          <a className="toggle-btn header-link" href={GITHUB_URL} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
           <a href="https://thefreilab.com" target="_blank" rel="noreferrer" title="TheFreiLab">
             <img className="freilab-logo" src={freilabSrc} alt="TheFreiLab" />
           </a>
@@ -874,6 +885,10 @@ export default function App() {
           into optimised 3D structures. It assembles the coordination geometry, enumerates isomers,
           and optionally relaxes each with GFN2-xtb, quickly and at high throughput. Enter your
           complexes below, or load the sample to see the format.
+          {" "}If you use MeCoBi, please cite our{" "}
+          <a href={PREPRINT_URL} target="_blank" rel="noreferrer">preprint</a>; the code is open
+          source on{" "}
+          <a href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub</a>.
         </p>
         <WorkloadNotice />
         <div className={"input-row" + (libOpen ? " with-library" : "")}>
@@ -1012,6 +1027,14 @@ export default function App() {
           rel="noreferrer"
         >
           Disclaimer
+        </a>
+        {" · "}
+        <a href={PREPRINT_URL} target="_blank" rel="noreferrer">
+          Preprint
+        </a>
+        {" · "}
+        <a href={GITHUB_URL} target="_blank" rel="noreferrer">
+          GitHub
         </a>
         {version
           ? ` · MeCoBi v${version.version}` +

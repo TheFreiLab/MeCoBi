@@ -397,6 +397,10 @@ a { color: var(--accent-500); }
   background: transparent; border: 0.5px solid var(--border-strong); color: var(--text-secondary);
   border-radius: var(--radius-ctl); padding: 6px 12px; cursor: pointer;
 }
+/* Paper / GitHub links styled like the Tour and Dark buttons; on phones the header row has no
+   room for them (Dark would be pushed off screen), and the intro + footer carry the same links. */
+a.header-link { text-decoration: none; font-size: 13.333px; }
+@media (max-width: 720px) { a.header-link { display: none; } }
 .spinner {
   /* Neutral track + bright accent head so the spin is visible in BOTH themes
      (in dark, accent-200 and accent-500 are the same colour, which hid it). */
