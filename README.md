@@ -10,6 +10,10 @@ Turn SMILES strings of metal-complex **ligands** into optimised 3D structures
 **Try it online:** <https://mecobi.york.ac.uk> (the deployed commit is shown in the
 page footer and at `/api/version`).
 
+**Preprint:** G. Clauss, D. R. Husbands, Ç. Özsan, C. Abbehausen and A. Frei, *MeCoBi: A fast and accurate
+transition metal complex builder that generates 3D structures at scale and enables structure-based
+machine learning*, ChemRxiv, 2026, [10.26434/chemrxiv.15011867](https://doi.org/10.26434/chemrxiv.15011867/v1).
+
 Pipeline: `SMILES → pydentate (donor atoms, denticity) → coordination number →
 geometry → isomer enumeration → stk assembly → MCHammer → xtb → .xyz`.
 
@@ -234,8 +238,14 @@ proxy settings the public deployment runs with.
 ## Credits & third-party licences
 
 MeCoBi is MIT-licensed ([`LICENSE`](LICENSE), Copyright (c) 2026 The Frei Lab).
-To cite MeCoBi itself, use the metadata in [`CITATION.cff`](CITATION.cff), which
-GitHub renders as a "Cite this repository" button. Released versions are archived on
+If you use MeCoBi, please cite the preprint:
+
+> G. Clauss, D. R. Husbands, Ç. Özsan, C. Abbehausen and A. Frei, *MeCoBi: A fast and accurate
+> transition metal complex builder that generates 3D structures at scale and enables structure-based
+> machine learning*, ChemRxiv, 2026, [10.26434/chemrxiv.15011867](https://doi.org/10.26434/chemrxiv.15011867/v1).
+
+[`CITATION.cff`](CITATION.cff) carries the same reference (GitHub renders it as a
+"Cite this repository" button). Released versions are archived on
 Zenodo ([10.5281/zenodo.24013232](https://doi.org/10.5281/zenodo.24013232), all versions;
 0.1.0, the version described in the preprint, is
 [10.5281/zenodo.24013233](https://doi.org/10.5281/zenodo.24013233)). The paper's

@@ -1,5 +1,7 @@
 # Results behind the MeCoBi paper
 
+Preprint: G. Clauss, D. R. Husbands, Ç. Özsan, C. Abbehausen and A. Frei, *MeCoBi: A fast and accurate transition metal complex builder that generates 3D structures at scale and enables structure-based machine learning*, ChemRxiv, 2026, [10.26434/chemrxiv.15011867](https://doi.org/10.26434/chemrxiv.15011867/v1).
+
 The results that every figure, table and number of the paper is computed from, organised by section. Only
 identifiers, labels, our predictions, our xTB values and the resulting metrics are stored here. No structures, and no
 data that belong to the source databases, are included:

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use MeCoBi in your work, please cite it using this metadata."
+message: "If you use MeCoBi in your work, please cite the preprint below (preferred-citation)."
 title: "MeCoBi: Metal Complex Builder"
 abstract: >-
   MeCoBi turns SMILES strings of metal-complex ligands into optimised 3D
@@ -44,3 +44,22 @@ authors:
   - family-names: Frei
     given-names: Angelo
     affiliation: "Department of Chemistry, University of York, Heslington, York, YO10 5DD, U.K."
+preferred-citation:
+  type: article
+  status: preprint
+  title: "MeCoBi: A fast and accurate transition metal complex builder that generates 3D structures at scale and enables structure-based machine learning"
+  journal: ChemRxiv
+  year: 2026
+  doi: 10.26434/chemrxiv.15011867/v1
+  url: "https://doi.org/10.26434/chemrxiv.15011867/v1"
+  authors:
+    - family-names: Clauss
+      given-names: Gustavo
+    - family-names: Husbands
+      given-names: David R.
+    - family-names: Özsan
+      given-names: Çağrı
+    - family-names: Abbehausen
+      given-names: Camilla
+    - family-names: Frei
+      given-names: Angelo
