@@ -38,7 +38,7 @@ crystallographer-deposited `_geom_bond` loop. The 36 non-f-block metals are
 mined by `experiments/benchmark/dataprep/mine_ml_reference.py` from all of their
 structures (293,443 with a usable bond loop). An oxidation state is assigned to
 172,969 of them by consensus: the metal's formal charge in the xyz2mol_tm
-dataset (Jensen group, `csd_smiles.csv`), used only where its two SMILES agree
+dataset (Rasmussen et al., `csd_smiles.csv`), used only where its two SMILES agree
 and, where our own charge balance also gives a value, where that agrees too.
 Structures without a confirmed oxidation state still feed the coarse level. The
 `metal|C_eta` bins and the sigma-only `metal|C` coarse bins were mined without

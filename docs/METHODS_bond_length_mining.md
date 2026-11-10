@@ -143,7 +143,7 @@ ligands are drawn covalently ([ZrF6]2- gave Zr(−II) bins).
 
 * *Every structure is read*, with no early stop, for the 36 non-f-block metals. The three-level
   binning and the CN definition (non-H `_geom_bond` contacts of the metal) are unchanged.
-* *Consensus oxidation state.* The metal's formal charge in the xyz2mol_tm dataset (Jensen group,
+* *Consensus oxidation state.* The metal's formal charge in the xyz2mol_tm dataset (Rasmussen et al.,
   `csd_smiles.csv`) is used only where its CSD-API-derived and its Hückel-from-coordinates
   SMILES agree. Where the ligand charge balance (`mecobi_ready_<M>.csv`) also gives a value the
   two must match; for hapto complexes, where the charge balance counts a Cp carbon by carbon, the

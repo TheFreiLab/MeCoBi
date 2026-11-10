@@ -154,3 +154,40 @@ def test_roundtrip_octahedral_bidentate_donor_indices(tmp_path):
     assert len(chelates) == 2
     # both recovered chelates coordinate through two atoms (the bipyridine N,N).
     assert all(len(l.donor_atoms) == 2 for l in chelates)
+
+
+# --------------------------------------------------------------------------- #
+# install hints for the optional backends
+# --------------------------------------------------------------------------- #
+
+@pytest.mark.parametrize(
+    ("blocked", "importer"),
+    [("xyz2mol_tm", reverse._import_xyz2mol_tm), ("trex", reverse._import_trex)],
+)
+def test_missing_backend_hint_does_not_point_at_pypi(monkeypatch, blocked, importer):
+    # MeCoBi is not on PyPI: `pip install 'mecobi[...]'` would fail, or fetch a squatter's
+    # package. The hint must name the editable install from the checkout instead.
+    # Block the package and every already-imported submodule: `from a.b.c import x` finds a
+    # cached "a.b.c" in sys.modules without checking "a", so blocking "a" alone is not enough
+    # where the backend is installed (the Docker image).
+    modules = __import__("sys").modules
+    for name in [blocked] + [m for m in list(modules) if m.startswith(blocked + ".")]:
+        monkeypatch.setitem(modules, name, None)
+    with pytest.raises(reverse.ReverseError) as err:
+        importer()
+    msg = str(err.value)
+    assert "pip install -e '.[reverse-tm]'" in msg
+    assert "mecobi[" not in msg
+
+
+def test_complex_smiles_attributed_to_rasmussen(monkeypatch):
+    # xyz2mol_tm is Rasmussen et al., J. Cheminform. 2025 ("SMILES all around"); the GUI shows
+    # `ref` next to "Complex SMILES". Pretend the backend is installed so the entry is listed.
+    real = reverse.importlib.util.find_spec
+    monkeypatch.setattr(
+        reverse.importlib.util, "find_spec",
+        lambda name, *a: object() if name == "xyz2mol_tm" else real(name, *a),
+    )
+    rep = next(r for r in reverse.available_representations() if r["key"] == "complex_smiles")
+    assert rep["ref"] == "Rasmussen et al."
+    assert "Jensen" not in rep["ref"] + rep["cite"]

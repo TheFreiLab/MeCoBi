@@ -388,7 +388,7 @@ th.remove-col, td.remove-col { text-align: center; padding-left: 8px; padding-ri
   background: transparent; border: 0; border-radius: 6px; padding: 7px 10px;
 }
 @media (hover: hover) { .smiles-item:hover { background: var(--accent-50); color: var(--accent-700); } }
-/* Short attribution tag under/next to a representation label ("Jensen et al."). */
+/* Short attribution tag under/next to a representation label ("Rasmussen et al."). */
 .ref { color: var(--text-muted); font-size: var(--text-caption); font-style: italic; }
 /* In the inline result line the tag follows the label on the same line. */
 .reverse-out .ref { margin-left: 5px; }

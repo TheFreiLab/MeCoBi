@@ -266,10 +266,10 @@ cite:
 
 The `reverse` command / web "Get SMILES" control has two optional, metal-aware
 backends (both MIT-licensed, imported lazily, **not** vendored — installed via the
-`reverse-tm` extra: `pip install 'mecobi[reverse-tm]'`). If you use either, please
-cite the corresponding paper:
+`reverse-tm` extra: `pip install -e ".[reverse-tm]"` from the clone; MeCoBi is not on
+PyPI). If you use either, please cite the corresponding paper:
 
-- **xyz2mol_tm** — whole-complex xyz→SMILES (Jensen Group,
+- **xyz2mol_tm** — whole-complex xyz→SMILES (Rasmussen et al.,
   <https://github.com/jensengroup/xyz2mol_tm>). *SMILES all around: structure to
   SMILES conversion for transition metal complexes*, J. Cheminform. 2025 —
   [10.1186/s13321-025-01008-1](https://doi.org/10.1186/s13321-025-01008-1)

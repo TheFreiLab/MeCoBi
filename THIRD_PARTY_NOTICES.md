@@ -108,7 +108,7 @@ xyz2mol_tm wheel's `ML` package carries its own MIT notice (`ML/LICENSE_tmQMg_ML
 
 | Package | Licence |
 |---|---|
-| xyz2mol_tm (Jensen Group) | MIT |
+| xyz2mol_tm (Rasmussen et al.) | MIT |
 | trex-notation | MIT |
 
 ## 4. Data

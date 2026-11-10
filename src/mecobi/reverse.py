@@ -17,7 +17,7 @@ Two dedicated, metal-aware third-party tools can be selected instead for tougher
 cases (both optional, both MIT-licensed -- installed via the ``reverse-tm`` extra,
 not vendored):
 
-* ``"xyz2mol_tm"`` -- the Jensen group's structure->SMILES converter for transition
+* ``"xyz2mol_tm"`` -- Rasmussen et al.'s structure->SMILES converter for transition
   metal complexes. Yields a single, whole-complex RDKit-parsable SMILES (with the
   metal and dative bonds) which we attach as :attr:`ReversedComplex.complex_smiles`
   alongside the builtin per-ligand decomposition.
@@ -248,7 +248,7 @@ def _decompose(text: str):
 
 
 def _reverse_xyz2mol_tm(text: str, overall_charge: int | None) -> ReversedComplex:
-    """xyz -> whole-complex SMILES via the Jensen group's xyz2mol_tm (MIT).
+    """xyz -> whole-complex SMILES via Rasmussen et al.'s xyz2mol_tm (MIT).
 
     Reuses the builtin decomposition for the per-ligand SMILES + donor atoms, and
     attaches xyz2mol_tm's metal-aware whole-complex SMILES as ``complex_smiles``.
@@ -344,9 +344,10 @@ def _import_xyz2mol_tm():
         from xyz2mol_tm.huckel_to_smiles.xyz2mol_tmc import get_tmc_mol
     except Exception as exc:  # noqa: BLE001 - any import failure -> guidance
         raise ReverseError(
-            "backend 'xyz2mol_tm' requires the xyz2mol_tm package (MIT, Jensen "
-            "group). Install with: pip install 'mecobi[reverse-tm]'  (or: pip "
-            "install git+https://github.com/jensengroup/xyz2mol_tm). Cite: 'SMILES "
+            "backend 'xyz2mol_tm' requires the xyz2mol_tm package (MIT, Rasmussen "
+            "et al.). Install from the MeCoBi checkout with: pip install -e "
+            "'.[reverse-tm]'  (or: pip install "
+            "git+https://github.com/jensengroup/xyz2mol_tm). Cite: 'SMILES "
             "all around', J. Cheminform. 2025, doi:10.1186/s13321-025-01008-1."
         ) from exc
     return get_tmc_mol
@@ -358,8 +359,8 @@ def _import_trex():
     except Exception as exc:  # noqa: BLE001
         raise ReverseError(
             "T-REX notation requires the trex package (MIT, Kevlishvili). Install "
-            "with: pip install 'mecobi[reverse-tm]'  (or: pip install "
-            "git+https://github.com/iliak14/trex). Cite: 'Taming T-REX', ChemRxiv "
+            "from the MeCoBi checkout with: pip install -e '.[reverse-tm]'  (or: "
+            "pip install git+https://github.com/iliak14/trex). Cite: 'Taming T-REX', ChemRxiv "
             "2025, doi:10.26434/chemrxiv-2025-7s3gx."
         ) from exc
     try:
@@ -420,7 +421,7 @@ def available_representations() -> list[dict]:
     if importlib.util.find_spec("xyz2mol_tm") is not None:
         reps.append({
             "key": "complex_smiles", "label": "Complex SMILES",
-            "ref": "Jensen et al.",
+            "ref": "Rasmussen et al.",
             "cite": "SMILES all around, J. Cheminform. 2025, doi:10.1186/s13321-025-01008-1",
         })
     if importlib.util.find_spec("trex") is not None:

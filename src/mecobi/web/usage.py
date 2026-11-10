@@ -16,6 +16,10 @@ Export the daily table (inside the container, or anywhere the job database is re
 
     python -m mecobi.web.usage                 # CSV to stdout, default database
     python -m mecobi.web.usage --db path/to/jobs.db
+
+In the Docker image ``python`` is not on the exec PATH; use the env's interpreter::
+
+    docker exec mecobi /opt/conda/bin/python -m mecobi.web.usage
 """
 
 from __future__ import annotations

@@ -35,7 +35,7 @@ An oxidation state is used only when it is CONSISTENT and shows no sign of a los
     CIF (scan_hydrides.located) and not an odd / low-rare OS (scan_hydrides.os_flags).
 Any other structure still feeds the OS-independent metal|donor bins.
 
-``--os-source consensus`` takes the OS from xyz2mol_tm instead (Jensen group,
+``--os-source consensus`` takes the OS from xyz2mol_tm instead (Rasmussen et al.,
 https://github.com/jensengroup/xyz2mol_tm, ``csd_smiles.csv``, ~230k CSD refcodes; not in git,
 63 MB): the metal's formal charge in its dative-bond SMILES, used only where the CSD-API-derived
 and the Hückel-from-coordinates SMILES agree. Where the charge balance above also gives an OS it

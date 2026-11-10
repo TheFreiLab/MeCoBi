@@ -53,7 +53,7 @@
 #                            scan alone can add thousands of lines, and a full disk
 #                            stops the queue worker.
 #
-# Wheel-only builder for the optional `reverse-tm` backends (Jensen's xyz2mol_tm ->
+# Wheel-only builder for the optional `reverse-tm` backends (Rasmussen et al.'s xyz2mol_tm ->
 # "Complex SMILES", Kevlishvili's trex -> "T-REX notation"). Neither is on PyPI, and
 # xyz2mol_tm only packages its subpackages through setuptools-scm's git file finder: a
 # source tarball installs WITHOUT xyz2mol_tm.huckel_to_smiles and fails to import. So the
