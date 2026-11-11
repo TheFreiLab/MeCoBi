@@ -11,7 +11,7 @@ async function openRow(page) {
   await page.goto(base);
   await page.locator("#csv").fill(csv);
   await page.getByRole("button", { name: "Parse", exact: true }).click();
-  await page.getByRole("button", { name: "Assign", exact: true }).waitFor();
+  await page.getByRole("button", { name: /^Isomer editor/ }).waitFor();
   await page.locator("#relax").uncheck();
 }
 
@@ -23,24 +23,25 @@ test.beforeEach(async ({ page }) => {
   });
 });
 
-test("real invalid notation is displayed literally", async ({ page }) => {
-  await openRow(page);
-  await page.getByRole("button", { name: /notation/ }).click();
-  await page.locator(".notation-input").fill(payload);
-  await page.getByRole("button", { name: "Build", exact: true }).click();
-  await expect(page.locator(".pill-err")).toContainText(payload);
+// Unmocked: the name goes through the real parser and comes back in the table.
+test("a complex name containing HTML is displayed literally", async ({ page }) => {
+  await page.goto(base);
+  await page.locator("#csv").fill(`Name,Metal,Charge,L1,L2,L3,L4
+${payload},Pt,2,N,N,[Cl-],[Cl-]`);
+  await page.getByRole("button", { name: "Parse", exact: true }).click();
+  await expect(page.getByText(payload, { exact: true }).first()).toBeVisible({ timeout: 60_000 });
   await expect(page.locator('img[src="x"]')).toHaveCount(0);
 });
 
-for (const mode of ["assignment", "queue"]) {
+for (const mode of ["single build", "queue"]) {
   test(`${mode} submission errors are displayed literally`, async ({ page }) => {
     await openRow(page);
     await page.route(`**/api/${mode === "queue" ? "jobs" : "build"}`, route =>
       route.fulfill({ status: 422, json: { detail: payload } })
     );
-    if (mode === "assignment") {
-      await page.getByRole("button", { name: "Assign", exact: true }).click();
-      await page.getByRole("button", { name: "Build this isomer", exact: true }).click();
+    if (mode === "single build") {
+      // Relax is off (openRow), so the row's Build goes to the synchronous /api/build.
+      await page.getByRole("button", { name: "Build", exact: true }).click();
     } else {
       await page.getByRole("button", { name: "Build all (queue job)", exact: true }).click();
     }
@@ -67,18 +68,20 @@ for (const status of ["failed", "missing", "done"]) {
     });
     await page.getByRole("button", { name: "Build all (queue job)", exact: true }).click();
     await expect(page.getByTitle("25%", { exact: true })).toBeVisible();
-    await expect(page.locator(".mono").filter({ hasText: payload })).toBeVisible();
+    await expect(page.locator(".job-title").filter({ hasText: payload })).toBeVisible();
     await expect(page.locator('img[src="x"]')).toHaveCount(0);
     finish = true;
     if (status === "done") {
-      await expect(page.locator(".pill-err")).toContainText("1 complex(es) failed");
+      await expect(page.locator(".pill-err")).toContainText("1 failed");
       await expect(page.locator("li").filter({ hasText: payload })).toContainText(`Name ${payload}: Error ${payload}`);
     } else {
       await expect(page.locator(".pill-err")).toContainText(payload);
     }
     await expect(page.locator('img[src="x"]')).toHaveCount(0);
-    await page.getByRole("button", { name: "Dismiss", exact: true }).click();
-    await expect(page.getByRole("button", { name: "Dismiss", exact: true })).toHaveCount(0);
+    // By title: the first-visit tour hint has its own "Dismiss" (×) button.
+    const dismiss = page.getByTitle("Dismiss (also clears the #job link)");
+    await dismiss.click();
+    await expect(dismiss).toHaveCount(0);
     expect(new URL(page.url()).hash).toBe("");
   });
 }

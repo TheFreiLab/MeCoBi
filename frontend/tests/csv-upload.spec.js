@@ -15,7 +15,7 @@ test("a real .csv is loaded into the paste box and parsed", async ({ page }) => 
   await upload(page, { name: "ok.csv", mimeType: "text/csv", buffer: Buffer.from(csv) });
   await expect(page.locator("#csv")).toHaveValue(csv);
   // The first parse on a fresh server loads the pydentate models; allow for that.
-  await expect(page.getByRole("button", { name: "Assign", exact: true })).toBeVisible({ timeout: 60_000 });
+  await expect(page.getByRole("button", { name: /^Isomer editor/ })).toBeVisible({ timeout: 60_000 });
 });
 
 test("a .csv reported as Excel (Windows) is accepted", async ({ page }) => {

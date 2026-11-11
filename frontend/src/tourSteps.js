@@ -53,6 +53,9 @@ export const TOUR_STEPS = [
   },
   {
     target: "donor-panel",
+    // Top-aligned regardless of size: its ✓ / ✕ sit in the header, and the panel grows
+    // after the scroll as the depictions load, so a measured "short" panel would be centred.
+    scrollBlock: "start",
     title: "It recognised the Cp rings",
     body: "MeCoBi has marked all five carbons of each cyclopentadienyl (Cp) ring as coordinating: it read both rings as η5 caps. Click ✓ to keep the selection or ✕ to discard it.",
     waitGone: "donor-panel",
@@ -81,7 +84,10 @@ export const TOUR_STEPS = [
     interactive: true,
   },
   {
-    target: "assign-scene",
+    // The chips + 3D scene only, scrolled to the TOP of the window: on a phone the card
+    // otherwise covers the lower sites the user has to tap.
+    target: "assign-workspace",
+    scrollBlock: "start",
     title: "Place the ligands",
     body: "The highlighted chip is the active ligand. Click a numbered site to seat it, and the next ligand highlights automatically. For transplatin, put the two chlorides on OPPOSITE (trans) sites and the two ammines on the other pair. Drag anywhere in the scene to rotate it.",
     waitFor: "assign-build",
@@ -89,9 +95,9 @@ export const TOUR_STEPS = [
     interactive: true,
   },
   {
-    target: "assign-scene",
+    target: "assign-build",
     title: "Save this isomer",
-    body: "All four are placed. Drag to rotate and check your isomer, then click Save this isomer (below the scene) to remember transplatin. It does not build yet.",
+    body: "All four are placed. Drag the scene to rotate and check your isomer, then click Save this isomer to remember transplatin. It does not build yet.",
     waitFor: "custom-isomer-flag",
     waitLabel: "Click Save this isomer",
     interactive: true,

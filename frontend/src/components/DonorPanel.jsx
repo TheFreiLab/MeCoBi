@@ -96,9 +96,9 @@ function LigandPicker({ ligand, onChange, onApplyToAll }) {
 // Atom edits apply live (so CN/geometry update as you click); Save just closes the
 // panel keeping them, Cancel reverts to the selection from when it opened. Both are a
 // clickable alternative to the row's Donors checkbox.
-export default function DonorPanel({ ligands, onChange, onApplyToAll, onSave, onCancel }) {
+export default function DonorPanel({ ligands, onChange, onApplyToAll, onSave, onCancel, tourId }) {
   return (
-    <div className="donor-panel">
+    <div className="donor-panel" data-tour={tourId}>
       <div className="donor-panel-head">
         <div className="muted">
           Click atoms to set the coordinating (donor) atoms for each ligand:

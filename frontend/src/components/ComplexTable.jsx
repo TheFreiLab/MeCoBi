@@ -461,8 +461,9 @@ export default function ComplexTable({ rows, onRowChange, onDonorsChange, onAppl
                   </tr>
                   {!sel.donorsCorrect && (
                     <tr>
-                      <td colSpan={10} style={{ paddingTop: 0 }} data-tour={i === 1 ? "donor-panel" : undefined}>
+                      <td colSpan={10} style={{ paddingTop: 0 }}>
                         <DonorPanel
+                          tourId={i === 1 ? "donor-panel" : undefined}
                           ligands={sel.ligands}
                           onChange={(li, atoms, isArene) => {
                             const ligands = sel.ligands.map((l, idx) =>

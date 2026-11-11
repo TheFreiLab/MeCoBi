@@ -638,6 +638,9 @@ export default function IsomerScene({ complex, geometry, onClose, onBuild }) {
             takes any single site — a metallocene's two caps sit trans. Bound sites show the bound donor;
             click a bound site to release it; drag the scene to rotate.
           </div>
+          {/* Chips + 3D scene: what the tour's "Place the ligands" step rings, so on a
+              phone it can scroll exactly this to the top and keep the card off the sites. */}
+          <div data-tour="assign-workspace">
           <div style={{ marginBottom: 10 }} data-tour="assign-palette">
             {complex.ligands.map((l, i) => {
               const at = assignment[i];
@@ -675,6 +678,7 @@ export default function IsomerScene({ complex, geometry, onClose, onBuild }) {
             })}
           </div>
           <div className="scene-wrap" ref={wrapRef} />
+          </div>
           <div className="row" style={{ marginTop: 12, justifyContent: "space-between" }}>
             <span className="muted">{placed}/{complex.ligands.length} ligands placed</span>
             <div className="row" style={{ gap: 8 }}>

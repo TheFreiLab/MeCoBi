@@ -108,11 +108,42 @@ export default function GuidedTour({ open, steps, actions, onClose }) {
       }
     };
     const el = cur.target ? document.querySelector(`[data-tour="${cur.target}"]`) : null;
-    if (el) el.scrollIntoView({ block: "center", behavior: prefersReducedMotion() ? "auto" : "smooth" });
+    // Centre narrow targets horizontally too: on a phone the table scrolls sideways, and
+    // the default "nearest" stops with a cell (Donors, Isomer editor) just under the sticky
+    // Build column, so the ring circles a hidden control the user cannot tap.
+    // Wide targets (the table, the donor panel) keep "nearest" so their start stays in view.
+    // A target taller than the screen (the donor panel, the 3D scene on a phone) aligns its
+    // TOP instead: centring it would push its header controls (✓ / ✕) off-screen.
+    const reveal = () => {
+      const b = el.getBoundingClientRect();
+      el.scrollIntoView({
+        block: cur.scrollBlock || (b.height > window.innerHeight * 0.8 ? "start" : "center"),
+        inline: b.width < window.innerWidth / 2 ? "center" : "nearest",
+        behavior: prefersReducedMotion() ? "auto" : "smooth",
+      });
+    };
+    if (el) reveal();
     place();
+    // A target that is still filling in (the donor panel's depictions load after it opens)
+    // changes size after the scroll, and when it is the last thing on the page the first
+    // scroll can't even reach it. Follow its size, and re-scroll until the user scrolls or
+    // touches the page themselves; from then on, leave the page where they put it.
+    let userMoved = false;
+    const onUser = () => { userMoved = true; };
+    const userEvents = ["wheel", "touchstart", "pointerdown", "keydown"];
+    const ro = el && typeof ResizeObserver !== "undefined"
+      ? new ResizeObserver(() => {
+        place();
+        if (!userMoved) reveal();
+      })
+      : null;
+    ro?.observe(el);
+    userEvents.forEach((t) => window.addEventListener(t, onUser, { capture: true, passive: true }));
     window.addEventListener("resize", place);
     window.addEventListener("scroll", place, true);
     return () => {
+      ro?.disconnect();
+      userEvents.forEach((t) => window.removeEventListener(t, onUser, { capture: true }));
       window.removeEventListener("resize", place);
       window.removeEventListener("scroll", place, true);
     };
